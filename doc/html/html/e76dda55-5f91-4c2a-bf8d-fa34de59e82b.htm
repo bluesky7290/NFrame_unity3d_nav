@@ -1,0 +1,129 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" /><META NAME="save" CONTENT="history" /><title>Building Multi-Tile Meshes</title><link rel="stylesheet" type="text/css" href="../styles/Presentation.css" /><link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" /><link rel="stylesheet" type="text/css" href="ms-help://Dx/DxRuntime/DxLink.css" /><script type="text/javascript" src="../scripts/EventUtilities.js"> </script><script type="text/javascript" src="../scripts/SplitScreen.js"> </script><script type="text/javascript" src="../scripts/Dropdown.js"> </script><script type="text/javascript" src="../scripts/script_manifold.js"> </script><script type="text/javascript" src="../scripts/LanguageFilter.js"> </script><script type="text/javascript" src="../scripts/DataStore.js"> </script><script type="text/javascript" src="../scripts/CommonUtilities.js"> </script><script type="text/javascript" src="../scripts/MemberFilter.js"> </script><xml><MSHelp:TOCTitle Title="Multi-Tile Meshes" /><MSHelp:Keyword Index="A" Term="e76dda55-5f91-4c2a-bf8d-fa34de59e82b" /><MSHelp:Attr Name="RevisionNumber" Value="1" /><MSHelp:Attr Name="AssetID" Value="e76dda55-5f91-4c2a-bf8d-fa34de59e82b" /><MSHelp:Attr Name="Abstract" Value="A multi-tile navigation mesh consists of a group of square tiles layed out in a grid on the xz-plane. Each tile in the mesh consists of its own polygon mesh, detail mesh, and off-mesh connection data. The tiles are linked together when added to the n ..." /><MSHelp:Attr Name="TopicType" Value="kbArticle" /><MSHelp:Attr Name="Locale" Value="en-us" /></xml><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script></head><body><input type="hidden" id="userDataCache" class="userDataStyle" /><input type="hidden" id="hiddenScrollOffset" /><img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" /><img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" /><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collall.gif" alt="CollapseAll image" title="CollapseAll image" /><img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expall.gif" alt="ExpandAll image" title="ExpandAll image" /><img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected.gif" alt="DropDown image" title="DropDown image" /><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected_hover.gif" alt="DropDownHover image" title="DropDownHover image" /><img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" /><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" /><img id="checkBoxSelectImage" style="display:none; height:0; width:0;" src="../icons/ch_selected.gif" /><img id="checkBoxUnSelectImage" style="display:none; height:0; width:0;" src="../icons/ch_unselected.gif" /><img id="checkBoxSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/ch_selected_hover.gif" /><img id="checkBoxUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/ch_unselected_hover.gif" /><img id="radioSelectImage" style="display:none; height:0; width:0;" src="../icons/r_select.gif" /><img id="radioUnSelectImage" style="display:none; height:0; width:0;" src="../icons/r_unselect.gif" /><img id="radioSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/r_select_hover.gif" /><img id="radioUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/r_unselect_hover.gif" /><img id="curvedLeftSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_lft_cnr.gif" /><img id="curvedRightSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_rt_cnr.gif" /><img id="curvedLeftUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_lft_cnr.gif" /><img id="curvedRightUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_rt_cnr.gif" /><img id="gradLeftSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_lft_grad.gif" /><img id="gradRightSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_rt_grad.gif" /><img id="gradLeftUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_lft_grad.gif" /><img id="gradRightUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_rt_grad.gif" /><img id="twirlSelectImage" style="display:none; height:0; width:0;" src="../icons/twirl_selected.gif" /><img id="twirlUnSelectImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected.gif" /><img id="twirlSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_selected_hover.gif" /><img id="twirlUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected_hover.gif" /><img id="NSRBottomImage" style="display:none; height:0; width:0;" src="../icons/NSRbottomgrad.gif" /><div id="header"><table id="topTable"><tr id="headerTableRow3"><td><span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0"><img ID="toggleAllImage" class="toggleAll" src="../icons/collall.gif" alt="CollapseAll image" title="CollapseAll image" /><label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span> | <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" tabindex="0"><img id="languageFilterImage" src="../icons/twirl_unselected.gif" alt="DropDown image" title="DropDown image" /><label id="CSharpLabel" for="languageFilterImage" style="display: none;">Language Filter: C#</label><label id="VisualBasicLabel" for="languageFilterImage" style="display: none;">Language Filter: Visual Basic</label><label id="ManagedCPlusPlusLabel" for="languageFilterImage" style="display: none;">Language Filter: Visual C++</label></span><div id="languageSpan"><div id="CSharp" onclick="changeLanguage(data, 'CSharp', 'cs');"><img id="CSharpImage" onmouseover="mouseOverCheck(CSharpImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(CSharpImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> C#</div><br /><div id="VisualBasic" onclick="changeLanguage(data, 'VisualBasic', 'vb');"><img id="VisualBasicImage" onmouseover="mouseOverCheck(VisualBasicImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(VisualBasicImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> Visual Basic</div><br /><div id="ManagedCPlusPlus" onclick="changeLanguage(data, 'ManagedCPlusPlus', 'cpp');"><img id="ManagedCPlusPlusImage" onmouseover="mouseOverCheck(ManagedCPlusPlusImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(ManagedCPlusPlusImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> Visual C++</div><br /></div> | <a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a></td></tr><tr id="headerTableRow1"><td align="left"><span id="runningHeaderText">CritterAI Documentation</span></td></tr><tr id="headerTableRow2"><td align="left"><span id="nsrTitle">Building Multi-Tile Meshes</span></td></tr><tr><td class="nsrBottom" background="../icons/NSRbottomgrad.gif" /></tr></table></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" /><span style="color: DarkGray"><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[This is preliminary documentation and is subject to change.]</p></span><div class="introduction"><p>
+		A multi-tile navigation mesh consists of a group of square tiles layed out in a grid on the xz-plane.  Each tile in the mesh consists of its
+		own polygon mesh, detail mesh, and off-mesh connection data.  The tiles are linked together when added to the navigation mesh to form
+		the full navigation mesh.
+		</p><p>This topic covers the extra steps necessary to create a multi-tile navigation mesh.</p></div><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0ECAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0ECAAA, event)" tabindex="0"><img id="sectionToggleID0ECAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />The Multi-Tile Build Process</span></h1><div id="sectionSectionID0ECAAA" class="section" name="collapseableSection" style=""><p>
+			The process for building multi-tile navigation meshes is very similar to building a single-tile mesh.  The main difference is that you need to
+			repeat the <span sdata="cer" target="T:org.critterai.nmbuild.IncrementalBuilder"><a href="49183141.htm">IncrementalBuilder</a></span> and tile build steps for each tile, then combine the result into the final navigation mesh.  You also have a new
+			input data class: <span sdata="cer" target="T:org.critterai.nmbuild.TileSetDefinition"><a href="7804A1B7.htm">TileSetDefinition</a></span>.  This class combines the <span sdata="cer" target="T:org.critterai.nmbuild.InputGeometry"><a href="AF3844AA.htm">InputGeometry</a></span> and some configuration settings to define
+			the tile set.
+			</p><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-comment">// Example: A simple multi-tile navigation mesh build.</span>
+
+<span class="highlight-comment">// Where 'geom' is an InputGeometry object and 'pset' is a ProcessorSet object.</span>
+
+NMGenParams config = <span class="highlight-keyword">new</span> NMGenParams();
+
+<span class="highlight-comment">// Load the various standard config settings based on your needs.</span>
+<span class="highlight-comment">// E.g. cell size and agent settings.</span>
+
+<span class="highlight-comment">// ...</span>
+
+<span class="highlight-comment">// Then set the tile settings.</span>
+<span class="highlight-comment">// The border size must be greater than zero, otherwise the tiles won't connect</span>
+<span class="highlight-comment">// properly when added to the navigation mesh.  You should almost always use</span>
+<span class="highlight-comment">// the standard border size.</span>
+
+config.TileSize = <span class="highlight-number">512</span>;
+config.BorderSize = NMGenParams.DeriveBorderSize(config);  <span class="highlight-comment">// Standard border size.</span>
+
+<span class="highlight-comment">// Create the tile set definition.</span>
+TileSetDefinition tdef = 
+        TileSetDefinition.Create(geom.BoundsMin, geom.BoundsMax, config, geom);
+
+NMGenAssetFlag resultFlags = NMGenAssetFlag.PolyMesh | NMGenAssetFlag.DetailMesh;
+
+List&lt;TileBuildAssets&gt; tiles = <span class="highlight-keyword">new</span> List&lt;TileBuildAssets&gt;();
+<span class="highlight-keyword">int</span> maxPolys = <span class="highlight-number">0</span>;  <span class="highlight-comment">// Need to keep track of maximum polys in a tile.</span>
+
+<span class="highlight-comment">// Interate over all tiles and build.</span>
+<span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> tx = <span class="highlight-number">0</span>; tx &lt; tdef.Width; tx++)
+{
+        <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> tz = <span class="highlight-number">0</span>; tz &lt; tdef.Depth; tz++)
+        {
+                IncrementalBuilder builder = 
+                        IncrementalBuilder.Create(tx, tz, resultFlags, tdef, pset);
+
+                <span class="highlight-comment">// Perform the build and check the result.</span>
+                builder.BuildAll();
+
+                <span class="highlight-keyword">switch</span> (builder.State)
+                {
+                        <span class="highlight-keyword">case</span> NMGenState.Aborted:
+
+                                <span class="highlight-comment">// Handle the error.</span>
+                                <span class="highlight-comment">// Check builder messages for details.</span>
+
+                        <span class="highlight-keyword">case</span> NMGenState.NoResult:
+
+                                <span class="highlight-comment">// No result was produced.  This is not uncommon for multi-tile builds.</span>
+                                <span class="highlight-comment">// E.g. There may be no geometry at the location.</span>
+
+                                <span class="highlight-keyword">continue</span>;
+                }
+
+                <span class="highlight-comment">// Completed with a result.  Build the tile data.</span>
+
+                NMGenAssets assets = builder.Result;
+
+                <span class="highlight-comment">// You can build the tile manually, but the tile build task will take</span>
+                <span class="highlight-comment">// care of standard error handling.</span>
+
+                TileBuildTask task = TileBuildTask.Create(tx, tz
+                        , assets.PolyMesh.GetData(<span class="highlight-keyword">false</span>), assets.DetailMesh.GetData(<span class="highlight-keyword">false</span>)
+                        , ConnectionSet.CreateEmpty()  <span class="highlight-comment">// Or use your connection set.</span>
+                        , <span class="highlight-keyword">false</span>, <span class="highlight-number">0</span>);
+
+                task.Run();
+
+                <span class="highlight-keyword">if</span> (task.TaskState == BuildTaskState.Aborted)
+                {
+                        <span class="highlight-comment">// Perform error handling.</span>
+                        <span class="highlight-comment">// Check task messages for details.</span>
+                }
+
+                TileBuildAssets tassets = task.Result;
+
+                <span class="highlight-comment">// Store for later.</span>
+                tiles.Add(tassets);
+
+                maxPolys = System.Math.Max(maxPolys, tassets.PolyCount);
+        }
+
+        <span class="highlight-comment">// Create an empty navigation mesh large enough to hold all tiles</span>
+        <span class="highlight-comment">// that produced a result.</span>
+
+        NavmeshParams nconfig = <span class="highlight-keyword">new</span> NavmeshParams(tdef.BoundsMin
+                , tdef.Width, tdef.Depth
+                , tiles.Count, maxPolys);
+
+        Navmesh navmesh;
+
+        <span class="highlight-keyword">if</span> ((Navmesh.Create(nconfig, <span class="highlight-keyword">out</span> navmesh) &amp; NavStatus.Sucess) == <span class="highlight-number">0</span>)
+        {
+                <span class="highlight-comment">// Perform error handling.</span>
+        }
+
+        <span class="highlight-comment">// Add the tiles to the navigation mesh.</span>
+        <span class="highlight-keyword">foreach</span> (TileBuildAssets tile <span class="highlight-keyword">in</span> tiles)
+        {
+                <span class="highlight-comment">// Note: Allowing the navigation mesh to assign the tile reference.</span>
+                <span class="highlight-keyword">uint</span> trash;
+                navmesh.AddTile(tile.Tile, Navmesh.NullTile, <span class="highlight-keyword">out</span> trash);
+        }
+
+        <span class="highlight-comment">// The navigation mesh is ready to use.</span>
+        <span class="highlight-comment">// You will usually serialize it for later use.</span>
+}</pre></div></span></div><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EBAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EBAAA, event)" tabindex="0"><img id="sectionToggleID0EBAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Notes</span></h1><div id="sectionSectionID0EBAAA" class="section" name="collapseableSection" style=""><p>
+				The tile size should usually be between 500 and 1000.  A tile size that is too small can result in extra,
+				unnecessary polygons and less than optimal pathfinding.  A value that is too large can be result in memory and 
+				performance issues during the build process.
+				In general, pick the largest size that also results in a good tile layout along the x and z axes.  (You want to avoid creation
+				of thin tiles along the upper bounds of the navigation mesh.)
+				</p><p>
+				You can use a single <span sdata="cer" target="T:org.critterai.nmbuild.ConnectionSet"><a href="5AB06572.htm">ConnectionSet</a></span> for the entire build.  The build process will add the appropriate
+				connections to each tile.
+				</p><p>
+				Off-mesh connections can only be formed between a tile and its immediate neighbors.  For example, an off-mesh connection
+				can't start in tile (5, 8) and end in (5, 10) since it would skip over tile (5, 9).  So keep the length of off-mesh
+				connections less than (TileSize * XZCellSize).
+				</p></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><h4 class="subHeading">Concepts</h4><div class="seeAlsoStyle"><span sdata="link"><a href="0b06b934-9f2b-43a3-a96b-6fd9dc8483c7.htm">An Introduction to NMGen</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="3D048EB4-7BD1-407a-9442-9DE60C82266E.htm">Compiling the Input</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="FCD34CAE-02FA-48fd-891E-FB82EE360F49.htm">The Incremental Builder</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="ad1c623a-56b7-4aa6-921e-f2d67b39622a.htm">Creating the Navigation Mesh</a></span></div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmbuild.IncrementalBuilder"><a href="49183141.htm">IncrementalBuilder</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmgen.NMGenParams"><a href="8F938FF5.htm">NMGenParams</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmgen.NMGenTileParams"><a href="5AED591.htm">NMGenTileParams</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmbuild.TileSetDefinition"><a href="7804A1B7.htm">TileSetDefinition</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmbuild.TileBuildTask"><a href="8098FF23.htm">TileBuildTask</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmbuild.TileBuildAssets"><a href="7B29896D.htm">TileBuildAssets</a></span></div></div><div id="footer"><div class="footerLine"><img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" /></div><a href="http://www.critterai.org/" target="_parent">Project Home</a> | <a href="http://code.google.com/p/critterai/" target="_parent">Source Code</a> | <a href="http://www.critterai.org/cailic" target="_parent">License</a><p />Copyright (c) 2010-2012 Stephen A. Pratt</div></div></div></body></html>

@@ -1,0 +1,110 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" /><META NAME="save" CONTENT="history" /><title>The Navigation Mesh Query</title><link rel="stylesheet" type="text/css" href="../styles/Presentation.css" /><link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" /><link rel="stylesheet" type="text/css" href="ms-help://Dx/DxRuntime/DxLink.css" /><script type="text/javascript" src="../scripts/EventUtilities.js"> </script><script type="text/javascript" src="../scripts/SplitScreen.js"> </script><script type="text/javascript" src="../scripts/Dropdown.js"> </script><script type="text/javascript" src="../scripts/script_manifold.js"> </script><script type="text/javascript" src="../scripts/LanguageFilter.js"> </script><script type="text/javascript" src="../scripts/DataStore.js"> </script><script type="text/javascript" src="../scripts/CommonUtilities.js"> </script><script type="text/javascript" src="../scripts/MemberFilter.js"> </script><xml><MSHelp:TOCTitle Title="The Navigation Query" /><MSHelp:Keyword Index="A" Term="40b9b3c3-f08f-4fcf-b85f-37efea236d43" /><MSHelp:Attr Name="RevisionNumber" Value="1" /><MSHelp:Attr Name="AssetID" Value="40b9b3c3-f08f-4fcf-b85f-37efea236d43" /><MSHelp:Attr Name="Abstract" Value="The navigation mesh query is the most important class to understand since most navigation clients will interact with the query rather than the navigation mesh itself. The mesh contains the data, but the query provides almost all of the features neces ..." /><MSHelp:Attr Name="TopicType" Value="kbArticle" /><MSHelp:Attr Name="Locale" Value="en-us" /></xml><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script></head><body><input type="hidden" id="userDataCache" class="userDataStyle" /><input type="hidden" id="hiddenScrollOffset" /><img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" /><img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" /><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collall.gif" alt="CollapseAll image" title="CollapseAll image" /><img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expall.gif" alt="ExpandAll image" title="ExpandAll image" /><img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected.gif" alt="DropDown image" title="DropDown image" /><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected_hover.gif" alt="DropDownHover image" title="DropDownHover image" /><img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" /><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" /><img id="checkBoxSelectImage" style="display:none; height:0; width:0;" src="../icons/ch_selected.gif" /><img id="checkBoxUnSelectImage" style="display:none; height:0; width:0;" src="../icons/ch_unselected.gif" /><img id="checkBoxSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/ch_selected_hover.gif" /><img id="checkBoxUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/ch_unselected_hover.gif" /><img id="radioSelectImage" style="display:none; height:0; width:0;" src="../icons/r_select.gif" /><img id="radioUnSelectImage" style="display:none; height:0; width:0;" src="../icons/r_unselect.gif" /><img id="radioSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/r_select_hover.gif" /><img id="radioUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/r_unselect_hover.gif" /><img id="curvedLeftSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_lft_cnr.gif" /><img id="curvedRightSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_rt_cnr.gif" /><img id="curvedLeftUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_lft_cnr.gif" /><img id="curvedRightUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_rt_cnr.gif" /><img id="gradLeftSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_lft_grad.gif" /><img id="gradRightSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_rt_grad.gif" /><img id="gradLeftUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_lft_grad.gif" /><img id="gradRightUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_rt_grad.gif" /><img id="twirlSelectImage" style="display:none; height:0; width:0;" src="../icons/twirl_selected.gif" /><img id="twirlUnSelectImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected.gif" /><img id="twirlSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_selected_hover.gif" /><img id="twirlUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected_hover.gif" /><img id="NSRBottomImage" style="display:none; height:0; width:0;" src="../icons/NSRbottomgrad.gif" /><div id="header"><table id="topTable"><tr id="headerTableRow3"><td><span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0"><img ID="toggleAllImage" class="toggleAll" src="../icons/collall.gif" alt="CollapseAll image" title="CollapseAll image" /><label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span> | <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" tabindex="0"><img id="languageFilterImage" src="../icons/twirl_unselected.gif" alt="DropDown image" title="DropDown image" /><label id="CSharpLabel" for="languageFilterImage" style="display: none;">Language Filter: C#</label><label id="VisualBasicLabel" for="languageFilterImage" style="display: none;">Language Filter: Visual Basic</label><label id="ManagedCPlusPlusLabel" for="languageFilterImage" style="display: none;">Language Filter: Visual C++</label></span><div id="languageSpan"><div id="CSharp" onclick="changeLanguage(data, 'CSharp', 'cs');"><img id="CSharpImage" onmouseover="mouseOverCheck(CSharpImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(CSharpImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> C#</div><br /><div id="VisualBasic" onclick="changeLanguage(data, 'VisualBasic', 'vb');"><img id="VisualBasicImage" onmouseover="mouseOverCheck(VisualBasicImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(VisualBasicImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> Visual Basic</div><br /><div id="ManagedCPlusPlus" onclick="changeLanguage(data, 'ManagedCPlusPlus', 'cpp');"><img id="ManagedCPlusPlusImage" onmouseover="mouseOverCheck(ManagedCPlusPlusImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(ManagedCPlusPlusImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> Visual C++</div><br /></div> | <a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a></td></tr><tr id="headerTableRow1"><td align="left"><span id="runningHeaderText">CritterAI Documentation</span></td></tr><tr id="headerTableRow2"><td align="left"><span id="nsrTitle">The Navigation Mesh Query</span></td></tr><tr><td class="nsrBottom" background="../icons/NSRbottomgrad.gif" /></tr></table></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" /><span style="color: DarkGray"><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[This is preliminary documentation and is subject to change.]</p></span><div class="introduction"><p>
+			The navigation mesh query is the most important class to understand since most navigation clients will interact with the query 
+			rather than the navigation mesh itself.  The mesh contains the data, but the query provides almost all of the features
+			necessary for pathfinding.
+			</p><p>
+			Core Class: <span sdata="cer" target="T:org.critterai.nav.NavmeshQuery"><a href="7D428A30.htm">NavmeshQuery</a></span></p><p>
+			Query features fall into two general categories:  Pathfinding and local search.
+			</p><p>
+			Pathfinding involves standard A* and Dijkstra searches that find the best path(s) between two points.  Paths are made up of
+			a list polygon references that represent a polygon corridor from the start to the end position.  Path straightening is used to 
+			convert the path into a list of waypoints.  (I.e. String pulling.)
+			</p><p>
+			The local search features offer various methods for locating polygons and points on polygons, and for querying
+			the local environment.  I.e. Raycasting, finding the distance to the nearest wall, etc.
+			</p><p>
+			Many of the query methods require a <span sdata="cer" target="T:org.critterai.nav.NavmeshQueryFilter"><a href="1A24BDAA.htm">NavmeshQueryFilter</a></span>.  Filters define area traversal costs as well as flags
+			used for including/excluding polygons and off-mesh connections from results.
+			</p><p>
+			The best way to understand the query class is to play around with it.  The <a href="http://code.google.com/p/critterai/downloads/list" target="_blank">Sample Pack</a> includes the Query Explorer
+			demo that permits experimentation with all of the main query features.
+			</p></div><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EBAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EBAAA, event)" tabindex="0"><img id="sectionToggleID0EBAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Common Operations</span></h1><div id="sectionSectionID0EBAAA" class="section" name="collapseableSection" style=""><p>
+				This section contains some simple examples of common query operations.
+				</p><h3 class="subHeading">Finding a Point in the Navigation Mesh</h3><div class="subsection"><p>
+						You can't do much without first getting a valid point on the navigation mesh. So the first step is to find one.
+						</p><p><span sdata="cer" target="M:org.critterai.nav.NavmeshQuery.GetNearestPoint(UnityEngine.Vector3,UnityEngine.Vector3,org.critterai.nav.NavmeshQueryFilter,org.critterai.nav.NavmeshPoint@)"><a href="5ADCFA61.htm">GetNearestPoint(Vector3, Vector3, NavmeshQueryFilter, NavmeshPoint<span class="languageSpecificText"><span class="cpp">%</span></span>)</a></span></p><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-comment">// Where 'query' is a NavmeshQuery object and 'filter' is a NavmeshQueryFilter object.</span>
+<span class="highlight-comment">// 'position' is a Vector3 indicating the world position of the client.</span>
+
+NavmeshPoint result;
+Vector3 extents = <span class="highlight-keyword">new</span> Vector3(<span class="highlight-number">1</span>, <span class="highlight-number">1</span>, <span class="highlight-number">1</span>);  <span class="highlight-comment">// Keep this to the minimum extents practical.</span>
+
+NavStatus status = query.GetNearestPoly(position, extents, filter
+        , <span class="highlight-keyword">out</span> result);
+
+<span class="highlight-keyword">if</span> (result.polyRef == Navmesh.NullPoly)
+{
+        <span class="highlight-comment">// Handle error.  Could not find a result.</span>
+        <span class="highlight-comment">// The status can be checked to see if there was an error.  If not, then</span>
+        <span class="highlight-comment">// the cause is that the search extents did not overlap any polygons.</span>
+}
+
+<span class="highlight-comment">// Use the result point, which includes a vector point and the reference of </span>
+<span class="highlight-comment">// the polygon that contains the point.</span></pre></div></span></div><h3 class="subHeading">Basic Pathfinding</h3><div class="subsection"><p>
+						Even if you are planning to use <span sdata="cer" target="T:org.critterai.nav.PathCorridor"><a href="AD00C741.htm">PathCorridor</a></span> or <span sdata="cer" target="T:org.critterai.nav.CrowdManager"><a href="F68EDAE8.htm">CrowdManager</a></span>,
+						you'll always need to do long distance planning using the basic <span sdata="cer" target="T:org.critterai.nav.NavmeshQuery"><a href="7D428A30.htm">NavmeshQuery</a></span> features.  
+						First, get a path, then optionally straighten it.
+						</p><span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-comment">// Where 'query' is a NavmeshQuery object and 'filter' is a NavmeshQueryFilter object.</span>
+<span class="highlight-comment">// 'start' and 'end' are NavmeshPoints known to be on the navigation mesh.</span>
+
+<span class="highlight-keyword">int</span> pathCount;
+<span class="highlight-comment">// The path will be a list of polygon references.</span>
+<span class="highlight-keyword">uint</span>[] path = <span class="highlight-keyword">new</span> <span class="highlight-keyword">uint</span>[<span class="highlight-number">100</span>];  <span class="highlight-comment">// Size for maximum allowed path length.</span>
+NavStatus status;
+
+<span class="highlight-keyword">if</span> (start.polyRef == end.polyRef)
+{
+        <span class="highlight-comment">// No need to do any planning.</span>
+        pathCount = <span class="highlight-number">1</span>;
+        path[<span class="highlight-number">0</span>] = start.polyRef;
+}
+<span class="highlight-keyword">else</span>
+{
+        status = query.FindPath(start, end, filter, path
+                , <span class="highlight-keyword">out</span> pathCount);
+
+        <span class="highlight-keyword">if</span> (NavUtil.Failed(status) || path.pathCount == <span class="highlight-number">0</span>)
+        {
+                <span class="highlight-comment">// Handle pathfinding failure.</span>
+        }
+        <span class="highlight-keyword">else</span> <span class="highlight-keyword">if</span> (end.polyRef != path[pathCount - <span class="highlight-number">1</span>])
+        {
+            <span class="highlight-comment">// Handle a partial path.</span>
+            <span class="highlight-comment">// The query either could not reach the end point,</span>
+            <span class="highlight-comment">// or the path buffer was too small to hold the</span>
+            <span class="highlight-comment">// entire path.  (A check of 'status' will reveal if</span>
+            <span class="highlight-comment">// the buffer was too small.)</span>
+        }
+
+}
+
+<span class="highlight-comment">// If you need to straighten the path...</span>
+
+<span class="highlight-keyword">const</span> <span class="highlight-keyword">int</span> MaxStraightPath = <span class="highlight-number">4</span>;  <span class="highlight-comment">// Just getting the first 4 waypoints.</span>
+<span class="highlight-keyword">int</span> wpCount;
+
+<span class="highlight-comment">// The waypoints.</span>
+Vector3[] wpPoints = <span class="highlight-keyword">new</span> Vecotr3[MaxStraightPath];
+
+<span class="highlight-comment">// A list of polygon references.  (The polygon being entered at each waypoint.)</span>
+<span class="highlight-keyword">uint</span>[] wpPath = <span class="highlight-keyword">new</span> <span class="highlight-keyword">uint</span>[MaxStraightPath];
+
+<span class="highlight-comment">// The type of each waypoint. (Start, end, off-mesh connection.)</span>
+WaypointFlag[] wpFlags = <span class="highlight-keyword">new</span> WaypointFlag[MaxStraightPath];
+
+status = query.GetStraightPath(start.point
+        , goal.point
+        , path
+        , <span class="highlight-number">0</span>                <span class="highlight-comment">// The index of the start of the path.</span>
+        , pathCount        <span class="highlight-comment">// The length of the path.</span>
+        , wpPoints
+        , wpFlags
+        , wpPath
+        , <span class="highlight-keyword">out</span> wpCount);
+
+<span class="highlight-keyword">if</span> (NavUtil.Failed(status) || wpCount == <span class="highlight-number">0</span>)
+{
+        <span class="highlight-comment">// Handle the failure.  There should always be at least one waypoint </span>
+        <span class="highlight-comment">// (the goal) for a valid point/path combination,</span>
+}
+
+<span class="highlight-comment">// Use the path and waypoints.</span></pre></div></span></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><h4 class="subHeading">Concepts</h4><div class="seeAlsoStyle"><span sdata="link"><a href="1b3cfec9-7cd3-444c-b83d-dfc551454822.htm">An Introduction to Navigation</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="6cf1c77d-725a-4f3e-bcbf-62e7fc5e2bc6.htm">The Navigation Mesh</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="24e74166-c465-4e0b-87eb-818c4f7f3a32.htm">The Path Corridor</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="2b87d0be-b6ae-409d-97eb-2a3b37c508ad.htm">The Crowd Manager</a></span></div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nav.Navmesh"><a href="90CC41AC.htm">Navmesh</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nav.NavmeshQuery"><a href="7D428A30.htm">NavmeshQuery</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nav.NavmeshQueryFilter"><a href="1A24BDAA.htm">NavmeshQueryFilter</a></span></div></div><div id="footer"><div class="footerLine"><img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" /></div><a href="http://www.critterai.org/" target="_parent">Project Home</a> | <a href="http://code.google.com/p/critterai/" target="_parent">Source Code</a> | <a href="http://www.critterai.org/cailic" target="_parent">License</a><p />Copyright (c) 2010-2012 Stephen A. Pratt</div></div></div></body></html>

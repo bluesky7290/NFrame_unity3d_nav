@@ -1,0 +1,2169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="CAINav" Url="html/c7241703-3cf0-49c9-ad94-4b00d6c75741.htm" />
+  <HelpTOCNode Title="Structural Overview" Url="html/8a99e478-a235-49ef-986d-db53a0bc50bb.htm" />
+  <HelpTOCNode Id="c5ddff3c-47c2-4a45-b434-ff7f10fc2f58" Title="Getting Started Topics">
+    <HelpTOCNode Id="79a21db3-f50d-4d6e-9c01-1da29d27a64f" Title="An Introduction to Navigation" Url="html/1b3cfec9-7cd3-444c-b83d-dfc551454822.htm">
+      <HelpTOCNode Title="The Navigation Mesh" Url="html/6cf1c77d-725a-4f3e-bcbf-62e7fc5e2bc6.htm" />
+      <HelpTOCNode Title="The Navigation Query" Url="html/40b9b3c3-f08f-4fcf-b85f-37efea236d43.htm" />
+      <HelpTOCNode Title="The Path Corridor" Url="html/24e74166-c465-4e0b-87eb-818c4f7f3a32.htm" />
+      <HelpTOCNode Title="The Crowd Manager" Url="html/2b87d0be-b6ae-409d-97eb-2a3b37c508ad.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="01750350-94dd-42c0-9abb-7737b9dcc726" Title="An Introduction to NMGen" Url="html/0b06b934-9f2b-43a3-a96b-6fd9dc8483c7.htm">
+      <HelpTOCNode Title="Compiling the Input" Url="html/3D048EB4-7BD1-407a-9442-9DE60C82266E.htm" />
+      <HelpTOCNode Title="The Incremental Builder" Url="html/FCD34CAE-02FA-48fd-891E-FB82EE360F49.htm" />
+      <HelpTOCNode Title="Creating the Navigation Mesh" Url="html/ad1c623a-56b7-4aa6-921e-f2d67b39622a.htm" />
+      <HelpTOCNode Title="Multi-Tile Meshes" Url="html/e76dda55-5f91-4c2a-bf8d-fa34de59e82b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1638ccfa-f8ea-4156-a561-e0f2e2e7ab3b" Title="Getting Started with Unity" Url="html/e81146c4-0143-4cde-ad55-fe1fd1049cbc.htm">
+      <HelpTOCNode Id="b261c3ad-836d-413a-b093-8b73c9a83a65" Title="Building Navigation Meshes" Url="html/61341701-6cb3-408b-9b1e-d60e3fb817e1.htm">
+        <HelpTOCNode Title="The Input Build" Url="html/fb2ca7fa-3b03-41c6-88d8-731c44fb7879.htm" />
+        <HelpTOCNode Title="Build Configuration" Url="html/80abba67-1b0e-4ada-9be1-e12b386978d3.htm" />
+        <HelpTOCNode Title="The Advanced Build Type" Url="html/b2097a0c-c41b-4d23-8861-2faccfc574f1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5125724b-5557-4bff-bb00-0b845e7783fe" Title="Advanced Topics">
+    <HelpTOCNode Id="805d1077-73fd-4889-b3ae-031ba923f152" Title="Advanced NNGen">
+      <HelpTOCNode Title="Introduction to Heightfields" Url="html/6fb3041b-e9be-4f03-868b-dcac944df19b.htm" />
+      <HelpTOCNode Title="The Core Build Process" Url="html/e72bd1ee-04b0-4bbb-a21d-d8d7ecaa11af.htm" />
+      <HelpTOCNode Title="Areas and the Build" Url="html/21046960-3dc1-4369-a092-5f5bba4f752c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="Tips for Non-Windows Platforms" Url="html/bb02b5c5-1ea9-4ae4-bc1f-ff0e446fb703.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="3b421af5-8227-497f-84e0-e60a6a84290d" Title="( Default Namespace ) Namespace" Url="html/AB59B2A6.htm">
+    <HelpTOCNode Id="f43d13c1-d9e0-4100-926b-47d2e7ae6a4c" Title="AreaFlagDef Class" Url="html/2E10C03A.htm">
+      <HelpTOCNode Title="AreaFlagDef Constructor " Url="html/E7D6F72C.htm" />
+      <HelpTOCNode Id="4d75f7ab-ad62-45b3-b7c0-b120e63f1d06" Title="AreaFlagDef Fields" Url="html/3E71A29.htm">
+        <HelpTOCNode Title="areas Field" Url="html/9E66A50.htm" />
+        <HelpTOCNode Title="flags Field" Url="html/914908D9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aefc4c08-89f6-43ae-ad90-80faa503505e" Title="AreaFlagDef Methods " Url="html/A4EA534E.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/FBEC6B0A.htm" />
+        <HelpTOCNode Title="SetPriority Method " Url="html/BDE0AC91.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5f043642-6e05-43d9-ad69-df2b95d3d364" Title="AreaFlagDef Properties " Url="html/6C200CA9.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/9E091126.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/6C3757FF.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/5E94F2B0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dc36cded-edf1-4787-b6d1-a04742259173" Title="AreaMarkerCompiler Class" Url="html/4CD7AE16.htm">
+      <HelpTOCNode Title="AreaMarkerCompiler Constructor " Url="html/B4D14186.htm" />
+      <HelpTOCNode Id="fb5cdc05-3e7d-45b1-856c-997c951fd2ef" Title="AreaMarkerCompiler Methods " Url="html/CE3F4BE2.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/DC62F518.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="471c530d-d15e-4ecc-93f7-2e1a4c3cd3bb" Title="AreaMarkerCompiler Properties " Url="html/F72CB53.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/B70897D6.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/8F2B431.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/B9C5FEFC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="297d0299-3770-49ba-9b05-b9545d154f32" Title="BoxAreaMarker Class" Url="html/3D69B546.htm">
+      <HelpTOCNode Title="BoxAreaMarker Constructor " Url="html/E18D91B8.htm" />
+      <HelpTOCNode Id="55ef8b54-d1a2-48e2-81b3-fd0690e4e98e" Title="BoxAreaMarker Methods " Url="html/E076AC32.htm">
+        <HelpTOCNode Title="GetMarkerData Method " Url="html/BFAB19FD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6728e3df-d214-4997-b88e-292374a327a5" Title="BoxAreaMarker.MarkerData Structure" Url="html/1813EAA2.htm">
+      <HelpTOCNode Id="e98db0cf-5d2f-4a17-8966-ae3a891ef845" Title="MarkerData Fields" Url="html/5C2A397D.htm">
+        <HelpTOCNode Title="area Field" Url="html/32C5DCB1.htm" />
+        <HelpTOCNode Title="priority Field" Url="html/246709FE.htm" />
+        <HelpTOCNode Title="verts Field" Url="html/41C08DF2.htm" />
+        <HelpTOCNode Title="ymax Field" Url="html/F37471C3.htm" />
+        <HelpTOCNode Title="ymin Field" Url="html/DE38CCFD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4688cc1b-c7e4-4d96-bbc8-4573687879c3" Title="CAIBakedNavmesh Class" Url="html/8BDF26C6.htm">
+      <HelpTOCNode Title="CAIBakedNavmesh Constructor " Url="html/2BEADC.htm" />
+      <HelpTOCNode Id="8ae55c58-2379-47b8-a0a0-e0d43f365ec8" Title="CAIBakedNavmesh Methods " Url="html/E19B906.htm">
+        <HelpTOCNode Title="GetMeshReport Method " Url="html/708061C0.htm" />
+        <HelpTOCNode Title="GetNavmesh Method " Url="html/312794B9.htm" />
+        <HelpTOCNode Id="0a0b7646-e9a9-4cae-a544-efef53df9a2f" Title="Load Method " Url="html/C94ADDA.htm">
+          <HelpTOCNode Title="Load Method (Byte[], NavmeshBuildInfo)" Url="html/D4309248.htm" />
+          <HelpTOCNode Title="Load Method (NavmeshTileBuildData, NavmeshBuildInfo)" Url="html/BC26F019.htm" />
+          <HelpTOCNode Title="Load Method (NavmeshParams, NavmeshTileData[], NavmeshBuildInfo)" Url="html/D616770B.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="77a4ba26-a676-4adc-b983-02a08dbbb06e" Title="CAIBakedNavmesh Properties " Url="html/51ED5789.htm">
+        <HelpTOCNode Title="BuildInfo Property " Url="html/4559FF04.htm" />
+        <HelpTOCNode Title="HasNavmesh Property " Url="html/EE2B6438.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/5B583694.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e071464a-4700-4ced-8ff3-ee3288be17d6" Title="CAINavEditorSettings Class" Url="html/8F5BA0F8.htm">
+      <HelpTOCNode Title="CAINavEditorSettings Constructor " Url="html/98A3612C.htm" />
+      <HelpTOCNode Id="161ce179-509c-4d8a-a5e6-6f96cd050029" Title="CAINavEditorSettings Fields" Url="html/27A81A1F.htm">
+        <HelpTOCNode Title="Default Field" Url="html/23FC9E3B.htm" />
+        <HelpTOCNode Title="NotWalkable Field" Url="html/94ECEBB0.htm" />
+        <HelpTOCNode Title="Undefined Field" Url="html/279CED54.htm" />
+        <HelpTOCNode Title="UnknownArea Field" Url="html/716BBD13.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b21e7b72-661a-47ad-b012-cfec6b7419e6" Title="CAINavEditorSettings Methods " Url="html/BFC9F2C0.htm">
+        <HelpTOCNode Title="GetArea Method " Url="html/D59C87AE.htm" />
+        <HelpTOCNode Title="GetAreaNames Method " Url="html/62A98292.htm" />
+        <HelpTOCNode Title="GetAvoidanceNames Method " Url="html/EDAE4B35.htm" />
+        <HelpTOCNode Title="GetFlagNames Method " Url="html/EB5B7779.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/E2C29178.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ab66752c-ed1a-4555-9f92-36ba035ecd0e" Title="CylinderAreaMarker Class" Url="html/44B92545.htm">
+      <HelpTOCNode Title="CylinderAreaMarker Constructor " Url="html/6260B483.htm" />
+      <HelpTOCNode Id="d12cc8b8-1bce-42be-ad35-8e64d825832e" Title="CylinderAreaMarker Methods " Url="html/7F9DD077.htm">
+        <HelpTOCNode Title="GetMarkerData Method " Url="html/80B40530.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5636e7cd-51dc-4022-a051-8cea1481b3a7" Title="CylinderAreaMarker.MarkerData Structure" Url="html/1E184615.htm">
+      <HelpTOCNode Id="4b98ee84-3223-4bf1-8c3a-3486ef4dd3d9" Title="MarkerData Fields" Url="html/6D5D47A8.htm">
+        <HelpTOCNode Title="area Field" Url="html/3E1CCFC4.htm" />
+        <HelpTOCNode Title="centerBase Field" Url="html/66B55C8B.htm" />
+        <HelpTOCNode Title="height Field" Url="html/6B1EE5C6.htm" />
+        <HelpTOCNode Title="priority Field" Url="html/5F481A37.htm" />
+        <HelpTOCNode Title="radius Field" Url="html/B88E598D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5e6aa67e-d8d4-43eb-878b-9ddd604de0d8" Title="DefaultAreaDef Class" Url="html/5C70FF59.htm">
+      <HelpTOCNode Title="DefaultAreaDef Constructor " Url="html/412812A3.htm" />
+      <HelpTOCNode Id="b26068f6-fe6a-44d3-923e-aba232a0317a" Title="DefaultAreaDef Methods " Url="html/EF79DCF.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/AEC96ECB.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="09828685-7ebd-4722-bf6c-6b40c1b4353f" Title="DefaultAreaDef Properties " Url="html/400D5BBA.htm">
+        <HelpTOCNode Title="DefaultArea Property " Url="html/3125FEE7.htm" />
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/8335D2A3.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/EE7D06A4.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/E0E4EE09.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="92592aa9-c86c-4ccc-8e6c-09b0acf020dd" Title="MeshAreaDef Class" Url="html/198ACA7D.htm">
+      <HelpTOCNode Title="MeshAreaDef Constructor " Url="html/79777433.htm" />
+      <HelpTOCNode Id="c8019e17-0e7d-45f5-97be-e26217977950" Title="MeshAreaDef Fields" Url="html/A37D8348.htm">
+        <HelpTOCNode Title="areas Field" Url="html/472BF649.htm" />
+        <HelpTOCNode Title="matchType Field" Url="html/7523D432.htm" />
+        <HelpTOCNode Title="meshes Field" Url="html/743292E4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="db5f0dc7-243f-4136-8650-01bfc1709dd1" Title="MeshAreaDef Methods " Url="html/4EF0927B.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/680256FB.htm" />
+        <HelpTOCNode Title="SetPriority Method " Url="html/FC9265CA.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e3263d40-6928-4bba-ad29-674707535b4a" Title="MeshAreaDef Properties " Url="html/AD4F1FD0.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/1B46AFDF.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/76B611D4.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/8CFB4A15.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="326f6988-bd07-4bbc-879d-7b83c1b44d97" Title="MeshCompiler Class" Url="html/9865750C.htm">
+      <HelpTOCNode Title="MeshCompiler Constructor " Url="html/C5366484.htm" />
+      <HelpTOCNode Id="94c86bae-0eb3-44b3-a4ef-ea8e1abc83ef" Title="MeshCompiler Fields" Url="html/9B559C81.htm">
+        <HelpTOCNode Title="colocationOption Field" Url="html/CDB06630.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b7c6d06-6c45-4bb4-bbf9-87a7a32e5541" Title="MeshCompiler Methods " Url="html/343EA5AC.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/C2184A1A.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4b5f8e7f-9483-479c-8294-4965305f3208" Title="MeshCompiler Properties " Url="html/67791479.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/F6C0B0A0.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/AAA0CF13.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/9981306.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1748c5ca-a5da-4bb4-9ef1-e1c6a32f128a" Title="MeshInputFilter Class" Url="html/9FEDF50B.htm">
+      <HelpTOCNode Title="MeshInputFilter Constructor " Url="html/4A5E1CA5.htm" />
+      <HelpTOCNode Id="5f32598b-580a-4ad1-8051-a9ad01b5002a" Title="MeshInputFilter Fields" Url="html/787CB1B6.htm">
+        <HelpTOCNode Title="matchType Field" Url="html/DB4C5938.htm" />
+        <HelpTOCNode Title="meshes Field" Url="html/5276732.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="12830a9a-467a-432e-b4d0-900b2c9a668c" Title="MeshInputFilter Methods " Url="html/A26B0DED.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/DA9D9849.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3a5c188a-d577-49ed-93f2-fb35c9acc96b" Title="MeshInputFilter Properties " Url="html/13A9DCA6.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/F0D95BAD.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/6A570886.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/63786E4F.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b26f1574-e456-43ba-bd05-9ecb65677757" Title="NavmeshBuild Class" Url="html/4E4B3848.htm">
+      <HelpTOCNode Title="NavmeshBuild Constructor " Url="html/1E2F4F8.htm" />
+      <HelpTOCNode Id="da8e7545-0537-4ba9-8231-afa853f99b06" Title="NavmeshBuild Methods " Url="html/78F13080.htm">
+        <HelpTOCNode Title="ResetBuild Method " Url="html/486FEC74.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="058477d5-5224-4d62-9570-124b3bbc5ca9" Title="NavmeshBuild Properties " Url="html/9ED9717D.htm">
+        <HelpTOCNode Title="BuildState Property " Url="html/9F1D8459.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1dfc4408-2b44-4fd2-b899-316149b716bc" Title="NMGenAreaMarker Class" Url="html/EECDA8AA.htm">
+      <HelpTOCNode Title="NMGenAreaMarker Constructor " Url="html/127BB698.htm" />
+      <HelpTOCNode Id="1b6bc8c0-b4e3-4cab-ac63-88cdb24d36a4" Title="NMGenAreaMarker Properties " Url="html/D204D79F.htm">
+        <HelpTOCNode Title="Area Property " Url="html/B1F065C1.htm" />
+        <HelpTOCNode Title="AreaInt Property " Url="html/99F4C6E2.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/A6DAE4B8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="61b7bf72-9d6d-403d-9cf6-d5c65b0f67c0" Title="NMGenComponent Class" Url="html/A06D848C.htm">
+      <HelpTOCNode Title="NMGenComponent Constructor " Url="html/A1B9D6BC.htm" />
+      <HelpTOCNode Id="45450a17-1d76-4b83-8c4e-0b0cb75d2bc2" Title="NMGenComponent Fields" Url="html/2805AC69.htm">
+        <HelpTOCNode Title="debugEnabled Field" Url="html/684E1334.htm" />
+        <HelpTOCNode Title="debugEnabledLocal Field" Url="html/46068463.htm" />
+        <HelpTOCNode Title="MaxArea Field" Url="html/7A05CA35.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f1ab62e7-dd21-4883-ba66-f222b56212ff" Title="NMGenComponent Methods " Url="html/C7DDA34C.htm">
+        <HelpTOCNode Id="2cdf9bc1-8a85-448d-ad55-ae511988bcb1" Title="ClampArea Method " Url="html/E4A0EABE.htm">
+          <HelpTOCNode Title="ClampArea Method (Byte)" Url="html/1EA9C4B9.htm" />
+          <HelpTOCNode Title="ClampArea Method (Int32)" Url="html/7BB23117.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f4cf6559-1e9d-440c-a07b-e8e09e2cb779" Title="OFMConnection Class" Url="html/B6267868.htm">
+      <HelpTOCNode Title="OFMConnection Constructor " Url="html/E2514632.htm" />
+      <HelpTOCNode Id="4e982842-cb5b-4d4b-9c79-046b918c1f90" Title="OFMConnection Properties " Url="html/9497D35B.htm">
+        <HelpTOCNode Title="Area Property " Url="html/D76DC469.htm" />
+        <HelpTOCNode Title="EndPoint Property " Url="html/59F8B5B5.htm" />
+        <HelpTOCNode Title="Flags Property " Url="html/F196B011.htm" />
+        <HelpTOCNode Title="IsBidirectional Property " Url="html/45357DAF.htm" />
+        <HelpTOCNode Title="OverrideArea Property " Url="html/8C59DA65.htm" />
+        <HelpTOCNode Title="Radius Property " Url="html/26B5E04C.htm" />
+        <HelpTOCNode Title="StartPoint Property " Url="html/3CED32E0.htm" />
+        <HelpTOCNode Title="UserId Property " Url="html/A9DD3950.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="79f8133b-b3d1-400e-a6a3-aff4d42e72a0" Title="OFMConnectionCompiler Class" Url="html/D94B165F.htm">
+      <HelpTOCNode Title="OFMConnectionCompiler Constructor " Url="html/8F30E5DD.htm" />
+      <HelpTOCNode Id="5dfc3bae-1965-47a7-99a4-7657788b7d46" Title="OFMConnectionCompiler Methods " Url="html/A15CCF3D.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/A832D789.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c3667bce-3ed3-443a-8113-2dc4b52af892" Title="OFMConnectionCompiler Properties " Url="html/B71BB23E.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/EA2BAA25.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/ABE4E3DA.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/727F5F63.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="158803b1-f5df-4b3e-bb2a-0e75679410fb" Title="StaticFilter Class" Url="html/A2C07884.htm">
+      <HelpTOCNode Title="StaticFilter Constructor " Url="html/DC7F7B8C.htm" />
+      <HelpTOCNode Id="066792da-d24d-47e7-94f7-66d42024cf85" Title="StaticFilter Methods " Url="html/4ADD3864.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/154492E2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="544fe580-8cef-452c-9f59-ce3405c32462" Title="StaticFilter Properties " Url="html/5A565DE1.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/EDC25898.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/F415ED1B.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/492BF0FE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ccda0599-382d-44d8-9cce-3ea860c6608b" Title="TagAreaDef Class" Url="html/9F988B2C.htm">
+      <HelpTOCNode Title="TagAreaDef Constructor " Url="html/A595D280.htm" />
+      <HelpTOCNode Id="3efd7dad-e5cb-4986-838f-519b978a3b6b" Title="TagAreaDef Fields" Url="html/7A729B5B.htm">
+        <HelpTOCNode Title="areas Field" Url="html/A30AA246.htm" />
+        <HelpTOCNode Title="recursive Field" Url="html/7A4E1BD0.htm" />
+        <HelpTOCNode Title="tags Field" Url="html/83C74F91.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3dc47b11-2dd6-460a-a011-42ae4a40c6b4" Title="TagAreaDef Methods " Url="html/F91DE6C.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/67C2EBFE.htm" />
+        <HelpTOCNode Title="SetPriority Method " Url="html/A9091CF3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fa7f644f-ab52-4763-bbe4-8e52fb25728c" Title="TagAreaDef Properties " Url="html/A2894A53.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/41E51040.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/84EDC681.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/77B6BC96.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4986e14d-654e-4ce8-b649-61d05fe96cf2" Title="TagInputFilter Class" Url="html/C9FA64C2.htm">
+      <HelpTOCNode Title="TagInputFilter Constructor " Url="html/111F71EA.htm" />
+      <HelpTOCNode Id="ec9f669f-3d69-4931-8332-f7ea29db2d42" Title="TagInputFilter Fields" Url="html/1156E295.htm">
+        <HelpTOCNode Title="recursive Field" Url="html/AA3E42FE.htm" />
+        <HelpTOCNode Title="tags Field" Url="html/76BA7DA3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7c59ffa2-cb73-4a3c-8178-a6cb7ea97089" Title="TagInputFilter Methods " Url="html/7749FB9A.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/5BD9054.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7338e9b3-bf89-4979-a8aa-264460d444f4" Title="TagInputFilter Properties " Url="html/FE014245.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/2406ABEE.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/C98D3C53.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/5BE1F8C0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5937268d-8262-47ba-8258-71fd7a089463" Title="TagSceneQuery Class" Url="html/65067ED4.htm">
+      <HelpTOCNode Title="TagSceneQuery Constructor " Url="html/21B32D86.htm" />
+      <HelpTOCNode Id="31540686-06bc-4558-b0e2-f3dcad138eae" Title="TagSceneQuery Fields" Url="html/783A1787.htm">
+        <HelpTOCNode Title="tags Field" Url="html/CE013711.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4336db58-3314-43dc-b2f8-9d662be638c0" Title="TagSceneQuery Methods " Url="html/7E62E468.htm">
+        <HelpTOCNode Title="GetComponents Generic Method" Url="html/80BBE564.htm" />
+        <HelpTOCNode Title="Initialize Method " Url="html/B13123.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b5ec9a63-5c18-47ae-a347-640c1885a004" Title="TagSceneQuery Properties " Url="html/4BE428F7.htm">
+        <HelpTOCNode Title="IncludeChildren Property " Url="html/5A19A911.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b35d31ee-7e24-44da-98b2-a659aaa48f78" Title="TerrainCompiler Class" Url="html/F64A9028.htm">
+      <HelpTOCNode Title="TerrainCompiler Constructor " Url="html/3F4D8C8A.htm" />
+      <HelpTOCNode Id="32278b56-1852-4909-b885-189d2f5ed3a3" Title="TerrainCompiler Fields" Url="html/C25883B5.htm">
+        <HelpTOCNode Title="includeTrees Field" Url="html/6AF8FF33.htm" />
+        <HelpTOCNode Title="terrainData Field" Url="html/EA85ECF1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e1705b4-86a5-48ab-9116-df4eaf53e963" Title="TerrainCompiler Methods " Url="html/EEA71230.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/904E207C.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="966a551b-ac97-4118-9f85-549e523bc2e7" Title="TerrainCompiler Properties " Url="html/DCA32265.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/14CC0D88.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/A0FF4FCB.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/2A0B922.htm" />
+        <HelpTOCNode Title="Resolution Property " Url="html/E2344574.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="eb6e7383-6477-479b-8272-4653b89f8b17" Title="org.critterai Namespace" Url="html/88E4C52B.htm">
+    <HelpTOCNode Id="2407b2b5-5846-4959-a607-4ce8ba7fc7af" Title="ArrayUtil Class" Url="html/6A7A10CE.htm">
+      <HelpTOCNode Id="05010098-197c-48de-971a-4055dd05d5aa" Title="ArrayUtil Methods " Url="html/C28FE02E.htm">
+        <HelpTOCNode Title="Compress Generic Method" Url="html/8B4EBEC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1ff5281d-5185-4a26-91a7-62002094b5f6" Title="CAIUtil Class" Url="html/1043C168.htm">
+      <HelpTOCNode Id="f1b6a952-62f0-471c-b5d8-eff8a93f5022" Title="CAIUtil Fields" Url="html/1D304513.htm">
+        <HelpTOCNode Title="MSToTicks Field" Url="html/210F36B.htm" />
+        <HelpTOCNode Title="SecToTicks Field" Url="html/F1A966E.htm" />
+        <HelpTOCNode Title="TicksToMS Field" Url="html/B83A627.htm" />
+        <HelpTOCNode Title="TicksToSec Field" Url="html/9C4DC6D4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ab0c813a-8ca2-467f-a694-5de4a765da31" Title="CAIUtil Methods " Url="html/E678CAF4.htm">
+        <HelpTOCNode Title="GetNowDeltaMS Method " Url="html/8C7DF9D.htm" />
+        <HelpTOCNode Title="GetNowDeltaSec Method " Url="html/977E032C.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd00124e-7b5c-4936-a499-2b88c0fd3bdd" Title="IPriorityItem Interface" Url="html/7402940D.htm">
+      <HelpTOCNode Id="4cfe6c71-7ca7-4399-8f16-0a4295d5873e" Title="IPriorityItem Properties " Url="html/ACC27F0.htm">
+        <HelpTOCNode Title="Priority Property " Url="html/C6D7F2F5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="16321656-c17e-465a-bf8f-34a2bf202202" Title="MathUtil Class" Url="html/33EB294F.htm">
+      <HelpTOCNode Id="c44b7ddf-b7c3-425a-848e-b05e4cff9948" Title="MathUtil Fields" Url="html/6686F882.htm">
+        <HelpTOCNode Title="Epsilon Field" Url="html/62A4E1C5.htm" />
+        <HelpTOCNode Title="Tolerance Field" Url="html/91B92628.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8a456af3-4b02-4527-827e-e1dfaca9c13d" Title="MathUtil Methods " Url="html/4C8656D9.htm">
+        <HelpTOCNode Title="Clamp Method " Url="html/B263BD0B.htm" />
+        <HelpTOCNode Title="ClampToPositiveNonZero Method " Url="html/28980596.htm" />
+        <HelpTOCNode Title="Max Method " Url="html/7975F5E6.htm" />
+        <HelpTOCNode Title="Min Method " Url="html/9AFC2F8.htm" />
+        <HelpTOCNode Title="SloppyEquals Method " Url="html/C72B0DEE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e852c8fa-ddac-44d9-aaf9-21d0bb4fc109" Title="PriorityComparer Generic Class" Url="html/A1350345.htm">
+      <HelpTOCNode Title="PriorityComparer Constructor " Url="html/44BC3B7F.htm" />
+      <HelpTOCNode Id="bb3fe9ee-45cc-4e6e-888c-623d9f5ca917" Title="PriorityComparer Methods " Url="html/8DD1D7A3.htm">
+        <HelpTOCNode Title="Compare Method " Url="html/32F82751.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b44a7715-f660-4246-9461-f6ee64d8861c" Title="PriorityComparer Properties " Url="html/21C36118.htm">
+        <HelpTOCNode Title="Ascending Property " Url="html/E3BC5BC5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="09830800-d2f4-488c-9d7a-f88203b6ecfe" Title="Vector2Util Class" Url="html/2A08F7DC.htm">
+      <HelpTOCNode Id="8e967b66-da7b-41ae-8ee9-e3a7a0620642" Title="Vector2Util Methods " Url="html/CC023EBC.htm">
+        <HelpTOCNode Title="Dot Method " Url="html/CFBA347A.htm" />
+        <HelpTOCNode Title="GetDirectionAB Method " Url="html/9EB7A067.htm" />
+        <HelpTOCNode Title="GetDistanceSq Method " Url="html/409E27D2.htm" />
+        <HelpTOCNode Title="Normalize Method " Url="html/91804656.htm" />
+        <HelpTOCNode Title="ScaleTo Method " Url="html/827DF1A6.htm" />
+        <HelpTOCNode Title="SloppyEquals Method " Url="html/2545F23D.htm" />
+        <HelpTOCNode Title="TruncateLength Method " Url="html/EB500C51.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8bca4efd-42c7-4e98-8422-efbabcd21ed7" Title="Vector2Util Properties " Url="html/8EEDD513.htm">
+        <HelpTOCNode Title="Zero Property " Url="html/CAAA6C4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="45c5062c-93f9-43ac-a76b-e3aae8ec0d30" Title="Vector3Util Class" Url="html/2A0914DD.htm">
+      <HelpTOCNode Id="1768629c-1867-4eab-93ae-73706d94c80a" Title="Vector3Util Methods " Url="html/CC0242BB.htm">
+        <HelpTOCNode Title="Cross Method " Url="html/37C3BFE6.htm" />
+        <HelpTOCNode Title="Dot Method " Url="html/CFCB34B9.htm" />
+        <HelpTOCNode Title="Flatten Method " Url="html/B543C8F8.htm" />
+        <HelpTOCNode Title="GetBounds Method " Url="html/FE0FD9DD.htm" />
+        <HelpTOCNode Title="GetDistance2D Method " Url="html/3E6BB0A1.htm" />
+        <HelpTOCNode Title="GetDistanceSq Method " Url="html/F0B2CF71.htm" />
+        <HelpTOCNode Title="GetLengthSq Method " Url="html/3A12D772.htm" />
+        <HelpTOCNode Id="4ca1d387-391d-49e1-96cb-c61036d4b03c" Title="GetVectors Method " Url="html/457D50B3.htm">
+          <HelpTOCNode Title="GetVectors Method (Single[])" Url="html/82CAC73E.htm" />
+          <HelpTOCNode Title="GetVectors Method (Single[], Int32, [], Int32, Int32)" Url="html/B8E217CA.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsInRange Method " Url="html/7433EA6.htm" />
+        <HelpTOCNode Title="Normalize Method " Url="html/E3866977.htm" />
+        <HelpTOCNode Title="SloppyEquals Method " Url="html/C5E7F27C.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/E529BD26.htm" />
+        <HelpTOCNode Title="TranslateToward Method " Url="html/F105BB53.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5540dba-d37c-4aad-98ec-f234f7a63bf1" Title="Vector3Util Properties " Url="html/8A18CC78.htm">
+        <HelpTOCNode Title="Zero Property " Url="html/D261905.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="871e0ee8-846c-407b-ba37-8e5950a9391b" Title="org.critterai.geom Namespace" Url="html/84C45191.htm">
+    <HelpTOCNode Id="bb3a2688-35f2-47fe-91ec-670b5b87d658" Title="Circle Class" Url="html/390A1397.htm">
+      <HelpTOCNode Id="0ccfcdaa-d5a3-4a40-9fe7-4bed0df0b449" Title="Circle Methods " Url="html/4C760461.htm">
+        <HelpTOCNode Title="Contains Method " Url="html/CB50AAF7.htm" />
+        <HelpTOCNode Title="Intersects Method " Url="html/2C9088DE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="20441a4f-4d2b-4751-addb-e2ca365a15df" Title="Line2 Class" Url="html/3D559FC9.htm">
+      <HelpTOCNode Id="fc6497bd-d1f5-4bf9-bf94-2ea7370f35f5" Title="Line2 Methods " Url="html/1C98CDC3.htm">
+        <HelpTOCNode Title="GetNormalAB Method " Url="html/65C9EEC0.htm" />
+        <HelpTOCNode Title="GetPointLineDistanceSq Method " Url="html/EC93A027.htm" />
+        <HelpTOCNode Title="GetPointSegmentDistanceSq Method " Url="html/A6B4122C.htm" />
+        <HelpTOCNode Title="GetRelationship Method " Url="html/AE11B836.htm" />
+        <HelpTOCNode Id="2a815d9c-4838-4457-ae76-9dd0afeae087" Title="LinesIntersect Method " Url="html/AF6C4B4F.htm">
+          <HelpTOCNode Title="LinesIntersect Method (, , , )" Url="html/E774382C.htm" />
+          <HelpTOCNode Title="LinesIntersect Method (Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32)" Url="html/EBEDD204.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="LineRelType Enumeration" Url="html/6AA9B57A.htm" />
+    <HelpTOCNode Title="PointLineRelType Enumeration" Url="html/BE20F0DE.htm" />
+    <HelpTOCNode Id="2332875d-6c2d-43fe-b693-d9e251c6f9cf" Title="Polygon3 Class" Url="html/1739630A.htm">
+      <HelpTOCNode Id="c38d0ea4-d227-4d43-8c6b-6e90cf2ecb7f" Title="Polygon3 Methods " Url="html/7E43885E.htm">
+        <HelpTOCNode Id="b5d0f45e-d118-4b0a-b937-c8a0e56e30c7" Title="GetCentroid Method " Url="html/E62C0872.htm">
+          <HelpTOCNode Title="GetCentroid Method ([])" Url="html/A404FE0B.htm" />
+          <HelpTOCNode Title="GetCentroid Method ([], Int32, Int32)" Url="html/2BDA7181.htm" />
+          <HelpTOCNode Title="GetCentroid Method ([], Int32, Int32, [], Int32)" Url="html/2BDA7182.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsConvex Method " Url="html/DD71290E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a59bcbdf-61c8-4833-b91c-160fb2d5f190" Title="Rectangle2 Class" Url="html/C719E904.htm">
+      <HelpTOCNode Id="5df07d00-7e93-4a89-b072-3497e39e6025" Title="Rectangle2 Methods " Url="html/8C69D738.htm">
+        <HelpTOCNode Id="8bc0302c-7bad-4e5b-b4c7-6b9718d91671" Title="Contains Method " Url="html/6565887.htm">
+          <HelpTOCNode Title="Contains Method (Single, Single, Single, Single, Single, Single)" Url="html/527895E2.htm" />
+          <HelpTOCNode Title="Contains Method (Single, Single, Single, Single, Single, Single, Single, Single)" Url="html/7E49BAF6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IntersectsAABB Method " Url="html/9C8324CF.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ecd593f1-d849-4143-9aff-7224afbaefaa" Title="Triangle2 Class" Url="html/FAD420BD.htm">
+      <HelpTOCNode Id="82c535c2-9bba-442f-b836-30d082c889e6" Title="Triangle2 Methods " Url="html/3A3AEF.htm">
+        <HelpTOCNode Title="Contains Method " Url="html/F773145.htm" />
+        <HelpTOCNode Id="29564618-4d2c-48f7-a854-5f2e3ad6a1c5" Title="GetSignedAreaX2 Method " Url="html/CC76C82A.htm">
+          <HelpTOCNode Title="GetSignedAreaX2 Method (, , )" Url="html/275CBC58.htm" />
+          <HelpTOCNode Title="GetSignedAreaX2 Method (Int32, Int32, Int32, Int32, Int32, Int32)" Url="html/1A43267B.htm" />
+          <HelpTOCNode Title="GetSignedAreaX2 Method (Single, Single, Single, Single, Single, Single)" Url="html/84B547BD.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="90a24654-3c3c-4b53-9d50-01af16dc2beb" Title="Triangle3 Class" Url="html/582CAC22.htm">
+      <HelpTOCNode Id="b2f9a85e-e147-4c5c-9166-08bd520cafee" Title="Triangle3 Methods " Url="html/A2E1AF8A.htm">
+        <HelpTOCNode Title="GetArea Method " Url="html/452C874.htm" />
+        <HelpTOCNode Title="GetAreaComp Method " Url="html/60F72F17.htm" />
+        <HelpTOCNode Id="2f85ad00-701c-47e7-8cf1-6b9e79a582fc" Title="GetNormal Method " Url="html/A8D15B4F.htm">
+          <HelpTOCNode Title="GetNormal Method ([], Int32)" Url="html/5ADFB7DE.htm" />
+          <HelpTOCNode Title="GetNormal Method (, , )" Url="html/27FFF412.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f911be59-0f3b-499c-bdf4-e9971b6527db" Title="TriangleMesh Class" Url="html/1E98F9A4.htm">
+      <HelpTOCNode Id="87012493-eb88-4f83-8e16-504e8cc54857" Title="TriangleMesh Constructor " Url="html/6A160BDB.htm">
+        <HelpTOCNode Title="TriangleMesh Constructor " Url="html/63384D2E.htm" />
+        <HelpTOCNode Title="TriangleMesh Constructor (Int32, Int32)" Url="html/D7139F92.htm" />
+        <HelpTOCNode Title="TriangleMesh Constructor ([], Int32, Int32[], Int32)" Url="html/D7139F8F.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="21c2975c-dde5-4173-b17e-3533d872975c" Title="TriangleMesh Fields" Url="html/372179BF.htm">
+        <HelpTOCNode Title="triCount Field" Url="html/AEB0E7C0.htm" />
+        <HelpTOCNode Title="tris Field" Url="html/ED712BB6.htm" />
+        <HelpTOCNode Title="vertCount Field" Url="html/7EAB14CA.htm" />
+        <HelpTOCNode Title="verts Field" Url="html/A16F580.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="39c86c7b-0aa5-4421-98d0-e1ec6fdfb1a5" Title="TriangleMesh Methods " Url="html/5D7A4B48.htm">
+        <HelpTOCNode Title="GetBounds Method " Url="html/E263C494.htm" />
+        <HelpTOCNode Title="IsBoundsValid Method " Url="html/5F8D14C0.htm" />
+        <HelpTOCNode Id="100f6e83-a10d-4591-a6b8-9403cbae0ee2" Title="IsValid Method " Url="html/730F9286.htm">
+          <HelpTOCNode Title="IsValid Method (TriangleMesh, Boolean)" Url="html/7501AB07.htm" />
+          <HelpTOCNode Title="IsValid Method ([], Int32, Int32[], Int32, Boolean)" Url="html/DDEE1595.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7ed7af5-65ad-4a56-980d-d3e17755f0d6" Title="Wavefront Class" Url="html/E3A52F69.htm">
+      <HelpTOCNode Id="ed98a336-8093-45bc-bdac-1bea4bf47368" Title="Wavefront Methods " Url="html/C2ACCB53.htm">
+        <HelpTOCNode Title="TranslateFrom Method " Url="html/9183B436.htm" />
+        <HelpTOCNode Title="TranslateTo Method " Url="html/2C97FE73.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3abcfafe-90e5-4e39-96ae-be14b4cbf390" Title="org.critterai.interop Namespace" Url="html/782515F0.htm">
+    <HelpTOCNode Title="AllocType Enumeration" Url="html/B013A93B.htm" />
+    <HelpTOCNode Id="e2f40a78-bbfd-4439-81e8-68277145eb94" Title="IManagedObject Interface" Url="html/BBAFE477.htm">
+      <HelpTOCNode Id="47c9f2e2-5c1f-4c2f-b363-17ab3a75ad4f" Title="IManagedObject Methods " Url="html/26FE1901.htm">
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/FD93806E.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c8191de1-1ce4-4d3d-8678-56b8e7f5a187" Title="IManagedObject Properties " Url="html/EDA235E2.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/ED255968.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/D043345B.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8cfaa2cf-4a93-4e1d-a7b4-bef00542a068" Title="ManagedObject Class" Url="html/F482DC0E.htm">
+      <HelpTOCNode Title="ManagedObject Constructor " Url="html/8DED0A00.htm" />
+      <HelpTOCNode Id="fc3dbeaa-7082-49ce-b295-fa4d329c6817" Title="ManagedObject Methods " Url="html/F103E03A.htm">
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/85F576B7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3b1af989-588c-4715-ba94-eb7d1be7dcdc" Title="ManagedObject Properties " Url="html/92F1925.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/15840169.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/668D7F4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="163bf26a-0638-4816-b50e-a0185c5a333c" Title="UtilEx Class" Url="html/375FAF3.htm">
+      <HelpTOCNode Id="e3a2272a-b85d-4ddb-bfac-77058ae7954e" Title="UtilEx Methods " Url="html/65EFF2C9.htm">
+        <HelpTOCNode Id="ff7d0085-786b-43f9-977a-cdaca6a63384" Title="Copy Method " Url="html/B1237FCE.htm">
+          <HelpTOCNode Title="Copy Method (IntPtr, UInt16[], Int32)" Url="html/473B95C9.htm" />
+          <HelpTOCNode Title="Copy Method (IntPtr, UInt32[], Int32)" Url="html/C75213D7.htm" />
+          <HelpTOCNode Title="Copy Method (UInt16[], Int32, IntPtr, Int32)" Url="html/C75213D6.htm" />
+          <HelpTOCNode Title="Copy Method (UInt32[], Int32, IntPtr, Int32)" Url="html/C75213D5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ExtractArrayByte Method " Url="html/5037F5E6.htm" />
+        <HelpTOCNode Title="ExtractArrayFloat Method " Url="html/EB70CCCE.htm" />
+        <HelpTOCNode Title="ExtractArrayInt Method " Url="html/14EEB4CB.htm" />
+        <HelpTOCNode Title="ExtractArrayUInt Method " Url="html/7578B960.htm" />
+        <HelpTOCNode Title="ExtractArrayUShort Method " Url="html/C6D23217.htm" />
+        <HelpTOCNode Title="GetBuffer Method " Url="html/6FA6F51C.htm" />
+        <HelpTOCNode Id="4802c2ac-5428-4d98-8fa7-f291e890f0a8" Title="GetFilledBuffer Method " Url="html/C55A0865.htm">
+          <HelpTOCNode Title="GetFilledBuffer Method (Byte[], Int32)" Url="html/2708AC14.htm" />
+          <HelpTOCNode Title="GetFilledBuffer Method (Int32[], Int32)" Url="html/E4DC96DC.htm" />
+          <HelpTOCNode Title="GetFilledBuffer Method (Single[], Int32)" Url="html/CCD2F4AD.htm" />
+          <HelpTOCNode Title="GetFilledBuffer Method (UInt16[], Int32)" Url="html/2A2B8012.htm" />
+          <HelpTOCNode Title="GetFilledBuffer Method (UInt32[], Int32)" Url="html/1221DDE3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ZeroMemory Method " Url="html/146BAFCF.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a258813f-ac0b-45ec-84a6-f51ca4963b0c" Title="org.critterai.nav Namespace" Url="html/7C110BA4.htm">
+    <HelpTOCNode Id="563d01c5-05a6-4c6d-9bbe-e5d7b74d446c" Title="CornerData Class" Url="html/11D0237F.htm">
+      <HelpTOCNode Id="8669ac82-0b08-4a96-8174-0913f56eb530" Title="CornerData Constructor " Url="html/90F4D8CE.htm">
+        <HelpTOCNode Title="CornerData Constructor " Url="html/301E8169.htm" />
+        <HelpTOCNode Title="CornerData Constructor (Int32)" Url="html/66CFF067.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aab722d1-e997-471a-b20c-02764aadde52" Title="CornerData Fields" Url="html/8C2DB188.htm">
+        <HelpTOCNode Title="cornerCount Field" Url="html/9EA301E7.htm" />
+        <HelpTOCNode Title="flags Field" Url="html/23F5A0DA.htm" />
+        <HelpTOCNode Title="MarshalBufferSize Field" Url="html/A0942940.htm" />
+        <HelpTOCNode Title="polyRefs Field" Url="html/34155843.htm" />
+        <HelpTOCNode Title="verts Field" Url="html/36C7AFA1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4da9659f-a8cd-461a-985e-2503aa3f2c9c" Title="CornerData Methods " Url="html/4AEE4269.htm">
+        <HelpTOCNode Title="Copy Method " Url="html/35EF34A1.htm" />
+        <HelpTOCNode Title="IsValid Method " Url="html/C47E4520.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e9080b00-cbbe-4478-8dc2-db866a9d8f37" Title="CornerData Properties " Url="html/4D35E4A8.htm">
+        <HelpTOCNode Title="Item Property " Url="html/343E3F6E.htm" />
+        <HelpTOCNode Title="MaxCorners Property " Url="html/5264AA55.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1460e23e-8ee8-4bd6-8f24-8f6f20b9e921" Title="CrowdAgent Class" Url="html/BF3FB7EE.htm">
+      <HelpTOCNode Id="1a2827a0-7287-4317-a0d3-1dbd6f4d5e58" Title="CrowdAgent Methods " Url="html/6D7A7EBA.htm">
+        <HelpTOCNode Title="AdjustMoveTarget Method " Url="html/4480AA38.htm" />
+        <HelpTOCNode Title="GetBoundary Method " Url="html/2C5C8511.htm" />
+        <HelpTOCNode Title="GetConfig Method " Url="html/D5A87D1B.htm" />
+        <HelpTOCNode Title="GetCornerData Method " Url="html/450E4CBC.htm" />
+        <HelpTOCNode Title="GetCorridor Method " Url="html/5C2B9641.htm" />
+        <HelpTOCNode Title="GetNeighbor Method " Url="html/B83A99B.htm" />
+        <HelpTOCNode Title="GetNeighbors Method " Url="html/EFF78488.htm" />
+        <HelpTOCNode Title="RequestMoveTarget Method " Url="html/D2BAB684.htm" />
+        <HelpTOCNode Title="SetConfig Method " Url="html/7FB194FF.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7eef187f-3891-4b5d-b530-1042f71b39f4" Title="CrowdAgent Properties " Url="html/8D64C5BB.htm">
+        <HelpTOCNode Title="DesiredSpeed Property " Url="html/D4588539.htm" />
+        <HelpTOCNode Title="DesiredVelocity Property " Url="html/27AB26F1.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/8C0B777.htm" />
+        <HelpTOCNode Title="Manager Property " Url="html/380D3259.htm" />
+        <HelpTOCNode Title="NeighborCount Property " Url="html/622F9F2F.htm" />
+        <HelpTOCNode Title="NextCorner Property " Url="html/3F111E00.htm" />
+        <HelpTOCNode Title="NextCornerPoly Property " Url="html/1D499B12.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/AB0C14EF.htm" />
+        <HelpTOCNode Title="PositionPoly Property " Url="html/DE27C1CD.htm" />
+        <HelpTOCNode Title="State Property " Url="html/3D733CF9.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/C3A7BC2B.htm" />
+        <HelpTOCNode Title="TargetPoly Property " Url="html/1F97CB1D.htm" />
+        <HelpTOCNode Title="Velocity Property " Url="html/D92D77AD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c720094-9c93-422d-b521-5e428be9984b" Title="CrowdAgentParams Structure" Url="html/C7198B48.htm">
+      <HelpTOCNode Title="CrowdAgentParams Constructor " Url="html/AAF57640.htm" />
+      <HelpTOCNode Id="749e43d0-3d6f-44f9-80bf-d25d099fac4e" Title="CrowdAgentParams Fields" Url="html/F90DC09B.htm">
+        <HelpTOCNode Title="avoidanceType Field" Url="html/E8820BD6.htm" />
+        <HelpTOCNode Title="collisionQueryRange Field" Url="html/5E86DB1F.htm" />
+        <HelpTOCNode Title="height Field" Url="html/F3AD2B.htm" />
+        <HelpTOCNode Title="maxAcceleration Field" Url="html/A081A45E.htm" />
+        <HelpTOCNode Title="maxSpeed Field" Url="html/97280963.htm" />
+        <HelpTOCNode Title="pathOptimizationRange Field" Url="html/B20AE50B.htm" />
+        <HelpTOCNode Title="radius Field" Url="html/E12898A6.htm" />
+        <HelpTOCNode Title="separationWeight Field" Url="html/C8CAFF24.htm" />
+        <HelpTOCNode Title="updateFlags Field" Url="html/FFBF263C.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="CrowdAgentState Enumeration" Url="html/E2CBFABB.htm" />
+    <HelpTOCNode Id="a55c5ff3-fefa-4feb-ad40-ee4b98816043" Title="CrowdAvoidanceParams Class" Url="html/6ED941B1.htm">
+      <HelpTOCNode Title="CrowdAvoidanceParams Constructor " Url="html/2636365F.htm" />
+      <HelpTOCNode Id="10c55832-967d-4393-9537-56f3c8414a88" Title="CrowdAvoidanceParams Fields" Url="html/8F375F26.htm">
+        <HelpTOCNode Title="adaptiveDepth Field" Url="html/57729C38.htm" />
+        <HelpTOCNode Title="adaptiveDivisions Field" Url="html/41468D25.htm" />
+        <HelpTOCNode Title="adaptiveRings Field" Url="html/D5B2EB36.htm" />
+        <HelpTOCNode Title="gridSize Field" Url="html/2354C8.htm" />
+        <HelpTOCNode Title="horizontalTime Field" Url="html/93D6824.htm" />
+        <HelpTOCNode Title="velocityBias Field" Url="html/4565BF9F.htm" />
+        <HelpTOCNode Title="weightCurrentVelocity Field" Url="html/CDB17E37.htm" />
+        <HelpTOCNode Title="weightDesiredVelocity Field" Url="html/FECC9472.htm" />
+        <HelpTOCNode Title="weightSide Field" Url="html/DA0EEFA6.htm" />
+        <HelpTOCNode Title="weightToi Field" Url="html/1E75E2E7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="60aae0d7-5995-468b-b075-a4e3c499305f" Title="CrowdAvoidanceParams Methods " Url="html/3C3C78AB.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/F6922041.htm" />
+        <HelpTOCNode Title="CreateStandardGood Method " Url="html/BC428618.htm" />
+        <HelpTOCNode Title="CreateStandardHigh Method " Url="html/E6545DE7.htm" />
+        <HelpTOCNode Title="CreateStandardLow Method " Url="html/2A3BB7F1.htm" />
+        <HelpTOCNode Title="CreateStandardMedium Method " Url="html/BDD14132.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e7b12bac-2e32-4cfe-ab83-312d145a66bc" Title="CrowdManager Class" Url="html/F68EDAE8.htm">
+      <HelpTOCNode Id="61d16579-8051-4084-a0bf-3cab2fac1a33" Title="CrowdManager Fields" Url="html/969AEE55.htm">
+        <HelpTOCNode Title="MaxAvoidanceParams Field" Url="html/ECBA9ECA.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="57762403-3a2f-4d14-9248-951574b78da2" Title="CrowdManager Methods " Url="html/D3738F50.htm">
+        <HelpTOCNode Title="AddAgent Method " Url="html/F53B8AC5.htm" />
+        <HelpTOCNode Title="Create Method " Url="html/6F2FB24D.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/683DA9BB.htm" />
+        <HelpTOCNode Title="GetAvoidanceConfig Method " Url="html/8F204A91.htm" />
+        <HelpTOCNode Title="GetQueryExtents Method " Url="html/B07D39D6.htm" />
+        <HelpTOCNode Title="GetVelocitySampleCount Method " Url="html/387A46F1.htm" />
+        <HelpTOCNode Title="RemoveAgent Method " Url="html/901E03AA.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/E8B47267.htm" />
+        <HelpTOCNode Title="SetAvoidanceConfig Method " Url="html/704D3BD5.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/A94D7538.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="76fc76f3-f922-4fad-ab7f-2c0f985fcd6a" Title="CrowdManager Properties " Url="html/5BEAD2A5.htm">
+        <HelpTOCNode Title="AgentCount Property " Url="html/CF0C4712.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/5A8D03A1.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/A7BD9475.htm" />
+        <HelpTOCNode Title="MaxAgentRadius Property " Url="html/A0EBB6C5.htm" />
+        <HelpTOCNode Title="MaxAgents Property " Url="html/3ED27FE.htm" />
+        <HelpTOCNode Title="Navmesh Property " Url="html/4C0B18BA.htm" />
+        <HelpTOCNode Title="ProximityGrid Property " Url="html/C19E86ED.htm" />
+        <HelpTOCNode Title="Query Property " Url="html/46B41C5A.htm" />
+        <HelpTOCNode Title="QueryFilter Property " Url="html/9221F860.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="44cfd939-7e95-42f4-81a1-3de9a3ed5435" Title="CrowdNeighbor Structure" Url="html/3D869A17.htm">
+      <HelpTOCNode Id="8eb4faf4-9a62-4a93-9b6f-b49b29018816" Title="CrowdNeighbor Fields" Url="html/9AC45994.htm">
+        <HelpTOCNode Title="distance Field" Url="html/9F9396CA.htm" />
+        <HelpTOCNode Title="index Field" Url="html/310CB39.htm" />
+        <HelpTOCNode Title="MaxNeighbors Field" Url="html/D513AFC8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f44d1426-3b3a-42c9-8d13-4e998de16cdc" Title="CrowdProximityGrid Class" Url="html/53C056DA.htm">
+      <HelpTOCNode Id="d681a37e-bcab-4ca0-a85b-86d2e73376f7" Title="CrowdProximityGrid Methods " Url="html/9ACBDE6E.htm">
+        <HelpTOCNode Title="Finalize Method " Url="html/6AE22D99.htm" />
+        <HelpTOCNode Title="GetBounds Method " Url="html/ACA79B14.htm" />
+        <HelpTOCNode Title="GetCellSize Method " Url="html/E9B05474.htm" />
+        <HelpTOCNode Title="GetItemCountAt Method " Url="html/22C8B334.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fdc756b2-34bf-4c47-838d-008ec34861a1" Title="CrowdProximityGrid Properties " Url="html/7AF36857.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/BC1FB08B.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="CrowdUpdateFlags Enumeration" Url="html/1487B2F7.htm" />
+    <HelpTOCNode Id="4845cf78-63c3-4d0c-b0b0-8f0cb470b4da" Title="LocalBoundaryData Class" Url="html/87303059.htm">
+      <HelpTOCNode Title="LocalBoundaryData Constructor " Url="html/13973313.htm" />
+      <HelpTOCNode Id="73f7ca17-e27d-4f1d-a930-caa1e225fe02" Title="LocalBoundaryData Fields" Url="html/ED792ADE.htm">
+        <HelpTOCNode Title="center Field" Url="html/4AD02BFE.htm" />
+        <HelpTOCNode Title="MaxSegments Field" Url="html/E1E72255.htm" />
+        <HelpTOCNode Title="segmentCount Field" Url="html/57D3D511.htm" />
+        <HelpTOCNode Title="segments Field" Url="html/10D2E07D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5d50eb78-e170-48f9-9d97-53ffd60d31a7" Title="Navmesh Class" Url="html/90CC41AC.htm">
+      <HelpTOCNode Id="f922a2f3-dac7-4598-b578-6f5163661d8e" Title="Navmesh Fields" Url="html/E18F5EB9.htm">
+        <HelpTOCNode Title="ExternalLink Field" Url="html/7EFE76DF.htm" />
+        <HelpTOCNode Title="MaxAllowedVertsPerPoly Field" Url="html/71947EF5.htm" />
+        <HelpTOCNode Title="MaxArea Field" Url="html/D4DE4B89.htm" />
+        <HelpTOCNode Title="NullArea Field" Url="html/754A624C.htm" />
+        <HelpTOCNode Title="NullIndex Field" Url="html/F7AEC743.htm" />
+        <HelpTOCNode Title="NullLink Field" Url="html/E3D86095.htm" />
+        <HelpTOCNode Title="NullPoly Field" Url="html/84E61E53.htm" />
+        <HelpTOCNode Title="NullTile Field" Url="html/B3C51D4D.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c3db8c4f-f1fc-47c6-a393-5e9a9bfa5453" Title="Navmesh Methods " Url="html/3B7CB4CC.htm">
+        <HelpTOCNode Title="AddTile Method " Url="html/1BD21BE2.htm" />
+        <HelpTOCNode Id="aca692bf-d261-4d85-84f0-0235e687fda6" Title="Create Method " Url="html/62E75958.htm">
+          <HelpTOCNode Title="Create Method (Byte[], Navmesh)" Url="html/10F3A0E.htm" />
+          <HelpTOCNode Title="Create Method (NavmeshParams, Navmesh)" Url="html/1CADA9D.htm" />
+          <HelpTOCNode Title="Create Method (NavmeshTileBuildData, Navmesh)" Url="html/5E67C573.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DeriveTileLocation Method " Url="html/B8EBC5F5.htm" />
+        <HelpTOCNode Title="ExtractTileData Method " Url="html/988AB430.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/D8550C7F.htm" />
+        <HelpTOCNode Title="GetConfig Method " Url="html/5B3D225.htm" />
+        <HelpTOCNode Title="GetConnectionByRef Method " Url="html/61B6DC77.htm" />
+        <HelpTOCNode Title="GetConnectionEndpoints Method " Url="html/9D6357E1.htm" />
+        <HelpTOCNode Title="GetMaxTiles Method " Url="html/2D5DD9D2.htm" />
+        <HelpTOCNode Title="GetObjectData Method " Url="html/39B71E72.htm" />
+        <HelpTOCNode Title="GetPolyArea Method " Url="html/200572DA.htm" />
+        <HelpTOCNode Title="GetPolyFlags Method " Url="html/F9233DB2.htm" />
+        <HelpTOCNode Title="GetSerializedMesh Method " Url="html/8371BDC6.htm" />
+        <HelpTOCNode Id="c2475034-3135-4277-8c25-fcc7d29fda50" Title="GetTile Method " Url="html/14879CB4.htm">
+          <HelpTOCNode Title="GetTile Method (Int32)" Url="html/59E4BC13.htm" />
+          <HelpTOCNode Title="GetTile Method (Int32, Int32, Int32)" Url="html/7A0AE785.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetTileAndPoly Method " Url="html/2C11D680.htm" />
+        <HelpTOCNode Title="GetTileByRef Method " Url="html/BFC0A30D.htm" />
+        <HelpTOCNode Title="GetTileRef Method " Url="html/755AA42A.htm" />
+        <HelpTOCNode Title="GetTiles Method " Url="html/740BDCB2.htm" />
+        <HelpTOCNode Title="IsValidPolyRef Method " Url="html/2DEFBD76.htm" />
+        <HelpTOCNode Title="RemoveTile Method " Url="html/BE885B3.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/CACB0693.htm" />
+        <HelpTOCNode Title="SetPolyArea Method " Url="html/3A4D2F46.htm" />
+        <HelpTOCNode Title="SetPolyFlags Method " Url="html/136AFF3E.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6bf11e59-cc98-4035-9ee8-64a771d49244" Title="Navmesh Properties " Url="html/2DB6DE01.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/9B2687BD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c309bea7-9614-4b82-9772-b4bd055675e1" Title="NavmeshBVNode Structure" Url="html/14BF7C0.htm">
+      <HelpTOCNode Id="80951d40-67dd-47c5-9587-38d808f45f5c" Title="NavmeshBVNode Fields" Url="html/A4827785.htm">
+        <HelpTOCNode Title="boundsMax Field" Url="html/7753814B.htm" />
+        <HelpTOCNode Title="boundsMin Field" Url="html/8C8F2619.htm" />
+        <HelpTOCNode Title="i Field" Url="html/BF396013.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c9b243a2-59dd-4b48-b492-6e9c2f748bd8" Title="NavmeshConnection Structure" Url="html/576D7A70.htm">
+      <HelpTOCNode Id="e5c42187-be1c-4397-a02d-f9a4485b8d2e" Title="NavmeshConnection Fields" Url="html/82F9218F.htm">
+        <HelpTOCNode Title="BiDirectionalFlag Field" Url="html/AFF5F53.htm" />
+        <HelpTOCNode Title="endpoints Field" Url="html/11F2517A.htm" />
+        <HelpTOCNode Title="flags Field" Url="html/73ACB31F.htm" />
+        <HelpTOCNode Title="polyRef Field" Url="html/39E014E3.htm" />
+        <HelpTOCNode Title="radius Field" Url="html/C769A642.htm" />
+        <HelpTOCNode Title="side Field" Url="html/B155C017.htm" />
+        <HelpTOCNode Title="userId Field" Url="html/CE46C9A2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6e41fc8c-5627-4d68-b4cb-d87ddce8c5f1" Title="NavmeshConnection Properties " Url="html/E9262E3F.htm">
+        <HelpTOCNode Title="IsBiDirectional Property " Url="html/824D39EB.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5dad2786-c79e-469d-9f4f-0692d947ee1b" Title="NavmeshDetailMesh Structure" Url="html/85E784CC.htm">
+      <HelpTOCNode Id="8cab077b-73cc-470b-8633-87aa233333b6" Title="NavmeshDetailMesh Fields" Url="html/BAF62B7B.htm">
+        <HelpTOCNode Title="triBase Field" Url="html/C23D7368.htm" />
+        <HelpTOCNode Title="triCount Field" Url="html/79C3CC78.htm" />
+        <HelpTOCNode Title="vertBase Field" Url="html/AED6BE42.htm" />
+        <HelpTOCNode Title="vertCount Field" Url="html/8ED7BD9E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="09a253fc-a2d5-4cc5-a81f-e8fec5e9c8f6" Title="NavmeshLink Structure" Url="html/1C177FE4.htm">
+      <HelpTOCNode Id="094750c9-6c05-488a-931d-34cdfc7de403" Title="NavmeshLink Fields" Url="html/48794A2D.htm">
+        <HelpTOCNode Title="boundsMax Field" Url="html/6F096787.htm" />
+        <HelpTOCNode Title="boundsMin Field" Url="html/59CDC2B9.htm" />
+        <HelpTOCNode Title="edge Field" Url="html/A1DBA41D.htm" />
+        <HelpTOCNode Title="next Field" Url="html/77645B21.htm" />
+        <HelpTOCNode Title="polyRef Field" Url="html/5C13FBA9.htm" />
+        <HelpTOCNode Title="side Field" Url="html/B6B1D8B1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3819875f-f8b5-4004-9d5f-782450d5c85c" Title="NavmeshParams Class" Url="html/ADC08A72.htm">
+      <HelpTOCNode Title="NavmeshParams Constructor " Url="html/5B03D298.htm" />
+      <HelpTOCNode Id="08e94174-b033-41bf-b78f-5bd577354073" Title="NavmeshParams Fields" Url="html/670EA8BD.htm">
+        <HelpTOCNode Title="maxPolysPerTile Field" Url="html/91F9A4BE.htm" />
+        <HelpTOCNode Title="maxTiles Field" Url="html/9E7A42D.htm" />
+        <HelpTOCNode Title="MinTileSize Field" Url="html/D5357CB1.htm" />
+        <HelpTOCNode Title="origin Field" Url="html/5DC4CFD8.htm" />
+        <HelpTOCNode Title="tileDepth Field" Url="html/2CA35D43.htm" />
+        <HelpTOCNode Title="tileWidth Field" Url="html/390FCDFE.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4b871ab8-9dde-4099-a0a9-7312b6fa030b" Title="NavmeshParams Methods " Url="html/3DC4AFDA.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/5098415E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="419f067e-a39b-4f65-b5a9-ed15cf186a52" Title="NavmeshPoint Structure" Url="html/2EEA25AA.htm">
+      <HelpTOCNode Title="NavmeshPoint Constructor " Url="html/5DE3683E.htm" />
+      <HelpTOCNode Id="4419437f-e623-45c7-9c4f-d930fcfe3dae" Title="NavmeshPoint Fields" Url="html/DE24299.htm">
+        <HelpTOCNode Title="point Field" Url="html/3790F08.htm" />
+        <HelpTOCNode Title="polyRef Field" Url="html/289688A1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d8266d8e-2742-4eed-95fe-73f6542748ac" Title="NavmeshPoint Methods " Url="html/2954315E.htm">
+        <HelpTOCNode Title="Equals Method " Url="html/409535AA.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/6E34F328.htm" />
+        <HelpTOCNode Title="GetPoints Method " Url="html/BAD64E.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/2C0B3EFF.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bfa91899-7549-47f2-b3da-58090fbb7915" Title="NavmeshPoint Operators" Url="html/C55CF4DF.htm">
+        <HelpTOCNode Title="Equality Operator " Url="html/B41C6F09.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/88B6F452.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bd1b5d9d-f0c3-4df9-a620-ed4b11f78ab4" Title="NavmeshPoint Properties " Url="html/86E3ECD9.htm">
+        <HelpTOCNode Title="Zero Property " Url="html/B458C32.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7c475ea6-78f6-4176-b035-1a2ce393912a" Title="NavmeshPoly Structure" Url="html/F4D3A656.htm">
+      <HelpTOCNode Id="7f4ada9f-bf31-4687-8036-4436eb163d65" Title="NavmeshPoly Fields" Url="html/F9F1921F.htm">
+        <HelpTOCNode Title="firstLink Field" Url="html/19E970E0.htm" />
+        <HelpTOCNode Title="flags Field" Url="html/C40A889F.htm" />
+        <HelpTOCNode Title="indices Field" Url="html/1E0FBB33.htm" />
+        <HelpTOCNode Title="neighborPolyRefs Field" Url="html/9E9E7418.htm" />
+        <HelpTOCNode Title="vertCount Field" Url="html/57BF35A4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2bf0cd2c-01d5-4f82-9d37-bd691c3234ef" Title="NavmeshPoly Properties " Url="html/10C253E7.htm">
+        <HelpTOCNode Title="Area Property " Url="html/4EB37ABD.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/E151E4DC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="NavmeshPolyType Enumeration" Url="html/2F62FE3E.htm" />
+    <HelpTOCNode Id="ead3e3c5-cd05-4454-8c0c-df66c20b2816" Title="NavmeshQuery Class" Url="html/7D428A30.htm">
+      <HelpTOCNode Id="9ecc65ea-ce90-4a71-bd3b-9bf4d89497fa" Title="NavmeshQuery Methods " Url="html/221A8A5C.htm">
+        <HelpTOCNode Title="Create Method " Url="html/8E58C5F7.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/61D7F381.htm" />
+        <HelpTOCNode Title="FinalizeSlicedFindPath Method " Url="html/C9DC7E85.htm" />
+        <HelpTOCNode Title="FindDistanceToWall Method " Url="html/CBA99E38.htm" />
+        <HelpTOCNode Id="f68aae11-a4e9-448e-94d4-3318e1199451" Title="FindPath Method " Url="html/969D917C.htm">
+          <HelpTOCNode Title="FindPath Method (NavmeshPoint, NavmeshPoint, NavmeshQueryFilter, UInt32[], Int32)" Url="html/A45CE63B.htm" />
+          <HelpTOCNode Title="FindPath Method (NavmeshPoint, NavmeshPoint, , NavmeshQueryFilter, UInt32[], Int32)" Url="html/F314BC99.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e060e05d-6c77-4446-8ca4-961dd4356475" Title="FindPolys Method " Url="html/B1BF7AA.htm">
+          <HelpTOCNode Title="FindPolys Method (UInt32, [], NavmeshQueryFilter, UInt32[], UInt32[], Single[], Int32)" Url="html/5D881819.htm" />
+          <HelpTOCNode Title="FindPolys Method (NavmeshPoint, Single, NavmeshQueryFilter, UInt32[], UInt32[], Single[], Int32)" Url="html/2DBCD8A3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0e82cb27-37d6-499d-ab59-da176d4c75a3" Title="GetNearestPoint Method " Url="html/4305A4EC.htm">
+          <HelpTOCNode Title="GetNearestPoint Method (UInt32, , )" Url="html/22D0CC03.htm" />
+          <HelpTOCNode Title="GetNearestPoint Method (, , NavmeshQueryFilter, NavmeshPoint)" Url="html/5ADCFA61.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetNearestPointF Method " Url="html/D4BC3F25.htm" />
+        <HelpTOCNode Title="GetPolyHeight Method " Url="html/7FE3416.htm" />
+        <HelpTOCNode Title="GetPolys Method " Url="html/2A914A9E.htm" />
+        <HelpTOCNode Id="4a53b8ce-41b1-4e04-9fe9-6e10fba260ba" Title="GetPolySegments Method " Url="html/1A8A4AE0.htm">
+          <HelpTOCNode Title="GetPolySegments Method (UInt32, NavmeshQueryFilter, [], Int32)" Url="html/CE700007.htm" />
+          <HelpTOCNode Title="GetPolySegments Method (UInt32, NavmeshQueryFilter, [], UInt32[], Int32)" Url="html/7A62AEE1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetPolysLocal Method " Url="html/F000DC9.htm" />
+        <HelpTOCNode Id="67f6e896-183b-4b01-a4d0-610db2d29e9c" Title="GetRandomPoint Method " Url="html/B65B5967.htm">
+          <HelpTOCNode Title="GetRandomPoint Method (NavmeshQueryFilter, NavmeshPoint)" Url="html/5EA1A63E.htm" />
+          <HelpTOCNode Title="GetRandomPoint Method (NavmeshPoint, Single, NavmeshQueryFilter, NavmeshPoint)" Url="html/191BC482.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetStraightPath Method " Url="html/797CBB66.htm" />
+        <HelpTOCNode Title="InitSlicedFindPath Method " Url="html/EADC66D9.htm" />
+        <HelpTOCNode Title="IsInClosedList Method " Url="html/C7FE152E.htm" />
+        <HelpTOCNode Title="IsValidPolyRef Method " Url="html/DF331F80.htm" />
+        <HelpTOCNode Title="MoveAlongSurface Method " Url="html/22F12B9C.htm" />
+        <HelpTOCNode Title="Raycast Method " Url="html/39C438C.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/6A6E8539.htm" />
+        <HelpTOCNode Title="UpdateSlicedFindPath Method " Url="html/4CAD77CE.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c21834da-9997-4e95-89d1-8c436762462a" Title="NavmeshQuery Properties " Url="html/EB722723.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/B5ECC11F.htm" />
+        <HelpTOCNode Title="IsRestricted Property " Url="html/7A16A52D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="398dc5e2-24cc-45cd-b794-e1dc77896543" Title="NavmeshQueryFilter Class" Url="html/1A24BDAA.htm">
+      <HelpTOCNode Id="d3def2c1-69a7-4b70-92b2-a4dade396ac4" Title="NavmeshQueryFilter Constructor " Url="html/C217723F.htm">
+        <HelpTOCNode Title="NavmeshQueryFilter Constructor " Url="html/A402A25A.htm" />
+        <HelpTOCNode Title="NavmeshQueryFilter Constructor (Int32)" Url="html/11555EA.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7aef64d4-ce85-4aaa-a640-d3feb1f72473" Title="NavmeshQueryFilter Fields" Url="html/1753149F.htm">
+        <HelpTOCNode Title="DefaultAreaCost Field" Url="html/B43CD867.htm" />
+        <HelpTOCNode Title="DefaultExcludeFlags Field" Url="html/BDAD51B2.htm" />
+        <HelpTOCNode Title="DefaultIncludeFlags Field" Url="html/74CCA878.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="783cba52-bd29-438c-b1a0-e11b2c7706c4" Title="NavmeshQueryFilter Methods " Url="html/E81F84FE.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/F5F97AF0.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/7A7056D9.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/F2C00961.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b7c9052-086d-4a7f-9389-4feb488536ba" Title="NavmeshQueryFilter Properties " Url="html/199A517.htm">
+        <HelpTOCNode Title="AreaCount Property " Url="html/30C6BEA8.htm" />
+        <HelpTOCNode Title="ExcludeFlags Property " Url="html/4EAE5BD7.htm" />
+        <HelpTOCNode Title="IncludeFlags Property " Url="html/9246D1BD.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/18E82B5B.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/31BFB61F.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5098c96c-5c59-45cc-87e6-54503bd9696e" Title="NavmeshTile Class" Url="html/BDF02040.htm">
+      <HelpTOCNode Id="dbcef949-141b-4231-979d-7dfb18cd3137" Title="NavmeshTile Methods " Url="html/B7CB8058.htm">
+        <HelpTOCNode Title="GetBasePolyRef Method " Url="html/34020129.htm" />
+        <HelpTOCNode Title="GetBVTree Method " Url="html/3BA552D1.htm" />
+        <HelpTOCNode Title="GetConnections Method " Url="html/BEE0E32E.htm" />
+        <HelpTOCNode Title="GetDetailMeshes Method " Url="html/8801F9E7.htm" />
+        <HelpTOCNode Title="GetDetailTris Method " Url="html/24909F06.htm" />
+        <HelpTOCNode Title="GetDetailVerts Method " Url="html/9132D6F8.htm" />
+        <HelpTOCNode Title="GetHeader Method " Url="html/88C663E4.htm" />
+        <HelpTOCNode Title="GetLinks Method " Url="html/548CDFA6.htm" />
+        <HelpTOCNode Title="GetPolyRef Method " Url="html/BA4469F8.htm" />
+        <HelpTOCNode Title="GetPolys Method " Url="html/F64FEE50.htm" />
+        <HelpTOCNode Title="GetState Method " Url="html/A9EECA9E.htm" />
+        <HelpTOCNode Title="GetStateSize Method " Url="html/76403731.htm" />
+        <HelpTOCNode Title="GetTileRef Method " Url="html/51A7CB7E.htm" />
+        <HelpTOCNode Title="GetVerts Method " Url="html/BADD494D.htm" />
+        <HelpTOCNode Title="SetState Method " Url="html/A9F91D0A.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="06fcd50e-8ce2-4e40-83f5-d977c9bf3598" Title="NavmeshTile Properties " Url="html/C5A9F95.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/8842A931.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="55a68b6c-6a29-4aac-9393-af16f511779a" Title="NavmeshTileBuildData Class" Url="html/73B93BBC.htm">
+      <HelpTOCNode Id="abe89243-ce66-40c2-be29-4d43bf734efe" Title="NavmeshTileBuildData Constructor " Url="html/724BA66B.htm">
+        <HelpTOCNode Title="NavmeshTileBuildData Constructor (Int32, Int32, Int32)" Url="html/1C965350.htm" />
+        <HelpTOCNode Title="NavmeshTileBuildData Constructor (Int32, Int32, Int32, Int32)" Url="html/D2A2549C.htm" />
+        <HelpTOCNode Title="NavmeshTileBuildData Constructor (Int32, Int32, Int32, Int32, Int32)" Url="html/EAABF6CB.htm" />
+        <HelpTOCNode Title="NavmeshTileBuildData Constructor (Int32, Int32, Int32, Int32, Int32, Int32)" Url="html/8D536B66.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e368855d-eb6e-4ab9-b864-062291c512fe" Title="NavmeshTileBuildData Fields" Url="html/495AC7EB.htm">
+        <HelpTOCNode Title="MinAllowedTraversableHeight Field" Url="html/2D9DA28.htm" />
+        <HelpTOCNode Title="MinCellSize Field" Url="html/1857E0CD.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="90e1c70f-0777-4fd7-b404-f73d0643c6ce" Title="NavmeshTileBuildData Methods " Url="html/E040C83C.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/8C5C132.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/D40FC0F5.htm" />
+        <HelpTOCNode Title="GetConnAreas Method " Url="html/286FDE69.htm" />
+        <HelpTOCNode Title="GetConnDirs Method " Url="html/F2A0B11D.htm" />
+        <HelpTOCNode Title="GetConnFlags Method " Url="html/C1E28B94.htm" />
+        <HelpTOCNode Title="GetConnRadii Method " Url="html/206F902E.htm" />
+        <HelpTOCNode Title="GetConnUserIds Method " Url="html/E11E845C.htm" />
+        <HelpTOCNode Title="GetConnVerts Method " Url="html/3F498233.htm" />
+        <HelpTOCNode Title="GetDetailMeshes Method " Url="html/5D8F3EA5.htm" />
+        <HelpTOCNode Title="GetDetailTris Method " Url="html/A45229FC.htm" />
+        <HelpTOCNode Title="GetDetailVerts Method " Url="html/5D6D8F52.htm" />
+        <HelpTOCNode Title="GetPolyAreas Method " Url="html/9EA0A9A3.htm" />
+        <HelpTOCNode Title="GetPolyFlags Method " Url="html/2603262C.htm" />
+        <HelpTOCNode Title="GetPolys Method " Url="html/1DB923AA.htm" />
+        <HelpTOCNode Title="GetPolyVerts Method " Url="html/2F3BB059.htm" />
+        <HelpTOCNode Title="LoadBase Method " Url="html/2764CED0.htm" />
+        <HelpTOCNode Title="LoadConns Method " Url="html/2BF5F010.htm" />
+        <HelpTOCNode Title="LoadDetail Method " Url="html/8E22398C.htm" />
+        <HelpTOCNode Title="LoadPolys Method " Url="html/8A263D30.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca60610e-1c6d-4bee-9cc1-e6de6cc781f5" Title="NavmeshTileBuildData Properties " Url="html/EDAEFDA3.htm">
+        <HelpTOCNode Title="BoundsMax Property " Url="html/6C574993.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/11CCBB7D.htm" />
+        <HelpTOCNode Title="BVTreeEnabled Property " Url="html/4EC93BA9.htm" />
+        <HelpTOCNode Title="ConnCount Property " Url="html/F9FC301.htm" />
+        <HelpTOCNode Title="DetailTriCount Property " Url="html/DC4B6FC7.htm" />
+        <HelpTOCNode Title="DetailVertCount Property " Url="html/70EF2199.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/E463808F.htm" />
+        <HelpTOCNode Title="MaxConns Property " Url="html/9966FBCD.htm" />
+        <HelpTOCNode Title="MaxDetailTris Property " Url="html/1F911D5F.htm" />
+        <HelpTOCNode Title="MaxDetailVerts Property " Url="html/CD05D845.htm" />
+        <HelpTOCNode Title="MaxPolys Property " Url="html/66858A67.htm" />
+        <HelpTOCNode Title="MaxPolyVerts Property " Url="html/89027A16.htm" />
+        <HelpTOCNode Title="MaxTraversableStep Property " Url="html/56B3618F.htm" />
+        <HelpTOCNode Title="MaxVertsPerPoly Property " Url="html/30583509.htm" />
+        <HelpTOCNode Title="PolyCount Property " Url="html/6BB52217.htm" />
+        <HelpTOCNode Title="PolyVertCount Property " Url="html/E359CD2.htm" />
+        <HelpTOCNode Title="TileLayer Property " Url="html/2DD032C9.htm" />
+        <HelpTOCNode Title="TileUserId Property " Url="html/538637A4.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/2FC28B9A.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/EA73A264.htm" />
+        <HelpTOCNode Title="WalkableHeight Property " Url="html/8B060538.htm" />
+        <HelpTOCNode Title="WalkableRadius Property " Url="html/F93947F9.htm" />
+        <HelpTOCNode Title="XZCellSize Property " Url="html/3F13F40F.htm" />
+        <HelpTOCNode Title="YCellSize Property " Url="html/EA373EDC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8806e359-64fc-4ba4-bc17-8b5e37514212" Title="NavmeshTileData Class" Url="html/809F0D0.htm">
+      <HelpTOCNode Title="NavmeshTileData Constructor " Url="html/5438198A.htm" />
+      <HelpTOCNode Id="48c35c9e-40a5-422f-a7c5-db836620890c" Title="NavmeshTileData Methods " Url="html/73C51E68.htm">
+        <HelpTOCNode Id="985954a9-1095-4dfb-afa7-596af8ab8829" Title="Create Method " Url="html/53DF518C.htm">
+          <HelpTOCNode Title="Create Method (Byte[])" Url="html/3B23D65F.htm" />
+          <HelpTOCNode Title="Create Method (NavmeshTileBuildData)" Url="html/6D546E81.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Finalize Method " Url="html/8F2BC96B.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/2B8AB7D3.htm" />
+        <HelpTOCNode Id="4106adfc-d398-4825-a9e5-64f0fcdb1f60" Title="GetHeader Method " Url="html/B9777FD5.htm">
+          <HelpTOCNode Title="GetHeader Method " Url="html/35D331B4.htm" />
+          <HelpTOCNode Title="GetHeader Method (Byte[], NavmeshTileHeader)" Url="html/E903B640.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e6cb9474-d6cf-4071-92f0-038be7faf9af" Title="NavmeshTileData Properties " Url="html/D3FC1DA5.htm">
+        <HelpTOCNode Title="IsOwned Property " Url="html/5821262D.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/7A8815D9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="08bcad9e-d322-4fe1-a076-9a5f08cc0ef0" Title="NavmeshTileExtract Structure" Url="html/1FEC0943.htm">
+      <HelpTOCNode Id="3d018f8d-8942-40b7-831d-03abeb8c8863" Title="NavmeshTileExtract Fields" Url="html/9A845B14.htm">
+        <HelpTOCNode Title="data Field" Url="html/C64D7647.htm" />
+        <HelpTOCNode Title="header Field" Url="html/A0E7E626.htm" />
+        <HelpTOCNode Title="tileRef Field" Url="html/2591FEAC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="69828834-2f82-460c-b9f3-ad12f829bf7e" Title="NavmeshTileHeader Structure" Url="html/99673AC5.htm">
+      <HelpTOCNode Id="1be08e2f-a508-43ee-82f9-edede0ae0803" Title="NavmeshTileHeader Fields" Url="html/4BA6B87A.htm">
+        <HelpTOCNode Title="boundsMax Field" Url="html/187F3BE8.htm" />
+        <HelpTOCNode Title="boundsMin Field" Url="html/3439702.htm" />
+        <HelpTOCNode Title="bvNodeCount Field" Url="html/F74660E.htm" />
+        <HelpTOCNode Title="bvQuantFactor Field" Url="html/EE2831E7.htm" />
+        <HelpTOCNode Title="connBase Field" Url="html/446583A0.htm" />
+        <HelpTOCNode Title="connCount Field" Url="html/E14DB2CC.htm" />
+        <HelpTOCNode Title="detailMeshCount Field" Url="html/3F93021E.htm" />
+        <HelpTOCNode Title="detailTriCount Field" Url="html/B411FF2A.htm" />
+        <HelpTOCNode Title="detailVertCount Field" Url="html/94B7ACF4.htm" />
+        <HelpTOCNode Title="layer Field" Url="html/7485DA40.htm" />
+        <HelpTOCNode Title="magic Field" Url="html/D4AC6076.htm" />
+        <HelpTOCNode Title="maxLinkCount Field" Url="html/957E09DE.htm" />
+        <HelpTOCNode Title="polyCount Field" Url="html/1CF5B79C.htm" />
+        <HelpTOCNode Title="tileX Field" Url="html/B7D578E9.htm" />
+        <HelpTOCNode Title="tileZ Field" Url="html/B7D578EB.htm" />
+        <HelpTOCNode Title="userId Field" Url="html/EBEAB3C5.htm" />
+        <HelpTOCNode Title="version Field" Url="html/5AE1E7CB.htm" />
+        <HelpTOCNode Title="vertCount Field" Url="html/72968123.htm" />
+        <HelpTOCNode Title="walkableHeight Field" Url="html/16383379.htm" />
+        <HelpTOCNode Title="walkableRadius Field" Url="html/837AAF88.htm" />
+        <HelpTOCNode Title="walkableStep Field" Url="html/5196E98.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9d7aca1b-d558-46dc-9f77-a63a16d24b52" Title="NavmeshTileHeader Methods " Url="html/A99A4547.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/C683D7FC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="NavStatus Enumeration" Url="html/C6A0EBED.htm" />
+    <HelpTOCNode Id="dd70907c-35e4-4949-8895-28b8ceab054b" Title="NavUtil Class" Url="html/778A6595.htm">
+      <HelpTOCNode Id="b38cda23-ea80-42e8-b85e-6739b5daa467" Title="NavUtil Methods " Url="html/5E60BAC3.htm">
+        <HelpTOCNode Id="3843fef6-c864-46d0-a06e-4fcd66481fbe" Title="ClampArea Method " Url="html/6FA4DB27.htm">
+          <HelpTOCNode Title="ClampArea Method (Byte)" Url="html/6513B90A.htm" />
+          <HelpTOCNode Title="ClampArea Method (Int32)" Url="html/F3E8ECBA.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DeriveConfig Method " Url="html/7098053D.htm" />
+        <HelpTOCNode Title="Failed Method " Url="html/5D9A2119.htm" />
+        <HelpTOCNode Title="IsInProgress Method " Url="html/64A93624.htm" />
+        <HelpTOCNode Title="Succeeded Method " Url="html/D68D53C1.htm" />
+        <HelpTOCNode Title="TestVector Method " Url="html/76361DE5.htm" />
+        <HelpTOCNode Title="TestVectorArray Method " Url="html/E6B633E4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a7d32b01-8eaa-4c0d-af5a-ec3b9d96ec45" Title="OffMeshConnection Structure" Url="html/3A3A157C.htm">
+      <HelpTOCNode Title="OffMeshConnection Constructor " Url="html/6605C146.htm" />
+      <HelpTOCNode Id="587cea1e-7e2a-4c31-81fb-18eec3f54daf" Title="OffMeshConnection Fields" Url="html/5B5D60C1.htm">
+        <HelpTOCNode Title="area Field" Url="html/D5FD02C1.htm" />
+        <HelpTOCNode Title="direction Field" Url="html/E1064FF.htm" />
+        <HelpTOCNode Title="end Field" Url="html/E5D6F8AD.htm" />
+        <HelpTOCNode Title="flags Field" Url="html/B78B6DC9.htm" />
+        <HelpTOCNode Title="radius Field" Url="html/656550EA.htm" />
+        <HelpTOCNode Title="start Field" Url="html/D48A740.htm" />
+        <HelpTOCNode Title="userId Field" Url="html/2D42AAAE.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b8a2449c-0fde-4d4e-b45c-1a6508fa7a27" Title="OffMeshConnection Properties " Url="html/49ED15D9.htm">
+        <HelpTOCNode Title="IsBiDirectional Property " Url="html/A0B9AD41.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="faf5dd43-506b-4b3e-99a8-969516adcf2b" Title="PathCorridor Class" Url="html/AD00C741.htm">
+      <HelpTOCNode Title="PathCorridor Constructor " Url="html/8F1D63AF.htm" />
+      <HelpTOCNode Id="49ef1dc7-0eb1-496b-a61b-8c25b455a1c7" Title="PathCorridor Methods " Url="html/323974EB.htm">
+        <HelpTOCNode Title="Finalize Method " Url="html/640F7290.htm" />
+        <HelpTOCNode Title="FindCorners Method " Url="html/4BE6B9FF.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/198C7B8A.htm" />
+        <HelpTOCNode Title="GetPath Method " Url="html/A6F84DB9.htm" />
+        <HelpTOCNode Title="GetPathCount Method " Url="html/208E5B00.htm" />
+        <HelpTOCNode Title="IsValid Method " Url="html/680DFCA4.htm" />
+        <HelpTOCNode Title="LoadLocals Method " Url="html/37082152.htm" />
+        <HelpTOCNode Title="Move Method " Url="html/D838FC67.htm" />
+        <HelpTOCNode Title="MoveOverConnection Method " Url="html/DE3145AB.htm" />
+        <HelpTOCNode Title="MovePosition Method " Url="html/73228D50.htm" />
+        <HelpTOCNode Title="MoveTarget Method " Url="html/6225BB7A.htm" />
+        <HelpTOCNode Title="OptimizePathTopology Method " Url="html/878BED43.htm" />
+        <HelpTOCNode Title="OptimizePathVisibility Method " Url="html/5AB7F5AE.htm" />
+        <HelpTOCNode Title="ReleaseLocals Method " Url="html/F44E6CE9.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/749AEBE8.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/858246F3.htm" />
+        <HelpTOCNode Title="ResizeCornerBuffer Method " Url="html/F15ADB7.htm" />
+        <HelpTOCNode Title="SetCorridor Method " Url="html/3EC03FD8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c2c89dca-4d60-4da4-8b54-571610b048de" Title="PathCorridor Properties " Url="html/54BB3998.htm">
+        <HelpTOCNode Title="Corners Property " Url="html/A44FAF07.htm" />
+        <HelpTOCNode Title="Filter Property " Url="html/F9639093.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/AD101DCE.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/85023E6A.htm" />
+        <HelpTOCNode Title="MaxCorners Property " Url="html/41E1C16F.htm" />
+        <HelpTOCNode Title="MaxPathSize Property " Url="html/E286502B.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/B706085E.htm" />
+        <HelpTOCNode Title="Query Property " Url="html/EB20F2A5.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/C840B5D1.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/641BD534.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="07d44a7b-c704-4814-a459-0f7ecd65d9da" Title="PathCorridorData Class" Url="html/180CA531.htm">
+      <HelpTOCNode Id="4a9fbed1-e45a-49d5-abd8-95f25d5e4e0b" Title="PathCorridorData Constructor " Url="html/7A4CE796.htm">
+        <HelpTOCNode Title="PathCorridorData Constructor " Url="html/9118B03F.htm" />
+        <HelpTOCNode Title="PathCorridorData Constructor (Int32)" Url="html/814D7691.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4cfb17b1-33f5-42b7-a100-1ad1fcd22f71" Title="PathCorridorData Fields" Url="html/473D2D00.htm">
+        <HelpTOCNode Title="MarshalBufferSize Field" Url="html/71482D04.htm" />
+        <HelpTOCNode Title="path Field" Url="html/843E3730.htm" />
+        <HelpTOCNode Title="pathCount Field" Url="html/290931A7.htm" />
+        <HelpTOCNode Title="position Field" Url="html/E30CBD7C.htm" />
+        <HelpTOCNode Title="target Field" Url="html/C334FB4E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="WaypointFlag Enumeration" Url="html/A04B7E6F.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="989f3100-bfb2-4546-a238-7cc7ff6eb0cb" Title="org.critterai.nav.u3d Namespace" Url="html/DA1BA9AE.htm">
+    <HelpTOCNode Id="434918da-db1a-46dc-97cd-33a609beab5a" Title="CrowdAgentDebug Class" Url="html/C15F1F4D.htm">
+      <HelpTOCNode Title="CrowdAgentDebug Constructor " Url="html/B6C8B78B.htm" />
+      <HelpTOCNode Id="fd18d791-56b7-4d8f-a190-f99163fd94d6" Title="CrowdAgentDebug Fields" Url="html/C8243780.htm">
+        <HelpTOCNode Title="baseColor Field" Url="html/E55962C5.htm" />
+        <HelpTOCNode Title="boundaryColor Field" Url="html/12C5DDC6.htm" />
+        <HelpTOCNode Title="desiredVelocityColor Field" Url="html/84B2AC7.htm" />
+        <HelpTOCNode Title="neighborColor Field" Url="html/B5FE2F2E.htm" />
+        <HelpTOCNode Title="velocityColor Field" Url="html/FE9A36B3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e7976816-2b40-4b65-9ae4-7a203575b367" Title="CrowdAgentDebug Methods " Url="html/95BA636B.htm">
+        <HelpTOCNode Title="DrawAll Method " Url="html/998C315F.htm" />
+        <HelpTOCNode Title="DrawBase Method " Url="html/D11A70B.htm" />
+        <HelpTOCNode Title="DrawLocalBoundary Method " Url="html/30EDA73F.htm" />
+        <HelpTOCNode Title="DrawNeighbors Method " Url="html/67F63D5F.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e46ba80-ab0c-4d69-af88-1687f1fa367a" Title="INavmeshData Interface" Url="html/EB38403B.htm">
+      <HelpTOCNode Id="8fa6bbbd-50f6-4d2f-97e3-3aa036b53028" Title="INavmeshData Methods " Url="html/B5D73201.htm">
+        <HelpTOCNode Title="GetMeshReport Method " Url="html/F08DCD97.htm" />
+        <HelpTOCNode Title="GetNavmesh Method " Url="html/E5A5E9A8.htm" />
+        <HelpTOCNode Id="7464b39d-b2e0-4f05-829b-903e4910756a" Title="Load Method " Url="html/CBB599A3.htm">
+          <HelpTOCNode Title="Load Method (Byte[], NavmeshBuildInfo)" Url="html/86FD36FF.htm" />
+          <HelpTOCNode Title="Load Method (NavmeshTileBuildData, NavmeshBuildInfo)" Url="html/86FD3700.htm" />
+          <HelpTOCNode Title="Load Method (NavmeshParams, NavmeshTileData[], NavmeshBuildInfo)" Url="html/37E7A7C8.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="70f32d88-4d15-4966-85f3-1c52c314ee0c" Title="INavmeshData Properties " Url="html/16171D6A.htm">
+        <HelpTOCNode Title="BuildInfo Property " Url="html/21F20E6D.htm" />
+        <HelpTOCNode Title="HasNavmesh Property " Url="html/A46180C9.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/9B0CB137.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9c29d344-ff79-4c08-a7ad-a3c8b14a2212" Title="NavDebug Class" Url="html/D1A791AE.htm">
+      <HelpTOCNode Id="8462821b-d464-406d-8e2f-585d309bd738" Title="NavDebug Fields" Url="html/D569F86B.htm">
+        <HelpTOCNode Title="cornerColor Field" Url="html/94A3D156.htm" />
+        <HelpTOCNode Title="cornerScale Field" Url="html/C0545BB3.htm" />
+        <HelpTOCNode Title="goalColor Field" Url="html/4A84DE00.htm" />
+        <HelpTOCNode Title="goalScale Field" Url="html/F6C592C9.htm" />
+        <HelpTOCNode Title="polygonOverlayColor Field" Url="html/BEADA5D7.htm" />
+        <HelpTOCNode Title="positionColor Field" Url="html/5D39F798.htm" />
+        <HelpTOCNode Title="positionScale Field" Url="html/B361CBA9.htm" />
+        <HelpTOCNode Title="surfaceAlpha Field" Url="html/A688CDCD.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e74067f0-6740-4a9b-ac11-c62fe5dccf28" Title="NavDebug Methods " Url="html/4A12AE3A.htm">
+        <HelpTOCNode Id="6c044988-6e8d-48a3-bd08-430868c3e4d8" Title="Draw Method " Url="html/71AF7E80.htm">
+          <HelpTOCNode Title="Draw Method (CornerData)" Url="html/1955F307.htm" />
+          <HelpTOCNode Title="Draw Method (Navmesh, NavmeshQuery)" Url="html/BB1038E1.htm" />
+          <HelpTOCNode Title="Draw Method (Navmesh, PathCorridorData)" Url="html/BB1038E0.htm" />
+          <HelpTOCNode Title="Draw Method (Navmesh, Boolean)" Url="html/BB1038DF.htm" />
+          <HelpTOCNode Title="Draw Method (Navmesh, UInt32[], Int32)" Url="html/BB1038DD.htm" />
+          <HelpTOCNode Title="Draw Method (Navmesh, Int32, Int32, Int32, Boolean)" Url="html/BB1038DE.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetCentroids Method " Url="html/EF341C2E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e76237cf-3d15-41a6-9ecc-4c24f092fe50" Title="NavGroup Structure" Url="html/49F7487E.htm">
+      <HelpTOCNode Id="14faf5bd-a246-45a8-a34f-604bad93694c" Title="NavGroup Constructor " Url="html/6C39B665.htm">
+        <HelpTOCNode Title="NavGroup Constructor (NavGroup, Boolean)" Url="html/C2FC8DFE.htm" />
+        <HelpTOCNode Title="NavGroup Constructor (Navmesh, NavmeshQuery, CrowdManager, NavmeshQueryFilter, , Boolean)" Url="html/983BF7F6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8260abeb-20c4-4efc-a22f-e2032f0cd770" Title="NavGroup Fields" Url="html/56002719.htm">
+        <HelpTOCNode Title="crowd Field" Url="html/85177A4F.htm" />
+        <HelpTOCNode Title="extents Field" Url="html/6D58ADE7.htm" />
+        <HelpTOCNode Title="filter Field" Url="html/946EC670.htm" />
+        <HelpTOCNode Title="mesh Field" Url="html/F20D579D.htm" />
+        <HelpTOCNode Title="query Field" Url="html/F654F5FE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dc792b1e-eb1d-41e9-88b2-a41f843dce4d" Title="NavmeshBuildInfo Class" Url="html/C3CE8892.htm">
+      <HelpTOCNode Title="NavmeshBuildInfo Constructor " Url="html/CC0D87FA.htm" />
+      <HelpTOCNode Id="bfbf646d-6c0e-4092-8a12-dcadb73b9161" Title="NavmeshBuildInfo Fields" Url="html/11BC3A5.htm">
+        <HelpTOCNode Title="borderSize Field" Url="html/4F1EFBAF.htm" />
+        <HelpTOCNode Title="inputScene Field" Url="html/5402439E.htm" />
+        <HelpTOCNode Title="tileSize Field" Url="html/4D35CD1B.htm" />
+        <HelpTOCNode Title="walkableHeight Field" Url="html/216B6F90.htm" />
+        <HelpTOCNode Title="walkableRadius Field" Url="html/E82A3859.htm" />
+        <HelpTOCNode Title="walkableStep Field" Url="html/68EA2FFF.htm" />
+        <HelpTOCNode Title="xzCellSize Field" Url="html/68F6D84F.htm" />
+        <HelpTOCNode Title="yCellSize Field" Url="html/D9006BDC.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8546ab90-29b5-4cb9-8a6c-5bfa1c16b4bc" Title="NavmeshBuildInfo Methods " Url="html/7D1CB3EA.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/31F5D7BC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b9c3b06d-ffde-4f18-a14f-3a0907c18adb" Title="org.critterai.nav.u3d.editor Namespace" Url="html/E26FBE47.htm">
+    <HelpTOCNode Id="5297bf95-b3f1-437b-a367-2a8e7a3fe50b" Title="NavEditorUtil Class" Url="html/E2B16157.htm">
+      <HelpTOCNode Id="d55e42e9-4084-40ce-8f98-b608eea31c10" Title="NavEditorUtil Fields" Url="html/C501A764.htm">
+        <HelpTOCNode Title="AssetLabel Field" Url="html/4BF57A89.htm" />
+        <HelpTOCNode Title="NavAssetGroup Field" Url="html/3CA7FBD1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="13d3273e-1c0b-40d4-b71f-0e708adb248d" Title="NavEditorUtil Methods " Url="html/F749A765.htm">
+        <HelpTOCNode Title="OnGUINavmeshDataField Method " Url="html/3EB1A87E.htm" />
+        <HelpTOCNode Title="SceneDisplayName Method " Url="html/9410783.htm" />
+        <HelpTOCNode Title="SceneMismatch Method " Url="html/DD5AD54E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7ed0b03-4589-4f80-bc65-ce89de5e3940" Title="NavmeshSceneDraw Class" Url="html/A08002BB.htm">
+      <HelpTOCNode Id="bb061915-e726-4ed3-b9ad-13e813d3f5d3" Title="NavmeshSceneDraw Methods " Url="html/FC57ED0D.htm">
+        <HelpTOCNode Title="Hide Method " Url="html/4FCC3C24.htm" />
+        <HelpTOCNode Id="cfa52884-c02f-486b-a232-0eb952483b7f" Title="IsShown Method " Url="html/D73F409C.htm">
+          <HelpTOCNode Title="IsShown Method " Url="html/21B8A413.htm" />
+          <HelpTOCNode Title="IsShown Method (INavmeshData)" Url="html/FCA8E0FD.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="OnGUI Method " Url="html/B5BD20FC.htm" />
+        <HelpTOCNode Title="Show Method " Url="html/E87004F3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8022eb51-b900-49db-a57c-7650cd43dd51" Title="NavmeshSceneDraw Properties " Url="html/6A4AEAE.htm">
+        <HelpTOCNode Title="ColorByArea Property " Url="html/49F43054.htm" />
+        <HelpTOCNode Title="Instance Property " Url="html/B4ACEF9E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="537fd8c9-1660-42b8-b20e-3bc7ae538367" Title="org.critterai.nmbuild Namespace" Url="html/9EFA6D6E.htm">
+    <HelpTOCNode Id="7abeb799-d537-48f2-a7b0-b516b065f58b" Title="ApplyPolygonFlags Class" Url="html/E0844A0B.htm">
+      <HelpTOCNode Title="ApplyPolygonFlags Constructor " Url="html/B3B5250D.htm" />
+      <HelpTOCNode Id="efc2479f-5f0d-4ef3-ac6b-c854a910b311" Title="ApplyPolygonFlags Methods " Url="html/E19E106D.htm">
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/1C0CA955.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1b62e714-fee8-4874-96ff-9bfb2eb268b2" Title="ApplyPolygonFlags Properties " Url="html/2F8AA38C.htm">
+        <HelpTOCNode Title="Flags Property " Url="html/F11F05E2.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/609EE9EA.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="01939b2b-508f-411d-aa42-f0bd840e5ae1" Title="AreaBoxMarker Class" Url="html/24D7F85A.htm">
+      <HelpTOCNode Id="2ce362b1-6036-42be-93f3-0d0cdba42b6f" Title="AreaBoxMarker Methods " Url="html/532A0662.htm">
+        <HelpTOCNode Title="Create Method " Url="html/5AA398A7.htm" />
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/88477562.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ac3f62d3-1ee5-46c5-9581-e9103ca46841" Title="AreaBoxMarker Properties " Url="html/EB5DA74B.htm">
+        <HelpTOCNode Title="BoundsMax Property " Url="html/6F4922DF.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/8484C7AD.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/13227F73.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="475d0733-e97f-4614-b46a-a69903035ccd" Title="AreaConvexMarker Class" Url="html/FD96AF46.htm">
+      <HelpTOCNode Id="63e2c87d-90e3-43f7-9c5e-40284440cd4e" Title="AreaConvexMarker Methods " Url="html/DDDC76C6.htm">
+        <HelpTOCNode Title="Create Method " Url="html/4C702CEB.htm" />
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/743A7B7C.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b8bf3d39-ba36-4e84-9aad-9aa1ec49c1a3" Title="AreaConvexMarker Properties " Url="html/9E65AE7F.htm">
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/969FA133.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9579cc82-c827-4b54-95bb-a74d1dbae660" Title="AreaCylinderMarker Class" Url="html/8695C7F.htm">
+      <HelpTOCNode Id="95648db8-21e8-4fdf-8eb9-2b8e321aad4f" Title="AreaCylinderMarker Methods " Url="html/1E5F113D.htm">
+        <HelpTOCNode Title="Create Method " Url="html/37984978.htm" />
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/47C29CA5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d395c71e-0499-4089-aaa4-7419cd1f9c00" Title="AreaCylinderMarker Properties " Url="html/D916BBDE.htm">
+        <HelpTOCNode Title="GetCenterBase Property " Url="html/CB09B00D.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/701D3C10.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/53F0742.htm" />
+        <HelpTOCNode Title="Radius Property " Url="html/F777EADD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="436a6a29-8a4b-45d2-bd69-0edd61225ab3" Title="AreaFlagMapper Class" Url="html/DDEA0AEC.htm">
+      <HelpTOCNode Id="0a0941bb-9c64-449f-b14d-e9166453a18e" Title="AreaFlagMapper Methods " Url="html/F10567B0.htm">
+        <HelpTOCNode Title="Create Method " Url="html/107DE473.htm" />
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/63F42012.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="da8f7a1f-c730-438f-8b52-e7b2a386b080" Title="AreaFlagMapper Properties " Url="html/AB765287.htm">
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/B915445B.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd36380b-6e5c-4990-8a05-1256ec616583" Title="AreaMarker Class" Url="html/44B08379.htm">
+      <HelpTOCNode Title="AreaMarker Constructor " Url="html/EC9B7E7F.htm" />
+      <HelpTOCNode Id="8297d876-58db-41fc-8de7-a03442b2f205" Title="AreaMarker Properties " Url="html/AA2FFE8.htm">
+        <HelpTOCNode Title="Area Property " Url="html/24CC57BC.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d108b2f3-baf9-4cec-afa0-753cc6804cfd" Title="BuildTask Generic Class" Url="html/8505A360.htm">
+      <HelpTOCNode Title="BuildTask Constructor " Url="html/B406CD42.htm" />
+      <HelpTOCNode Id="db5040c6-92c0-44d4-9d69-9d928930a2ab" Title="BuildTask Methods " Url="html/9FC4F6A8.htm">
+        <HelpTOCNode Title="Abort Method " Url="html/691D9593.htm" />
+        <HelpTOCNode Title="AddMessage Method " Url="html/1C9E274B.htm" />
+        <HelpTOCNode Title="AddMessages Method " Url="html/1069B83E.htm" />
+        <HelpTOCNode Title="FinalizeTask Method " Url="html/C95ED960.htm" />
+        <HelpTOCNode Title="GetResult Method " Url="html/75C44D48.htm" />
+        <HelpTOCNode Title="LocalUpdate Method " Url="html/35202CED.htm" />
+        <HelpTOCNode Title="Run Method " Url="html/AF5EA81C.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="08d087d9-229f-48da-bf19-ee92fc0467dc" Title="BuildTask Properties " Url="html/E26CAC5D.htm">
+        <HelpTOCNode Title="IsFinished Property " Url="html/A57B745C.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/B88556BD.htm" />
+        <HelpTOCNode Title="Messages Property " Url="html/2BEAEABA.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/5C8C0CBA.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/9A9B5A85.htm" />
+        <HelpTOCNode Title="TaskState Property " Url="html/48D702E8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="61db31dc-cd5c-4930-b823-22e3e45a9a58" Title="BuildTaskProcessor Class" Url="html/66E56B85.htm">
+      <HelpTOCNode Title="BuildTaskProcessor Constructor " Url="html/F372BD17.htm" />
+      <HelpTOCNode Id="305f23f0-931d-4c79-90ce-8dad79dd3596" Title="BuildTaskProcessor Fields" Url="html/A5C2DA68.htm">
+        <HelpTOCNode Title="HighPriority Field" Url="html/8D353465.htm" />
+        <HelpTOCNode Title="LowPriority Field" Url="html/C8E13F7.htm" />
+        <HelpTOCNode Title="MediumPriority Field" Url="html/DB5E944.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5ffbffbb-f972-4bfe-88e3-b6234154e33a" Title="BuildTaskProcessor Methods " Url="html/7FC6D183.htm">
+        <HelpTOCNode Title="Abort Method " Url="html/B8D4B8A4.htm" />
+        <HelpTOCNode Title="QueueTask Method " Url="html/3116BF9C.htm" />
+        <HelpTOCNode Title="Run Method " Url="html/13C46813.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="11f60c86-ac10-49b2-b0f5-fe20b90f23b8" Title="BuildTaskProcessor Properties " Url="html/488EC10.htm">
+        <HelpTOCNode Title="IdleSleep Property " Url="html/2DBF6F36.htm" />
+        <HelpTOCNode Title="IsRunning Property " Url="html/863079F0.htm" />
+        <HelpTOCNode Title="MaxConcurrent Property " Url="html/1A79862C.htm" />
+        <HelpTOCNode Title="StandardSleep Property " Url="html/FC6816C3.htm" />
+        <HelpTOCNode Title="TaskCount Property " Url="html/7EBC575D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="BuildTaskState Enumeration" Url="html/72D3B8C4.htm" />
+    <HelpTOCNode Id="eb2bb2ab-ec2c-4627-811e-d5cfdf755298" Title="ConnectionSet Class" Url="html/5AB06572.htm">
+      <HelpTOCNode Id="9fead108-f260-4702-b05a-b0397114f3b4" Title="ConnectionSet Methods " Url="html/BB32D166.htm">
+        <HelpTOCNode Title="Create Method " Url="html/B2716A83.htm" />
+        <HelpTOCNode Title="CreateEmpty Method " Url="html/569C5972.htm" />
+        <HelpTOCNode Title="GetConnections Method " Url="html/4C273A5C.htm" />
+        <HelpTOCNode Title="IsValid Method " Url="html/4C49FE67.htm" />
+        <HelpTOCNode Title="UnsafeCreate Method " Url="html/3EA93FE5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2dd1dbbc-5b54-4948-a9d4-3c86d60e6b9d" Title="ConnectionSet Properties " Url="html/EAE7501F.htm">
+        <HelpTOCNode Title="Count Property " Url="html/4B557B91.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7df836a-7c15-4b89-93ad-ccf3a191e137" Title="ConnectionSetCompiler Class" Url="html/7884927B.htm">
+      <HelpTOCNode Title="ConnectionSetCompiler Constructor " Url="html/601EF21D.htm" />
+      <HelpTOCNode Id="7190db08-eb3a-43b0-81c4-7e9ef80a57a3" Title="ConnectionSetCompiler Methods " Url="html/8C38F89D.htm">
+        <HelpTOCNode Id="970eb864-d7b2-4624-9a95-86607b7d5b4e" Title="Add Method " Url="html/E6FEC768.htm">
+          <HelpTOCNode Title="Add Method (OffMeshConnection)" Url="html/86389565.htm" />
+          <HelpTOCNode Title="Add Method (, , Single, Boolean, Byte, UInt16, UInt32)" Url="html/1ED1B52F.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateConnectionSet Method " Url="html/7084E162.htm" />
+        <HelpTOCNode Title="RemoveAt Method " Url="html/45BA7343.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/D7E8E621.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b85275e-efed-422a-a09b-d24cc3a64541" Title="ConnectionSetCompiler Properties " Url="html/99B8E8FC.htm">
+        <HelpTOCNode Title="Count Property " Url="html/37A465A6.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/D5D7A7E0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b02ad0c1-132c-44e8-b519-44ede94609fa" Title="FilterLedgeSpans Class" Url="html/9AC600FE.htm">
+      <HelpTOCNode Id="34010a11-8b31-4cfc-97fb-213d06a2af1c" Title="FilterLedgeSpans Methods " Url="html/1B5831BA.htm">
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/6D694F08.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="453a05ae-cc74-466d-bada-ab30570c1fd1" Title="FilterLedgeSpans Properties " Url="html/C924A153.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/4A65D67F.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/4472B6FF.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ffe172ae-be54-4c31-92ef-602d3b7c9891" Title="FilterLowHeightSpans Class" Url="html/40C3F812.htm">
+      <HelpTOCNode Id="4d0e25fe-a1bc-47cd-8c68-eda07e8fd0be" Title="FilterLowHeightSpans Methods " Url="html/C34651E6.htm">
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/1C7E509C.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f7fca391-b657-482b-b985-93435fd503f8" Title="FilterLowHeightSpans Properties " Url="html/1908580F.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/7EACF593.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/7910CD13.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="97388579-1e21-45e9-b3d2-d2248d993d57" Title="IBuildTask Interface" Url="html/9491CC9A.htm">
+      <HelpTOCNode Id="719f8590-d626-4736-a695-4babca06b3d4" Title="IBuildTask Methods " Url="html/595CE022.htm">
+        <HelpTOCNode Title="Abort Method " Url="html/6930B3DF.htm" />
+        <HelpTOCNode Title="Run Method " Url="html/DB0D02E4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f390122d-006c-49ac-a795-4d56b9670082" Title="IBuildTask Properties " Url="html/D496CCF5.htm">
+        <HelpTOCNode Title="IsFinished Property " Url="html/7C2B2E42.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/E7EB4595.htm" />
+        <HelpTOCNode Title="Messages Property " Url="html/BCA5A574.htm" />
+        <HelpTOCNode Title="TaskState Property " Url="html/AE8F32A.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="536bc9e3-26a5-412b-8215-a2f828ddd362" Title="IncrementalBuilder Class" Url="html/49183141.htm">
+      <HelpTOCNode Id="42a0bfe3-373a-476d-88ac-5459e8a82e64" Title="IncrementalBuilder Methods " Url="html/D60B5CB.htm">
+        <HelpTOCNode Title="Build Method " Url="html/6FD8581A.htm" />
+        <HelpTOCNode Title="BuildAll Method " Url="html/FE68A379.htm" />
+        <HelpTOCNode Id="64931781-0a2d-4bc0-bea2-24de5fd7a939" Title="Create Method " Url="html/C078EE93.htm">
+          <HelpTOCNode Title="Create Method (NMGenParams, NMGenAssetFlag, InputGeometry, ProcessorSet)" Url="html/1DC981E6.htm" />
+          <HelpTOCNode Title="Create Method (Int32, Int32, NMGenAssetFlag, TileSetDefinition, ProcessorSet)" Url="html/90111E0A.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetMessages Method " Url="html/487998FE.htm" />
+        <HelpTOCNode Title="GetMessagesFlat Method " Url="html/ADCBE297.htm" />
+        <HelpTOCNode Title="ToLabel Method " Url="html/F9048C2F.htm" />
+        <HelpTOCNode Title="ToProgress Method " Url="html/3C296F14.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="294843a8-688f-462c-b9d9-a1b23555e7fa" Title="IncrementalBuilder Properties " Url="html/A106C990.htm">
+        <HelpTOCNode Title="IsFinished Property " Url="html/29A97C0B.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/9058F828.htm" />
+        <HelpTOCNode Title="MessageCount Property " Url="html/2AEFD2EB.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/473238C4.htm" />
+        <HelpTOCNode Title="ResultOptions Property " Url="html/8EC02D56.htm" />
+        <HelpTOCNode Title="State Property " Url="html/65391A1E.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/D146E443.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/1695CD79.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="03500b21-b25b-43ba-814f-4beeddfae939" Title="INMGenProcessor Interface" Url="html/246E84A2.htm">
+      <HelpTOCNode Id="4269eabc-e916-461b-ac35-c356421e1934" Title="INMGenProcessor Methods " Url="html/9FA6217A.htm">
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/714AA9DA.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="60f8b182-f0ee-4fb7-bb34-535a36c4cb3f" Title="INMGenProcessor Properties " Url="html/1A7DA53B.htm">
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/C056FA3.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/E90DE369.htm" />
+        <HelpTOCNode Title="PreserveAssets Property " Url="html/2FDAE5CD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="db833d3b-8b08-43ce-a1d8-75720c828d02" Title="InputGeometry Class" Url="html/AF3844AA.htm">
+      <HelpTOCNode Id="0b2cfee3-fb2b-4b29-837c-137a1dfd851c" Title="InputGeometry Methods " Url="html/9766F97E.htm">
+        <HelpTOCNode Id="4002d3a3-252d-415e-9127-ad9b7a9f7bef" Title="ExtractMesh Method " Url="html/AEB491F2.htm">
+          <HelpTOCNode Title="ExtractMesh Method (Byte[])" Url="html/8798B8D.htm" />
+          <HelpTOCNode Title="ExtractMesh Method (Single, Single, Single, Single, Byte[])" Url="html/39B84EC7.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b59fa0a0-847b-4e5f-a781-5f150fa693a3" Title="InputGeometry Properties " Url="html/F879FF2F.htm">
+        <HelpTOCNode Title="BoundsMax Property " Url="html/8ABF2C73.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/9FFAD135.htm" />
+        <HelpTOCNode Title="TriCount Property " Url="html/5D21B718.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9e68f6a6-4276-466f-95f0-820bbf8e0d98" Title="InputGeometryBuilder Class" Url="html/EB70B5C5.htm">
+      <HelpTOCNode Id="b2b1c31e-df9a-4463-83a2-1864db4256b6" Title="InputGeometryBuilder Methods " Url="html/48EB1063.htm">
+        <HelpTOCNode Title="Build Method " Url="html/F1FBA0B6.htm" />
+        <HelpTOCNode Title="BuildAll Method " Url="html/2A216CF5.htm" />
+        <HelpTOCNode Title="Create Method " Url="html/59DFD8BE.htm" />
+        <HelpTOCNode Title="IsValid Method " Url="html/D416928C.htm" />
+        <HelpTOCNode Title="UnsafeCreate Method " Url="html/F097C98.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fe08e532-65e1-4e8a-969b-b2a9f075ccf1" Title="InputGeometryBuilder Properties " Url="html/250617B8.htm">
+        <HelpTOCNode Title="IsFinished Property " Url="html/12894C63.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/5DE95D70.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/E14AC12C.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f39fbe50-37f0-4224-abe8-3fa0c85c4186" Title="InputGeometryCompiler Class" Url="html/A95AC7F3.htm">
+      <HelpTOCNode Title="InputGeometryCompiler Constructor " Url="html/B10C1F3D.htm" />
+      <HelpTOCNode Id="721f94b8-d673-4b0b-9e75-ad55218894ef" Title="InputGeometryCompiler Methods " Url="html/8C4DB6F5.htm">
+        <HelpTOCNode Title="AddTriangle Method " Url="html/3EB66797.htm" />
+        <HelpTOCNode Id="2c56303e-3ecb-4b57-9ca3-ab927b4cc460" Title="AddTriangles Method " Url="html/BB50CD99.htm">
+          <HelpTOCNode Title="AddTriangles Method (TriangleMesh, Byte[])" Url="html/2475EC62.htm" />
+          <HelpTOCNode Title="AddTriangles Method ([], Int32, Int32[], Byte[], Int32)" Url="html/D540CA7A.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CleanTriangles Method " Url="html/2703F740.htm" />
+        <HelpTOCNode Title="CreateGeometry Method " Url="html/AAE5FF46.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/BB0E6A49.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bb105a28-f3f0-4fc3-9678-f3a09c1f4a67" Title="InputGeometryCompiler Properties " Url="html/49B2504C.htm">
+        <HelpTOCNode Title="TriCount Property " Url="html/3CECCCCD.htm" />
+        <HelpTOCNode Title="VertCount Property " Url="html/95E1A217.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="062b70c1-29b8-4306-9690-199a9f79f894" Title="LowObstaclesWalkable Class" Url="html/430ABBE9.htm">
+      <HelpTOCNode Id="e6f2c388-40ee-474e-83cf-e9e236df935d" Title="LowObstaclesWalkable Methods " Url="html/F99C17BF.htm">
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/F498D953.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b5d476fb-dfb9-497c-926f-213dd61c10b9" Title="LowObstaclesWalkable Properties " Url="html/5E250D62.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/431DF05C.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/3D754F9A.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e46eaeac-ec3b-4b1f-9b48-b4a427a59d6b" Title="NMBuild Class" Url="html/C272D6A1.htm">
+      <HelpTOCNode Id="b5478e8c-ca26-44df-89bb-ea7b134bc941" Title="NMBuild Fields" Url="html/D416445A.htm">
+        <HelpTOCNode Title="DefaultFlag Field" Url="html/525A02E6.htm" />
+        <HelpTOCNode Title="DefaultPriority Field" Url="html/2F2566F8.htm" />
+        <HelpTOCNode Title="MaxPriority Field" Url="html/8319CAEB.htm" />
+        <HelpTOCNode Title="MinPriority Field" Url="html/BEB81A7D.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="25449114-0c49-4c5b-bbc6-874f08f09bdf" Title="NMBuild Methods " Url="html/15021B37.htm">
+        <HelpTOCNode Title="ClampPriority Method " Url="html/BE493B8F.htm" />
+        <HelpTOCNode Title="GetBuildData Method " Url="html/57DEEED8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="NMGenAssetFlag Enumeration" Url="html/CF15627B.htm" />
+    <HelpTOCNode Id="707735f7-12fb-44a9-bed8-f4ecfdf9b1f1" Title="NMGenAssets Structure" Url="html/448E9366.htm">
+      <HelpTOCNode Id="af8651ce-a439-43ea-a27a-b8e5b363e570" Title="NMGenAssets Constructor " Url="html/ECD5CD43.htm">
+        <HelpTOCNode Title="NMGenAssets Constructor (Int32, Int32, PolyMesh, PolyMeshDetail)" Url="html/D8AD1560.htm" />
+        <HelpTOCNode Title="NMGenAssets Constructor (Int32, Int32, PolyMesh, PolyMeshDetail, Heightfield, CompactHeightfield, ContourSet)" Url="html/AA9A8FD0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0611fc1f-9475-452a-a499-8467c1bb64be" Title="NMGenAssets Properties " Url="html/4D1E0EA7.htm">
+        <HelpTOCNode Title="CompactField Property " Url="html/CDC9ACAB.htm" />
+        <HelpTOCNode Title="Contours Property " Url="html/7E9AA573.htm" />
+        <HelpTOCNode Title="DetailMesh Property " Url="html/9F35D82C.htm" />
+        <HelpTOCNode Title="Heightfield Property " Url="html/3F439DD3.htm" />
+        <HelpTOCNode Title="NoResult Property " Url="html/4FAE3AE.htm" />
+        <HelpTOCNode Title="PolyMesh Property " Url="html/1044AB9F.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/C3BF4338.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/C3BF4336.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="NMGenBuildFlag Enumeration" Url="html/18D60301.htm" />
+    <HelpTOCNode Id="37a9bcb9-fc7e-422f-beb2-77e5d172c25d" Title="NMGenContext Class" Url="html/BF2EE51E.htm">
+      <HelpTOCNode Title="NMGenContext Constructor " Url="html/B3DF4516.htm" />
+      <HelpTOCNode Id="fffdd96a-1cd7-44a9-b305-83c25663a51a" Title="NMGenContext Methods " Url="html/5E5C17DA.htm">
+        <HelpTOCNode Title="SetAsNoResult Method " Url="html/A7C51A7F.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1a64a01d-8b7d-4325-80b9-9cd4fd1d5df1" Title="NMGenContext Properties " Url="html/1901E7A3.htm">
+        <HelpTOCNode Title="CompactField Property " Url="html/3F83A923.htm" />
+        <HelpTOCNode Title="Config Property " Url="html/225F1916.htm" />
+        <HelpTOCNode Title="Contours Property " Url="html/2356FD43.htm" />
+        <HelpTOCNode Title="DetailMesh Property " Url="html/CB6724F4.htm" />
+        <HelpTOCNode Title="Heightfield Property " Url="html/7550CDCB.htm" />
+        <HelpTOCNode Title="NoResult Property " Url="html/9CC727E2.htm" />
+        <HelpTOCNode Title="PolyMesh Property " Url="html/78E45177.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/6FD336C4.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/2A844D8E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0d8196f1-fe24-47e1-b935-b9e2ea03dcb7" Title="NMGenProcessor Class" Url="html/2B785CD5.htm">
+      <HelpTOCNode Title="NMGenProcessor Constructor " Url="html/7336593B.htm" />
+      <HelpTOCNode Id="4ff8c478-866d-44f0-b4bb-b5b2d494b466" Title="NMGenProcessor Methods " Url="html/EFC2C117.htm">
+        <HelpTOCNode Title="ProcessBuild Method " Url="html/50D27BBB.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="71d6c11d-6da7-4628-8ed5-1d66b56cdb4a" Title="NMGenProcessor Properties " Url="html/62630B4.htm">
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/16865B94.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/C410A9F2.htm" />
+        <HelpTOCNode Title="PreserveAssets Property " Url="html/9A86520C.htm" />
+        <HelpTOCNode Title="Priority Property " Url="html/9D4439CD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="NMGenState Enumeration" Url="html/9A84EC.htm" />
+    <HelpTOCNode Id="c93a1cfa-bba6-46cf-9044-d7b1d153dad3" Title="NMGenTask Class" Url="html/696494B2.htm">
+      <HelpTOCNode Id="0016c325-4741-4425-8467-64fb3b4e7ee1" Title="NMGenTask Methods " Url="html/50C1CA86.htm">
+        <HelpTOCNode Title="Create Method " Url="html/8CF8E265.htm" />
+        <HelpTOCNode Title="GetResult Method " Url="html/D8CA8BCA.htm" />
+        <HelpTOCNode Title="LocalUpdate Method " Url="html/AEC20B39.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0445b134-6bdd-40f5-9951-18acc4231d80" Title="NMGenTask Properties " Url="html/C4904B41.htm">
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/C4F41381.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/4C265A4C.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/4C265A4E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3976ebf-28b5-4a9a-8a5e-3fd2bc0d4168" Title="ProcessorSet Class" Url="html/E67B5D5E.htm">
+      <HelpTOCNode Id="49a2e582-8a8c-4173-a1d7-44a56785ced4" Title="ProcessorSet Fields" Url="html/27CB3F9F.htm">
+        <HelpTOCNode Title="StandardOptions Field" Url="html/80503A43.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aac5a05a-1ba5-40f9-b263-0b17016b6563" Title="ProcessorSet Methods " Url="html/8FA5111E.htm">
+        <HelpTOCNode Title="Create Method " Url="html/33DB4A43.htm" />
+        <HelpTOCNode Title="CreateStandard Method " Url="html/89D2DDAA.htm" />
+        <HelpTOCNode Title="GetStandard Method " Url="html/A4C76934.htm" />
+        <HelpTOCNode Title="LogProcessors Method " Url="html/23AE5752.htm" />
+        <HelpTOCNode Title="Process Method " Url="html/1770D9A4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="15634f90-ba6f-47d1-a75d-1311370ccc6e" Title="ProcessorSet Properties " Url="html/4AFA6747.htm">
+        <HelpTOCNode Title="Count Property " Url="html/519C5E39.htm" />
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/4701E80B.htm" />
+        <HelpTOCNode Title="PreserveAssets Property " Url="html/260EAF95.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="795ecd7a-8190-440f-9810-a4c4a4110f8d" Title="TileBuildAssets Structure" Url="html/7B29896D.htm">
+      <HelpTOCNode Title="TileBuildAssets Constructor " Url="html/84CD12E7.htm" />
+      <HelpTOCNode Id="880afe0a-ea0f-475b-94bb-658f6ad9f9d4" Title="TileBuildAssets Properties " Url="html/6410DA9C.htm">
+        <HelpTOCNode Title="NoResult Property " Url="html/CA13CAB7.htm" />
+        <HelpTOCNode Title="PolyCount Property " Url="html/F5BA1B50.htm" />
+        <HelpTOCNode Title="Tile Property " Url="html/FAAA4947.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/85CBC3DF.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/85CBC3DD.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="25f8422d-b5d4-4584-b451-cca1a66e7fbf" Title="TileBuildTask Class" Url="html/8098FF23.htm">
+      <HelpTOCNode Id="9267cb26-a574-4738-8ed5-e026f4e21646" Title="TileBuildTask Methods " Url="html/381ED405.htm">
+        <HelpTOCNode Title="Create Method " Url="html/B5712F46.htm" />
+        <HelpTOCNode Title="FinalizeTask Method " Url="html/F7A9B183.htm" />
+        <HelpTOCNode Title="GetResult Method " Url="html/DA791673.htm" />
+        <HelpTOCNode Title="LocalUpdate Method " Url="html/FC7AA338.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b4920471-e924-4235-88f6-cf74783c1d42" Title="TileBuildTask Properties " Url="html/F37FF994.htm">
+        <HelpTOCNode Title="IsThreadSafe Property " Url="html/4F70F852.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/3E65F65D.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/3E65F65F.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="be3358cf-1b48-4bc0-b3e1-dc10ea4c3f33" Title="TileSetDefinition Class" Url="html/7804A1B7.htm">
+      <HelpTOCNode Id="99379f25-3c7b-45f9-802c-a2ced9de5111" Title="TileSetDefinition Methods " Url="html/53C66F81.htm">
+        <HelpTOCNode Title="Create Method " Url="html/8EEC90A.htm" />
+        <HelpTOCNode Title="GetBaseConfig Method " Url="html/2A9EFC69.htm" />
+        <HelpTOCNode Title="GetTileBounds Method " Url="html/884FF74B.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59422d82-b80d-433e-8ee6-e70a843b777b" Title="TileSetDefinition Properties " Url="html/97832F60.htm">
+        <HelpTOCNode Title="BoundsMax Property " Url="html/CA2CA7F0.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/B4F1032A.htm" />
+        <HelpTOCNode Title="Depth Property " Url="html/81CC703C.htm" />
+        <HelpTOCNode Title="Geometry Property " Url="html/E147C3B.htm" />
+        <HelpTOCNode Title="TileWorldSize Property " Url="html/4BE5DBE0.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/FBFFEBD7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4e1f4dce-f4d7-4858-81b0-1d70d794c285" Title="TileZone Structure" Url="html/94930E10.htm">
+      <HelpTOCNode Title="TileZone Constructor " Url="html/430256D8.htm" />
+      <HelpTOCNode Id="c8474ce4-777e-4d5a-9557-80253a2644d2" Title="TileZone Fields" Url="html/7387FDFD.htm">
+        <HelpTOCNode Title="xmax Field" Url="html/B688DF2A.htm" />
+        <HelpTOCNode Title="xmin Field" Url="html/CBC483F8.htm" />
+        <HelpTOCNode Title="zmax Field" Url="html/51FAA1A0.htm" />
+        <HelpTOCNode Title="zmin Field" Url="html/6736466E.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8d01bb2e-9544-4abe-bb63-1a030f6f2f3e" Title="TileZone Properties " Url="html/6CA2F7FD.htm">
+        <HelpTOCNode Title="Depth Property " Url="html/B22894B5.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/6117BDEE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="74144f83-53a7-465b-9e99-257c92cc4b38" Title="org.critterai.nmbuild.u3d.editor Namespace" Url="html/3D5A9CA7.htm">
+    <HelpTOCNode Id="ec53cf0d-ab49-4314-a620-8244580e1a89" Title="BuildDataItem Class" Url="html/4426A4B0.htm">
+      <HelpTOCNode Id="1d0da7bb-c75a-4a94-b76f-071d53eaa664" Title="BuildDataItem Fields" Url="html/E6522DEF.htm">
+        <HelpTOCNode Title="bakedPolyCount Field" Url="html/DE7C3840.htm" />
+        <HelpTOCNode Title="bakedTile Field" Url="html/9AAA57D5.htm" />
+        <HelpTOCNode Title="detailMesh Field" Url="html/AC0E38C4.htm" />
+        <HelpTOCNode Title="polyMesh Field" Url="html/B1C9E559.htm" />
+        <HelpTOCNode Title="tileX Field" Url="html/796F11C0.htm" />
+        <HelpTOCNode Title="tileZ Field" Url="html/3420288A.htm" />
+        <HelpTOCNode Title="workingPolyCount Field" Url="html/790ACD8C.htm" />
+        <HelpTOCNode Title="workingTile Field" Url="html/5DCED271.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="027c4ca5-c0f7-466a-843f-2471db1f280a" Title="IInputBuildProcessor Interface" Url="html/1C41BB10.htm">
+      <HelpTOCNode Id="23419e2f-0bbf-401a-8e82-01cac0f57061" Title="IInputBuildProcessor Methods " Url="html/BE2E711C.htm">
+        <HelpTOCNode Title="ProcessInput Method " Url="html/DF1E976C.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="df9b4437-e3df-432e-841d-14b9edf3de09" Title="IInputBuildProcessor Properties " Url="html/6DC0C9D3.htm">
+        <HelpTOCNode Title="DuplicatesAllowed Property " Url="html/E2690CD8.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/102E21B9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3f44dfe-c29a-43c4-862b-42a894cc6ce4" Title="InputBuildContext Class" Url="html/4C30FEA0.htm">
+      <HelpTOCNode Title="InputBuildContext Constructor " Url="html/D08BB270.htm" />
+      <HelpTOCNode Id="d90d8d0c-ef8e-4dd2-8bd6-54416a8add04" Title="InputBuildContext Fields" Url="html/A95F472B.htm">
+        <HelpTOCNode Title="areas Field" Url="html/BE6E0082.htm" />
+        <HelpTOCNode Title="components Field" Url="html/9245D040.htm" />
+        <HelpTOCNode Title="connCompiler Field" Url="html/4AFB9C8B.htm" />
+        <HelpTOCNode Title="geomCompiler Field" Url="html/E01802CB.htm" />
+        <HelpTOCNode Title="info Field" Url="html/E6E4EDEC.htm" />
+        <HelpTOCNode Title="processors Field" Url="html/1C4B6F11.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2de28a83-8e66-4b65-bf31-84ca0c85b8a1" Title="InputBuildContext Methods " Url="html/36B05F8C.htm">
+        <HelpTOCNode Title="GetFromScene Generic Method" Url="html/1B121BF8.htm" />
+        <HelpTOCNode Id="c646b1ec-353a-4855-889d-f8f593975a73" Title="Load Method " Url="html/A6B08A10.htm">
+          <HelpTOCNode Title="Load Method ()" Url="html/975A45D5.htm" />
+          <HelpTOCNode Title="Load Method ([])" Url="html/89D8B2CB.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LoadFromScene Generic Method" Url="html/4195312.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="45f56e73-0a41-4aa7-865d-b240ec266d6d" Title="InputBuildContext Properties " Url="html/24C7193.htm">
+        <HelpTOCNode Title="Options Property " Url="html/DE7BF044.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3119e87-876b-4a64-be02-ddae81b5eef7" Title="InputBuildInfo Structure" Url="html/7E6672A9.htm">
+      <HelpTOCNode Id="5ad31c07-95ae-4aa1-bee4-11c0ac9964fd" Title="InputBuildInfo Fields" Url="html/61505822.htm">
+        <HelpTOCNode Title="areaModifierCount Field" Url="html/FA912EDA.htm" />
+        <HelpTOCNode Title="compCountPost Field" Url="html/35D7EA3B.htm" />
+        <HelpTOCNode Title="compCountPre Field" Url="html/795BB2DC.htm" />
+        <HelpTOCNode Title="compilerCount Field" Url="html/7362B8C1.htm" />
+        <HelpTOCNode Title="filterCount Field" Url="html/316686A0.htm" />
+        <HelpTOCNode Title="loaderCount Field" Url="html/D877106F.htm" />
+        <HelpTOCNode Title="postCount Field" Url="html/86E55C60.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="InputBuildOption Enumeration" Url="html/89702234.htm" />
+    <HelpTOCNode Title="InputBuildState Enumeration" Url="html/B02AAC22.htm" />
+    <HelpTOCNode Id="bcddfc56-c2c7-4b83-86ae-c6b7fe9e4752" Title="ISceneQuery Interface" Url="html/30E2D404.htm">
+      <HelpTOCNode Id="10b386fe-7ecd-4f5a-b7b6-ae50966d0a5b" Title="ISceneQuery Methods " Url="html/782F69A4.htm">
+        <HelpTOCNode Title="GetComponents Generic Method" Url="html/3E599DF2.htm" />
+        <HelpTOCNode Title="Initialize Method " Url="html/6EDF5801.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="MatchType Enumeration" Url="html/AED20B8A.htm" />
+    <HelpTOCNode Title="MeshColocationOption Enumeration" Url="html/43074BF0.htm" />
+    <HelpTOCNode Title="NavmeshBuildState Enumeration" Url="html/476F9B26.htm" />
+    <HelpTOCNode Id="39cfa7ac-10a3-4592-a295-2492efc2379b" Title="NMBEditorUtil Class" Url="html/794C761F.htm">
+      <HelpTOCNode Id="f578783d-8683-4c6f-bb8c-592ee188ba21" Title="NMBEditorUtil Fields" Url="html/1E7F78AE.htm">
+        <HelpTOCNode Title="AreaGroup Field" Url="html/79E086FB.htm" />
+        <HelpTOCNode Title="AssetLabel Field" Url="html/6F2C97F1.htm" />
+        <HelpTOCNode Title="BuildGroup Field" Url="html/A1CFA752.htm" />
+        <HelpTOCNode Title="CompilerGroup Field" Url="html/DB20B747.htm" />
+        <HelpTOCNode Title="FilterGroup Field" Url="html/645D58DE.htm" />
+        <HelpTOCNode Title="PostProcessGroup Field" Url="html/6F064E3.htm" />
+        <HelpTOCNode Title="SceneGroup Field" Url="html/CADBE622.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fea65d6f-886d-43d9-9cd5-97995b193d5b" Title="NMGenDebug Class" Url="html/7CD23D9.htm">
+      <HelpTOCNode Id="6e708f46-7c8c-4878-af3b-6a90caf7f4cc" Title="NMGenDebug Methods " Url="html/AB74894F.htm">
+        <HelpTOCNode Id="18e9cd8d-efb9-484e-8740-dc330c5177c7" Title="Draw Method " Url="html/AA99779F.htm">
+          <HelpTOCNode Title="Draw Method (PolyMeshData)" Url="html/B142EF42.htm" />
+          <HelpTOCNode Title="Draw Method (PolyMeshDetailData)" Url="html/B65F402E.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0b4f2dcf-9246-4895-a0f5-e9d8ea29bc29" Title="TileBuildData Class" Url="html/5F7EA4D5.htm">
+      <HelpTOCNode Id="e988fd2f-42d8-4986-b91f-56e81ad9d90f" Title="TileBuildData Fields" Url="html/CDCBB06E.htm">
+        <HelpTOCNode Title="unsafeDepth Field" Url="html/A6A7B548.htm" />
+        <HelpTOCNode Title="unsafeItems Field" Url="html/DEABC8B5.htm" />
+        <HelpTOCNode Title="unsafeVersion Field" Url="html/92C7E81.htm" />
+        <HelpTOCNode Title="unsafeWidth Field" Url="html/EF8A834D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="14fdf2f0-8f26-4638-b7f6-925dd023faba" Title="UnityBuildContext Class" Url="html/D6FC7AE9.htm">
+      <HelpTOCNode Title="UnityBuildContext Constructor " Url="html/D2EB94D7.htm" />
+      <HelpTOCNode Id="6e6d4829-aacc-43d9-8828-2a4f36f1c64c" Title="UnityBuildContext Properties " Url="html/B7B3DFE0.htm">
+        <HelpTOCNode Title="TraceEnabled Property " Url="html/9621B39F.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e790e1b1-009b-4b18-bebf-be358e8959db" Title="org.critterai.nmgen Namespace" Url="html/170703E4.htm">
+    <HelpTOCNode Id="34931a03-0893-4698-aa7f-59488c38c05c" Title="BuildContext Class" Url="html/3B048653.htm">
+      <HelpTOCNode Title="BuildContext Constructor " Url="html/167E8579.htm" />
+      <HelpTOCNode Id="defa83e0-7e1e-4abd-94ea-f6349db05881" Title="BuildContext Fields" Url="html/4E0DAA2A.htm">
+        <HelpTOCNode Title="ErrorLabel Field" Url="html/53A7EFD5.htm" />
+        <HelpTOCNode Title="InfoLabel Field" Url="html/38208373.htm" />
+        <HelpTOCNode Title="WarningLabel Field" Url="html/68DD7B37.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b4c6a9a3-c30d-4588-ac9b-014632b63da5" Title="BuildContext Methods " Url="html/4987E6A9.htm">
+        <HelpTOCNode Title="AppendMessages Method " Url="html/76B5E720.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/99AD2DDE.htm" />
+        <HelpTOCNode Title="GetMessages Method " Url="html/33AF65B0.htm" />
+        <HelpTOCNode Title="GetMessagesFlat Method " Url="html/240C2A91.htm" />
+        <HelpTOCNode Title="LoadTestMessages Method " Url="html/925B2724.htm" />
+        <HelpTOCNode Id="0defb7a4-435d-4850-9bb8-71b95c4a4762" Title="Log Method " Url="html/96858BA1.htm">
+          <HelpTOCNode Title="Log Method (String[])" Url="html/12137559.htm" />
+          <HelpTOCNode Title="Log Method (String, Object)" Url="html/6EEA0332.htm" />
+          <HelpTOCNode Title="Log Method (String, String, Object)" Url="html/6F6C00BE.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LogError Method " Url="html/2DA2DCC.htm" />
+        <HelpTOCNode Title="LogWarning Method " Url="html/2C09F2E2.htm" />
+        <HelpTOCNode Title="ResetLog Method " Url="html/EE5BEF39.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6a38c21d-3dbe-42b4-b16d-ba98c5c94d03" Title="BuildContext Properties " Url="html/4E8DE5DA.htm">
+        <HelpTOCNode Title="MessageCount Property " Url="html/A2DD6221.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="697e739a-bd30-47ae-81b9-e768f326d4b8" Title="ChunkyTriMesh Class" Url="html/ADF9AB18.htm">
+      <HelpTOCNode Id="f234a08c-1da5-4802-a285-aa7caca17aa9" Title="ChunkyTriMesh Methods " Url="html/6C5EC5E4.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/7D6BC008.htm" />
+        <HelpTOCNode Title="ExtractMesh Method " Url="html/63C8F855.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/5D4F7881.htm" />
+        <HelpTOCNode Title="GetChunks Method " Url="html/A05A1405.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a356ab1f-2f64-480f-9c43-c833a40c247a" Title="ChunkyTriMesh Properties " Url="html/DF936F4B.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/45633353.htm" />
+        <HelpTOCNode Title="NodeCount Property " Url="html/E3792575.htm" />
+        <HelpTOCNode Title="TriCount Property " Url="html/7AE55A42.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5c619464-92e9-4c60-8254-77cac2e4da41" Title="ChunkyTriMeshBuilder Class" Url="html/916F350D.htm">
+      <HelpTOCNode Id="9e596bbf-e099-4aef-a138-79cb056bedca" Title="ChunkyTriMeshBuilder Fields" Url="html/E4FE1F9A.htm">
+        <HelpTOCNode Title="MinAllowedTrisPerChunk Field" Url="html/F01A13FF.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8fb9a614-4005-4465-b367-6ddaf8cf4741" Title="ChunkyTriMeshBuilder Methods " Url="html/518FC14F.htm">
+        <HelpTOCNode Title="Build Method " Url="html/CF70D60C.htm" />
+        <HelpTOCNode Title="BuildAll Method " Url="html/2975DA9D.htm" />
+        <HelpTOCNode Title="Create Method " Url="html/69DEF8B4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="32def904-615c-40e4-900a-f0f4c66c165e" Title="ChunkyTriMeshBuilder Properties " Url="html/E90A1FE2.htm">
+        <HelpTOCNode Title="ChunkTuneValue Property " Url="html/700AAAD9.htm" />
+        <HelpTOCNode Title="IsFinished Property " Url="html/C4485AAF.htm" />
+        <HelpTOCNode Title="PreprocessTuneValue Property " Url="html/857C6448.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/89B5D956.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="df1d2375-a946-486b-8608-31d84efa2378" Title="ChunkyTriMeshNode Structure" Url="html/847C92EC.htm">
+      <HelpTOCNode Id="267d1b89-a19f-4224-a14c-75d0271567d4" Title="ChunkyTriMeshNode Fields" Url="html/9E5D500B.htm">
+        <HelpTOCNode Title="count Field" Url="html/B9FC0387.htm" />
+        <HelpTOCNode Title="i Field" Url="html/6DAC1F5D.htm" />
+        <HelpTOCNode Title="xmax Field" Url="html/A0A868AE.htm" />
+        <HelpTOCNode Title="xmin Field" Url="html/30E235D0.htm" />
+        <HelpTOCNode Title="zmax Field" Url="html/A0A867EC.htm" />
+        <HelpTOCNode Title="zmin Field" Url="html/30E2350E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e3ffce1-406f-4aed-819f-4a8c5b6e6b63" Title="CompactCell Structure" Url="html/BD45B5AB.htm">
+      <HelpTOCNode Id="77cb4249-03d7-463b-add8-33311a336277" Title="CompactCell Properties " Url="html/1EC5A6E.htm">
+        <HelpTOCNode Title="Count Property " Url="html/19262A78.htm" />
+        <HelpTOCNode Title="Index Property " Url="html/69ACCC33.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c4fe8e43-c31a-4343-aa22-853062f57fad" Title="CompactHeightfield Class" Url="html/C929BBDA.htm">
+      <HelpTOCNode Id="0337b306-7259-448d-add1-974a75ba65dc" Title="CompactHeightfield Methods " Url="html/C0788102.htm">
+        <HelpTOCNode Title="ApplyMedianFilter Method " Url="html/6CAD595.htm" />
+        <HelpTOCNode Title="Build Method " Url="html/B70D5D41.htm" />
+        <HelpTOCNode Title="BuildDistanceField Method " Url="html/F1257D72.htm" />
+        <HelpTOCNode Title="BuildRegions Method " Url="html/79A3D942.htm" />
+        <HelpTOCNode Title="BuildRegionsMonotone Method " Url="html/BF7FE1C9.htm" />
+        <HelpTOCNode Title="ErodeWalkableArea Method " Url="html/6DA56A12.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/BCEFB8F9.htm" />
+        <HelpTOCNode Title="GetAreaData Method " Url="html/C716A17C.htm" />
+        <HelpTOCNode Title="GetCellData Method " Url="html/3C376E63.htm" />
+        <HelpTOCNode Title="GetDistanceData Method " Url="html/D5381EBA.htm" />
+        <HelpTOCNode Title="GetSpanData Method " Url="html/6AAC7B31.htm" />
+        <HelpTOCNode Title="MarkBoxArea Method " Url="html/B166E3A6.htm" />
+        <HelpTOCNode Title="MarkConvexPolyArea Method " Url="html/BD1CC64E.htm" />
+        <HelpTOCNode Title="MarkCylinderArea Method " Url="html/4BEF514F.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/ADFF4DE9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aeb19607-f0a8-4800-bd6b-356ceaa84582" Title="CompactHeightfield Properties " Url="html/370F47DB.htm">
+        <HelpTOCNode Title="BorderSize Property " Url="html/D31F242F.htm" />
+        <HelpTOCNode Title="BoundsMax Property " Url="html/2241AD5B.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/9207E039.htm" />
+        <HelpTOCNode Title="Depth Property " Url="html/CDB276AB.htm" />
+        <HelpTOCNode Title="HasDistanceData Property " Url="html/550CB9EB.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/47D52D2F.htm" />
+        <HelpTOCNode Title="MaxDistance Property " Url="html/283AB45.htm" />
+        <HelpTOCNode Title="MaxRegion Property " Url="html/9B1F567E.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/26FD7940.htm" />
+        <HelpTOCNode Title="SpanCount Property " Url="html/DCECB95D.htm" />
+        <HelpTOCNode Title="WalkableHeight Property " Url="html/FF912F76.htm" />
+        <HelpTOCNode Title="WalkableStep Property " Url="html/6EACC357.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/7CA19FE4.htm" />
+        <HelpTOCNode Title="XZCellSize Property " Url="html/6C44B99F.htm" />
+        <HelpTOCNode Title="YCellSize Property " Url="html/D07CEAA2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3eb73ccb-2cec-43e0-a408-153e2b83cffe" Title="CompactSpan Structure" Url="html/1E9C93E1.htm">
+      <HelpTOCNode Id="a82332d4-abed-4e83-8a78-b6f049816b94" Title="CompactSpan Fields" Url="html/C2AFD6D6.htm">
+        <HelpTOCNode Title="MaxHeight Field" Url="html/C0C54974.htm" />
+        <HelpTOCNode Title="NotConnected Field" Url="html/FE19B807.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ec6d8899-b789-4164-9f8c-637ee20ec339" Title="CompactSpan Methods " Url="html/EDF300FB.htm">
+        <HelpTOCNode Title="GetConnection Method " Url="html/246B07CC.htm" />
+        <HelpTOCNode Title="GetDirOffsetX Method " Url="html/2754A730.htm" />
+        <HelpTOCNode Title="GetDirOffsetZ Method " Url="html/2754A732.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="551a70f8-eab8-4dc9-a6b8-175e3dfe4e55" Title="CompactSpan Properties " Url="html/E4B01E26.htm">
+        <HelpTOCNode Title="Connections Property " Url="html/344F7A36.htm" />
+        <HelpTOCNode Title="Floor Property " Url="html/12AB6753.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/12A06A4E.htm" />
+        <HelpTOCNode Title="Region Property " Url="html/71929257.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="41ad66de-0317-489f-b03e-6c8f657e169b" Title="Contour Class" Url="html/A5CF6E0E.htm">
+      <HelpTOCNode Id="ee9b1f83-76cb-4399-88ad-f081d41acc3f" Title="Contour Fields" Url="html/CE15AE1F.htm">
+        <HelpTOCNode Title="RegionMask Field" Url="html/DBEB9D02.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a9ff9b7a-21f9-4967-9f13-d435884eb650" Title="Contour Methods " Url="html/C6DC3C6E.htm">
+        <HelpTOCNode Title="GetRawVerts Method " Url="html/28A9D58F.htm" />
+        <HelpTOCNode Title="GetVerts Method " Url="html/A6BF6317.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/C2FBC465.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="19b2b4be-963c-43a8-a96e-17c37014c600" Title="Contour Properties " Url="html/B94AD8A7.htm">
+        <HelpTOCNode Title="Area Property " Url="html/E69EBA0D.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/F689B2DF.htm" />
+        <HelpTOCNode Title="RawVertCount Property " Url="html/75129000.htm" />
+        <HelpTOCNode Title="Region Property " Url="html/AD97B80C.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/7121924.htm" />
+        <HelpTOCNode Title="VertCount Property " Url="html/1789D646.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ContourBuildFlags Enumeration" Url="html/C4A077B5.htm" />
+    <HelpTOCNode Title="ContourFlags Enumeration" Url="html/4C80B67F.htm" />
+    <HelpTOCNode Id="d65bc5ea-c80c-4c6b-92bc-27ae844500b0" Title="ContourSet Class" Url="html/BA8E3B8E.htm">
+      <HelpTOCNode Id="b5454d9b-00ac-4f03-a9e3-62eadeddf959" Title="ContourSet Methods " Url="html/30EF52CE.htm">
+        <HelpTOCNode Title="Build Method " Url="html/1A8A908B.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/CACE64F3.htm" />
+        <HelpTOCNode Title="GetContour Method " Url="html/C7DBB7D.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/2B550CE7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="db4ef10a-b455-4937-8db9-9ca2416f048a" Title="ContourSet Properties " Url="html/47C75459.htm">
+        <HelpTOCNode Title="BorderSize Property " Url="html/D96F317D.htm" />
+        <HelpTOCNode Title="BoundsMax Property " Url="html/D613E3B5.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/7B8955AF.htm" />
+        <HelpTOCNode Title="Count Property " Url="html/EFE2E9AF.htm" />
+        <HelpTOCNode Title="Depth Property " Url="html/B15C5E21.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/7B260EFD.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/EB905C04.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/BF1D74C0.htm" />
+        <HelpTOCNode Title="XZCellSize Property " Url="html/D8883351.htm" />
+        <HelpTOCNode Title="YCellSize Property " Url="html/B84762E.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2040d07c-2eb5-40b0-9c41-b467ec353772" Title="Heightfield Class" Url="html/8A1572B7.htm">
+      <HelpTOCNode Id="f1066ffb-2ed0-4190-9b3d-417ddec39e40" Title="Heightfield Methods " Url="html/473F2EC1.htm">
+        <HelpTOCNode Title="AddTriangle Method " Url="html/55B319E3.htm" />
+        <HelpTOCNode Id="4c381ce3-5f54-4bd3-b958-e0f52efc3e78" Title="AddTriangles Method " Url="html/E02C201D.htm">
+          <HelpTOCNode Title="AddTriangles Method (BuildContext, TriangleMesh, Byte[], Int32)" Url="html/CA0CCAC4.htm" />
+          <HelpTOCNode Title="AddTriangles Method (BuildContext, ChunkyTriMesh, , , Int32)" Url="html/E8648BE8.htm" />
+          <HelpTOCNode Title="AddTriangles Method (BuildContext, [], Byte[], Int32, Int32)" Url="html/45BD174D.htm" />
+          <HelpTOCNode Title="AddTriangles Method (BuildContext, [], UInt16[], Byte[], Int32)" Url="html/A315A2B2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Create Method " Url="html/83AAE188.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/AC4A7682.htm" />
+        <HelpTOCNode Title="GetSpanBuffer Method " Url="html/7C08340A.htm" />
+        <HelpTOCNode Title="GetSpanCount Method " Url="html/5E690BE5.htm" />
+        <HelpTOCNode Title="GetSpans Method " Url="html/F4F9D3F1.htm" />
+        <HelpTOCNode Title="MarkLedgeSpansNotWalkable Method " Url="html/9FEB0F8B.htm" />
+        <HelpTOCNode Title="MarkLowHeightSpansNotWalkable Method " Url="html/2DD449F7.htm" />
+        <HelpTOCNode Title="MarkLowObstaclesWalkable Method " Url="html/E972AFE4.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/1BD7E45E.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6bb7d647-ca64-4870-84de-1f730f986743" Title="Heightfield Properties " Url="html/AF175D3A.htm">
+        <HelpTOCNode Title="BoundsMax Property " Url="html/10883E5A.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/FB4C996C.htm" />
+        <HelpTOCNode Title="Depth Property " Url="html/B522E986.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/17F84992.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/F3AF6FEB.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/2F560917.htm" />
+        <HelpTOCNode Title="XZCellSize Property " Url="html/5481B7C6.htm" />
+        <HelpTOCNode Title="YCellSize Property " Url="html/53935247.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="65c61af3-befb-4f9c-b04f-ddd249cc6dca" Title="HeightfieldLayer Class" Url="html/99226162.htm">
+      <HelpTOCNode Id="2ab7b0e3-ab7d-47c8-901e-0669c88c6c5d" Title="HeightfieldLayer Methods " Url="html/4F0B0376.htm">
+        <HelpTOCNode Title="GetAreaData Method " Url="html/3D174168.htm" />
+        <HelpTOCNode Title="GetConnectionData Method " Url="html/7983A057.htm" />
+        <HelpTOCNode Title="GetHeightData Method " Url="html/ED1B15B2.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/C3A2E029.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="50d8e8af-47a4-4f72-b739-224b50f4848a" Title="HeightfieldLayer Properties " Url="html/53A1C07F.htm">
+        <HelpTOCNode Title="BoundsMax Property " Url="html/5D3B12CF.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/42637341.htm" />
+        <HelpTOCNode Title="Depth Property " Url="html/DF495BCF.htm" />
+        <HelpTOCNode Title="HeightMax Property " Url="html/8E55A131.htm" />
+        <HelpTOCNode Title="HeightMin Property " Url="html/93F19BD7.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/E1C08893.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/EF679160.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/92242CC4.htm" />
+        <HelpTOCNode Title="XMax Property " Url="html/7DB20622.htm" />
+        <HelpTOCNode Title="XMin Property " Url="html/68766154.htm" />
+        <HelpTOCNode Title="XZCellSize Property " Url="html/2981FD93.htm" />
+        <HelpTOCNode Title="YCellSize Property " Url="html/66C37EC2.htm" />
+        <HelpTOCNode Title="ZMax Property " Url="html/3ACBA8AC.htm" />
+        <HelpTOCNode Title="ZMin Property " Url="html/259003DE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8c3acaf0-cb0c-427f-b39e-28217eed0371" Title="HeightfieldLayerSet Class" Url="html/4AC1272E.htm">
+      <HelpTOCNode Id="4db44d4d-0e40-4130-a619-2670dd892c0e" Title="HeightfieldLayerSet Methods " Url="html/A7E8680E.htm">
+        <HelpTOCNode Title="Build Method " Url="html/C12268CB.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/D2B50F4B.htm" />
+        <HelpTOCNode Title="GetLayer Method " Url="html/620C8DBC.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/275FD717.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="db01f678-b85b-443f-bd60-313264525d56" Title="HeightfieldLayerSet Properties " Url="html/F8140D09.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/5D7ADBD.htm" />
+        <HelpTOCNode Title="LayerCount Property " Url="html/E06EE1A4.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/1C638FB4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1641d7bc-e068-4578-917b-f9da7ec378c1" Title="HeightfieldSpan Structure" Url="html/96E6ED3.htm">
+      <HelpTOCNode Id="1f55d05c-4a54-4ae3-9236-84777d5a919d" Title="HeightfieldSpan Properties " Url="html/E93CE6D2.htm">
+        <HelpTOCNode Title="Area Property " Url="html/4DE2F914.htm" />
+        <HelpTOCNode Title="Max Property " Url="html/F448B03D.htm" />
+        <HelpTOCNode Title="Min Property " Url="html/DF0D0B57.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a21fe2e6-246e-4935-8dc2-8ee042591d83" Title="NMGen Class" Url="html/4B71ADC1.htm">
+      <HelpTOCNode Id="265a5a02-f5f6-4a09-bbd3-64071de923c0" Title="NMGen Fields" Url="html/7E1E453A.htm">
+        <HelpTOCNode Title="MaxAllowedSlope Field" Url="html/8708F580.htm" />
+        <HelpTOCNode Title="MaxAllowedVertsPerPoly Field" Url="html/154C321C.htm" />
+        <HelpTOCNode Title="MaxArea Field" Url="html/124EC9BA.htm" />
+        <HelpTOCNode Title="MinCellSize Field" Url="html/BC5F5208.htm" />
+        <HelpTOCNode Title="MinWalkableHeight Field" Url="html/A9F1E653.htm" />
+        <HelpTOCNode Title="NullArea Field" Url="html/C159D881.htm" />
+        <HelpTOCNode Title="NullRegion Field" Url="html/3958D5DA.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6ac52eb1-9e05-4237-bea9-1f82b562fb47" Title="NMGen Methods " Url="html/C12D2ED7.htm">
+        <HelpTOCNode Id="b2930034-fbae-4090-9b40-843cd4633694" Title="ClampArea Method " Url="html/B878298B.htm">
+          <HelpTOCNode Title="ClampArea Method (Byte)" Url="html/70E1AC56.htm" />
+          <HelpTOCNode Title="ClampArea Method (Int32)" Url="html/39C25B1E.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ClearUnwalkableTriangles Method " Url="html/FB2AE784.htm" />
+        <HelpTOCNode Title="CreateAreaBuffer Method " Url="html/D55A21A9.htm" />
+        <HelpTOCNode Title="CreateDefaultAreaBuffer Method " Url="html/AAFDC2AA.htm" />
+        <HelpTOCNode Title="DeriveSizeOfCellGrid Method " Url="html/5A406881.htm" />
+        <HelpTOCNode Title="DeriveSizeOfTileGrid Method " Url="html/1EC72323.htm" />
+        <HelpTOCNode Title="ExtractTriMesh Method " Url="html/A98A12FB.htm" />
+        <HelpTOCNode Title="IsValidAreaBuffer Method " Url="html/A8FB1715.htm" />
+        <HelpTOCNode Title="MarkWalkableTriangles Method " Url="html/647BE55D.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="140e8de8-7539-43f7-be85-4b667a247d6d" Title="NMGenParams Class" Url="html/8F938FF5.htm">
+      <HelpTOCNode Title="NMGenParams Constructor " Url="html/38DDFBCF.htm" />
+      <HelpTOCNode Id="f435aa45-51b4-4b99-ad8a-1865429591ff" Title="NMGenParams Fields" Url="html/FA71B6E4.htm">
+        <HelpTOCNode Title="borderSize Field" Url="html/AB46030A.htm" />
+        <HelpTOCNode Title="contourOptions Field" Url="html/31074947.htm" />
+        <HelpTOCNode Title="detailMaxDeviation Field" Url="html/9DADD337.htm" />
+        <HelpTOCNode Title="detailSampleDistance Field" Url="html/27B0AD95.htm" />
+        <HelpTOCNode Title="edgeMaxDeviation Field" Url="html/D3D5D9A1.htm" />
+        <HelpTOCNode Title="maxEdgeLength Field" Url="html/7F9C088C.htm" />
+        <HelpTOCNode Title="maxVertsPerPoly Field" Url="html/172EAAF8.htm" />
+        <HelpTOCNode Title="mergeRegionArea Field" Url="html/988A0E42.htm" />
+        <HelpTOCNode Title="minRegionArea Field" Url="html/AABCCEE2.htm" />
+        <HelpTOCNode Title="tileSize Field" Url="html/CAE4B60C.htm" />
+        <HelpTOCNode Title="useMonotone Field" Url="html/28FAE8F9.htm" />
+        <HelpTOCNode Title="walkableHeight Field" Url="html/6331A469.htm" />
+        <HelpTOCNode Title="walkableRadius Field" Url="html/C30AAE96.htm" />
+        <HelpTOCNode Title="walkableSlope Field" Url="html/320AFE67.htm" />
+        <HelpTOCNode Title="walkableStep Field" Url="html/64EC074A.htm" />
+        <HelpTOCNode Title="xzCellSize Field" Url="html/B712745E.htm" />
+        <HelpTOCNode Title="yCellSize Field" Url="html/EB8F91F.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="df1eef98-9ff1-4b3c-8268-97584bb74b77" Title="NMGenParams Methods " Url="html/B128F117.htm">
+        <HelpTOCNode Title="Clean Method " Url="html/43B101DF.htm" />
+        <HelpTOCNode Title="Clone Method " Url="html/40E30549.htm" />
+        <HelpTOCNode Title="DeriveBorderSize Method " Url="html/A6F2FCF6.htm" />
+        <HelpTOCNode Title="IsValid Method " Url="html/4E5048C8.htm" />
+        <HelpTOCNode Title="SetMaxEdgeLength Method " Url="html/F61DD42B.htm" />
+        <HelpTOCNode Title="SetMergeRegionArea Method " Url="html/E2F8D653.htm" />
+        <HelpTOCNode Title="SetMinRegionArea Method " Url="html/AF10D519.htm" />
+        <HelpTOCNode Title="SetWalkableHeight Method " Url="html/8554D76C.htm" />
+        <HelpTOCNode Title="SetWalkableRadius Method " Url="html/4C780417.htm" />
+        <HelpTOCNode Title="SetWalkableStep Method " Url="html/9B362031.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fa7d9b32-02fb-4112-a814-7a7e9ed16dd3" Title="NMGenParams Properties " Url="html/55BFDF64.htm">
+        <HelpTOCNode Title="BorderSize Property " Url="html/123D34C0.htm" />
+        <HelpTOCNode Title="ContourOptions Property " Url="html/A408C019.htm" />
+        <HelpTOCNode Title="DetailMaxDeviation Property " Url="html/40FC87E1.htm" />
+        <HelpTOCNode Title="DetailSampleDistance Property " Url="html/44E88987.htm" />
+        <HelpTOCNode Title="EdgeMaxDeviation Property " Url="html/4F24CCAF.htm" />
+        <HelpTOCNode Title="MaxEdgeLength Property " Url="html/CF4D54FE.htm" />
+        <HelpTOCNode Title="MaxVertsPerPoly Property " Url="html/5B42B126.htm" />
+        <HelpTOCNode Title="MergeRegionArea Property " Url="html/55532F0C.htm" />
+        <HelpTOCNode Title="MinRegionArea Property " Url="html/82CFD6CC.htm" />
+        <HelpTOCNode Title="TileSize Property " Url="html/88453D3A.htm" />
+        <HelpTOCNode Title="TileWorldSize Property " Url="html/84091DC.htm" />
+        <HelpTOCNode Title="UseMonotone Property " Url="html/C043E863.htm" />
+        <HelpTOCNode Title="WalkableHeight Property " Url="html/C213821B.htm" />
+        <HelpTOCNode Title="WalkableRadius Property " Url="html/21EC354C.htm" />
+        <HelpTOCNode Title="WalkableSlope Property " Url="html/90EC8479.htm" />
+        <HelpTOCNode Title="WalkableStep Property " Url="html/F36EFBD8.htm" />
+        <HelpTOCNode Title="WorldMaxEdgeLength Property " Url="html/A64F10B0.htm" />
+        <HelpTOCNode Title="WorldMergeRegionArea Property " Url="html/EDB14BFE.htm" />
+        <HelpTOCNode Title="WorldMinRegionArea Property " Url="html/D9FFFCF2.htm" />
+        <HelpTOCNode Title="WorldWalkableHeight Property " Url="html/126ED7BD.htm" />
+        <HelpTOCNode Title="WorldWalkableRadius Property " Url="html/41A2898A.htm" />
+        <HelpTOCNode Title="WorldWalkableStep Property " Url="html/4EBE6F2.htm" />
+        <HelpTOCNode Title="XZCellSize Property " Url="html/5BB3F9B0.htm" />
+        <HelpTOCNode Title="YCellSize Property " Url="html/779F9A15.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a253c71e-a3e0-4ff2-99f5-49d8c11eb302" Title="NMGenTileParams Class" Url="html/5AED591.htm">
+      <HelpTOCNode Title="NMGenTileParams Constructor " Url="html/DF7598C3.htm" />
+      <HelpTOCNode Id="188a3db0-fc36-4fa5-b63a-c8fbabb1f258" Title="NMGenTileParams Fields" Url="html/B9D11828.htm">
+        <HelpTOCNode Title="boundsMax Field" Url="html/C4867CCE.htm" />
+        <HelpTOCNode Title="boundsMin Field" Url="html/D9C22190.htm" />
+        <HelpTOCNode Title="tileX Field" Url="html/B62F6BF5.htm" />
+        <HelpTOCNode Title="tileZ Field" Url="html/B62F6BF7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b28b5a18-fcd2-4698-a143-d6e98050681c" Title="NMGenTileParams Properties " Url="html/F44DE2C0.htm">
+        <HelpTOCNode Title="BoundsMax Property " Url="html/7F04FF18.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/9440A406.htm" />
+        <HelpTOCNode Title="TileX Property " Url="html/B1A7FCCB.htm" />
+        <HelpTOCNode Title="TileZ Property " Url="html/B1A7FCC9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dc1f861f-3548-4222-8acd-376caf0ca03b" Title="PolyMesh Class" Url="html/229D6633.htm">
+      <HelpTOCNode Id="ae6f802c-80f8-4cfe-b89f-8de4c1bfe4f7" Title="PolyMesh Fields" Url="html/EC458446.htm">
+        <HelpTOCNode Title="NullIndex Field" Url="html/C367C150.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0e13252b-b313-4287-9c51-1f428fd271f4" Title="PolyMesh Methods " Url="html/D9CC05A5.htm">
+        <HelpTOCNode Title="Build Method " Url="html/BA6023A8.htm" />
+        <HelpTOCNode Id="19820381-4dec-49a3-94c9-20deb4f3ccc7" Title="Create Method " Url="html/4B12C889.htm">
+          <HelpTOCNode Title="Create Method (Byte[])" Url="html/7667FE58.htm" />
+          <HelpTOCNode Title="Create Method (Int32, Int32, Int32)" Url="html/E74383A4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Finalize Method " Url="html/4BCAEFC6.htm" />
+        <HelpTOCNode Id="4cf0a9cb-026d-413f-8548-60b39be70fa0" Title="GetData Method " Url="html/7EC5C43.htm">
+          <HelpTOCNode Title="GetData Method (Boolean)" Url="html/83948534.htm" />
+          <HelpTOCNode Title="GetData Method (PolyMeshData)" Url="html/2EB3D80.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetObjectData Method " Url="html/7BA87A77.htm" />
+        <HelpTOCNode Title="GetSerializedData Method " Url="html/EAEF5CB2.htm" />
+        <HelpTOCNode Title="Load Method " Url="html/D4339760.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/79565952.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4f32fbbf-a7c4-47f2-9584-0b2d6a1ca089" Title="PolyMesh Properties " Url="html/165389B6.htm">
+        <HelpTOCNode Title="BorderSize Property " Url="html/489D2F6C.htm" />
+        <HelpTOCNode Title="BoundsMax Property " Url="html/CBAD9D04.htm" />
+        <HelpTOCNode Title="BoundsMin Property " Url="html/3B73CFF2.htm" />
+        <HelpTOCNode Title="IsDisposed Property " Url="html/48E432C.htm" />
+        <HelpTOCNode Title="MaxPolys Property " Url="html/E366D1B2.htm" />
+        <HelpTOCNode Title="MaxVerts Property " Url="html/7736693.htm" />
+        <HelpTOCNode Title="MaxVertsPerPoly Property " Url="html/976CA626.htm" />
+        <HelpTOCNode Title="PolyCount Property " Url="html/457283C0.htm" />
+        <HelpTOCNode Title="VertCount Property " Url="html/ACBC7A27.htm" />
+        <HelpTOCNode Title="WalkableHeight Property " Url="html/C8998E49.htm" />
+        <HelpTOCNode Title="WalkableRadius Property " Url="html/EE05BB48.htm" />
+        <HelpTOCNode Title="WalkableStep Property " Url="html/3DD63CF4.htm" />
+        <HelpTOCNode Title="XZCellSize Property " Url="html/B6074EE8.htm" />
+        <HelpTOCNode Title="YCellSize Property " Url="html/1BFD719B.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="82471297-f2e8-42c9-8814-ccfe6904c9c7" Title="PolyMeshData Class" Url="html/DE9679E3.htm">
+      <HelpTOCNode Title="PolyMeshData Constructor " Url="html/BAE27085.htm" />
+      <HelpTOCNode Id="ad2af45c-9c9e-4946-927f-acc43a95e974" Title="PolyMeshData Fields" Url="html/23B0FA96.htm">
+        <HelpTOCNode Title="areas Field" Url="html/6DD5247F.htm" />
+        <HelpTOCNode Title="borderSize Field" Url="html/E96CC886.htm" />
+        <HelpTOCNode Title="boundsMax Field" Url="html/768B0A2A.htm" />
+        <HelpTOCNode Title="boundsMin Field" Url="html/E6513D18.htm" />
+        <HelpTOCNode Title="flags Field" Url="html/669792FC.htm" />
+        <HelpTOCNode Title="maxVertsPerPoly Field" Url="html/3E5F4F44.htm" />
+        <HelpTOCNode Title="polyCount Field" Url="html/72C268DE.htm" />
+        <HelpTOCNode Title="polys Field" Url="html/B8C2F0F4.htm" />
+        <HelpTOCNode Title="regions Field" Url="html/8BD813FE.htm" />
+        <HelpTOCNode Title="vertCount Field" Url="html/5797E5C9.htm" />
+        <HelpTOCNode Title="verts Field" Url="html/8A3D8EFD.htm" />
+        <HelpTOCNode Title="walkableHeight Field" Url="html/352B126F.htm" />
+        <HelpTOCNode Title="walkableRadius Field" Url="html/C48F22E6.htm" />
+        <HelpTOCNode Title="walkableStep Field" Url="html/1CE04B16.htm" />
+        <HelpTOCNode Title="xzCellSize Field" Url="html/873F22E6.htm" />
+        <HelpTOCNode Title="yCellSize Field" Url="html/A1BC1DB9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ab3595ca-6c98-4f3d-9710-215cfeab2503" Title="PolyMeshData Methods " Url="html/340021D5.htm">
+        <HelpTOCNode Title="CanFit Method " Url="html/6A78989B.htm" />
+        <HelpTOCNode Title="Resize Method " Url="html/215C77A4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b3e37e24-cd06-4ec2-afd3-a3390577e122" Title="PolyMeshDetail Class" Url="html/287D3362.htm">
+      <HelpTOCNode Id="74d71a35-64b1-4d63-ad92-68be29aee9a8" Title="PolyMeshDetail Methods " Url="html/12759596.htm">
+        <HelpTOCNode Title="Build Method " Url="html/D3241E97.htm" />
+        <HelpTOCNode Id="d328e531-12b9-40a4-95e3-677cc3688b04" Title="Create Method " Url="html/F24F5B1E.htm">
+          <HelpTOCNode Title="Create Method (Byte[])" Url="html/CC084029.htm" />
+          <HelpTOCNode Title="Create Method (Int32, Int32, Int32)" Url="html/6F1D9723.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Finalize Method " Url="html/95D41B87.htm" />
+        <HelpTOCNode Id="7c36eb61-2cdb-4ad0-91b1-5af82517b5b9" Title="GetData Method " Url="html/859A5E4E.htm">
+          <HelpTOCNode Title="GetData Method (Boolean)" Url="html/FDD0A215.htm" />
+          <HelpTOCNode Title="GetData Method (PolyMeshDetailData)" Url="html/4C70F0CF.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetObjectData Method " Url="html/F4C1A366.htm" />
+        <HelpTOCNode Title="GetSerializedData Method " Url="html/5CA6E221.htm" />
+        <HelpTOCNode Title="Load Method " Url="html/5DADE3EF.htm" />
+        <HelpTOCNode Title="RequestDisposal Method " Url="html/D6068333.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ad282561-2dbf-4f84-b185-759530154a99" Title="PolyMeshDetail Properties " Url="html/834BED31.htm">
+        <HelpTOCNode Title="IsDisposed Property " Url="html/A4FCCFD.htm" />
+        <HelpTOCNode Title="MaxMeshes Property " Url="html/C8DC925.htm" />
+        <HelpTOCNode Title="MaxTris Property " Url="html/45A6859C.htm" />
+        <HelpTOCNode Title="MaxVerts Property " Url="html/BB084212.htm" />
+        <HelpTOCNode Title="MeshCount Property " Url="html/5CC5184.htm" />
+        <HelpTOCNode Title="ResourceType Property " Url="html/3CCFE1B8.htm" />
+        <HelpTOCNode Title="TriCount Property " Url="html/D62CD0F8.htm" />
+        <HelpTOCNode Title="VertCount Property " Url="html/D0D7D266.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e672e7ca-5085-4baf-900e-81139a566678" Title="PolyMeshDetailData Class" Url="html/64548E32.htm">
+      <HelpTOCNode Title="PolyMeshDetailData Constructor " Url="html/1BD48386.htm" />
+      <HelpTOCNode Id="93e115a1-8ae3-4aaf-8744-630a9e0ac236" Title="PolyMeshDetailData Fields" Url="html/39D02BB1.htm">
+        <HelpTOCNode Title="meshCount Field" Url="html/8893CC5E.htm" />
+        <HelpTOCNode Title="meshes Field" Url="html/BEE48057.htm" />
+        <HelpTOCNode Title="triCount Field" Url="html/4E627D1A.htm" />
+        <HelpTOCNode Title="tris Field" Url="html/A7573E90.htm" />
+        <HelpTOCNode Title="vertCount Field" Url="html/C3214D48.htm" />
+        <HelpTOCNode Title="verts Field" Url="html/B5F02D3E.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="45d22fe5-c6c3-4183-aac8-a795265e4cdb" Title="PolyMeshDetailData Methods " Url="html/78F25AA6.htm">
+        <HelpTOCNode Title="CanFit Method " Url="html/B4A068CA.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/3FEDA172.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5625d40e-b92b-4c13-8805-8a00d59070b0" Title="org.critterai.u3d Namespace" Url="html/40C5D383.htm">
+    <HelpTOCNode Id="31a102d5-5668-46d2-b352-7dfde2d82e68" Title="ColorUtil Class" Url="html/C3DB1A4E.htm">
+      <HelpTOCNode Id="a1ebe035-93cc-4191-98ce-c767ab158531" Title="ColorUtil Methods " Url="html/FA8B287A.htm">
+        <HelpTOCNode Title="HexToColor Method " Url="html/561E9F8A.htm" />
+        <HelpTOCNode Title="IntToColor Method " Url="html/2BF9FB06.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="933f340d-781f-4f5b-8848-ac7146c19c13" Title="DebugDraw Class" Url="html/2BD6DB6C.htm">
+      <HelpTOCNode Id="203761d4-011a-4f9f-af6c-50e1d25c9a30" Title="DebugDraw Methods " Url="html/2CEF8F0C.htm">
+        <HelpTOCNode Title="AppendArc Method " Url="html/2F33829F.htm" />
+        <HelpTOCNode Title="AppendArrow Method " Url="html/97D7B2E4.htm" />
+        <HelpTOCNode Title="AppendBounds Method " Url="html/CF36526E.htm" />
+        <HelpTOCNode Title="AppendCircle Method " Url="html/1AE04B45.htm" />
+        <HelpTOCNode Title="AppendCylinder Method " Url="html/4A4365C1.htm" />
+        <HelpTOCNode Title="AppendExtents Method " Url="html/A4ACB278.htm" />
+        <HelpTOCNode Title="AppendXMarker Method " Url="html/18F341D9.htm" />
+        <HelpTOCNode Title="Arc Method " Url="html/29FA2E59.htm" />
+        <HelpTOCNode Title="Arrow Method " Url="html/86E59458.htm" />
+        <HelpTOCNode Title="Bounds Method " Url="html/F904FBEA.htm" />
+        <HelpTOCNode Title="Circle Method " Url="html/775CEDEB.htm" />
+        <HelpTOCNode Title="ConvexPoly Method " Url="html/32D167FA.htm" />
+        <HelpTOCNode Title="Cylinder Method " Url="html/9EF6C9FF.htm" />
+        <HelpTOCNode Title="DiamondMarker Method " Url="html/1DFBFC03.htm" />
+        <HelpTOCNode Title="Extents Method " Url="html/6071A09C.htm" />
+        <HelpTOCNode Title="Grid Method " Url="html/A90695B9.htm" />
+        <HelpTOCNode Title="Rect Method " Url="html/BF728CD9.htm" />
+        <HelpTOCNode Id="2512650c-37bc-4df3-92c9-e1973e257639" Title="TriangleMesh Method " Url="html/DD26BD71.htm">
+          <HelpTOCNode Title="TriangleMesh Method ([], Int32[], Int32, Boolean, )" Url="html/4B72D482.htm" />
+          <HelpTOCNode Title="TriangleMesh Method ([], Int32[], Byte[], Int32, Boolean, Single)" Url="html/4ED487DA.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="XMarker Method " Url="html/C3298F.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="01cb0542-ff02-41e1-88e3-8aed9abdff74" Title="DebugDraw Properties " Url="html/6DEEFA91.htm">
+        <HelpTOCNode Title="SimpleMaterial Property " Url="html/983C4519.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

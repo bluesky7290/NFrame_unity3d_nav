@@ -1,0 +1,2 @@
+This update a large number of breaking changes.  Backup your Unity projects
+before you attempt to migrate to this version.

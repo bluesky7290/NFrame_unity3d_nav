@@ -1,0 +1,108 @@
+﻿<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" /><META NAME="save" CONTENT="history" /><title>The Core Build Process</title><link rel="stylesheet" type="text/css" href="../styles/Presentation.css" /><link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" /><link rel="stylesheet" type="text/css" href="ms-help://Dx/DxRuntime/DxLink.css" /><script type="text/javascript" src="../scripts/EventUtilities.js"> </script><script type="text/javascript" src="../scripts/SplitScreen.js"> </script><script type="text/javascript" src="../scripts/Dropdown.js"> </script><script type="text/javascript" src="../scripts/script_manifold.js"> </script><script type="text/javascript" src="../scripts/LanguageFilter.js"> </script><script type="text/javascript" src="../scripts/DataStore.js"> </script><script type="text/javascript" src="../scripts/CommonUtilities.js"> </script><script type="text/javascript" src="../scripts/MemberFilter.js"> </script><xml><MSHelp:TOCTitle Title="" /><MSHelp:Keyword Index="A" Term="e72bd1ee-04b0-4bbb-a21d-d8d7ecaa11af" /><MSHelp:Attr Name="RevisionNumber" Value="1" /><MSHelp:Attr Name="AssetID" Value="e72bd1ee-04b0-4bbb-a21d-d8d7ecaa11af" /><MSHelp:Attr Name="Abstract" Value="This topic covers the core process used by NMGen to create polygon data that will represent the navigation mesh surface. There are many variations on the mesh generation process, but they all include these steps." /><MSHelp:Attr Name="TopicType" Value="kbArticle" /><MSHelp:Attr Name="Locale" Value="en-us" /></xml></head><body><input type="hidden" id="userDataCache" class="userDataStyle" /><input type="hidden" id="hiddenScrollOffset" /><img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" /><img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" /><img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collall.gif" alt="CollapseAll image" title="CollapseAll image" /><img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expall.gif" alt="ExpandAll image" title="ExpandAll image" /><img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected.gif" alt="DropDown image" title="DropDown image" /><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected_hover.gif" alt="DropDownHover image" title="DropDownHover image" /><img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" /><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" /><img id="checkBoxSelectImage" style="display:none; height:0; width:0;" src="../icons/ch_selected.gif" /><img id="checkBoxUnSelectImage" style="display:none; height:0; width:0;" src="../icons/ch_unselected.gif" /><img id="checkBoxSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/ch_selected_hover.gif" /><img id="checkBoxUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/ch_unselected_hover.gif" /><img id="radioSelectImage" style="display:none; height:0; width:0;" src="../icons/r_select.gif" /><img id="radioUnSelectImage" style="display:none; height:0; width:0;" src="../icons/r_unselect.gif" /><img id="radioSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/r_select_hover.gif" /><img id="radioUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/r_unselect_hover.gif" /><img id="curvedLeftSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_lft_cnr.gif" /><img id="curvedRightSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_rt_cnr.gif" /><img id="curvedLeftUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_lft_cnr.gif" /><img id="curvedRightUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_rt_cnr.gif" /><img id="gradLeftSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_lft_grad.gif" /><img id="gradRightSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_sel_rt_grad.gif" /><img id="gradLeftUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_lft_grad.gif" /><img id="gradRightUnSelectImage" style="display:none; height:0; width:0;" src="../icons/tab_unsel_rt_grad.gif" /><img id="twirlSelectImage" style="display:none; height:0; width:0;" src="../icons/twirl_selected.gif" /><img id="twirlUnSelectImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected.gif" /><img id="twirlSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_selected_hover.gif" /><img id="twirlUnSelectHoverImage" style="display:none; height:0; width:0;" src="../icons/twirl_unselected_hover.gif" /><img id="NSRBottomImage" style="display:none; height:0; width:0;" src="../icons/NSRbottomgrad.gif" /><div id="header"><table id="topTable"><tr id="headerTableRow3"><td><span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0"><img ID="toggleAllImage" class="toggleAll" src="../icons/collall.gif" alt="CollapseAll image" title="CollapseAll image" /><label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span> | <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" tabindex="0"><img id="languageFilterImage" src="../icons/twirl_unselected.gif" alt="DropDown image" title="DropDown image" /><label id="CSharpLabel" for="languageFilterImage" style="display: none;">Language Filter: C#</label><label id="VisualBasicLabel" for="languageFilterImage" style="display: none;">Language Filter: Visual Basic</label><label id="ManagedCPlusPlusLabel" for="languageFilterImage" style="display: none;">Language Filter: Visual C++</label></span><div id="languageSpan"><div id="CSharp" onclick="changeLanguage(data, 'CSharp', 'cs');"><img id="CSharpImage" onmouseover="mouseOverCheck(CSharpImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(CSharpImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> C#</div><br /><div id="VisualBasic" onclick="changeLanguage(data, 'VisualBasic', 'vb');"><img id="VisualBasicImage" onmouseover="mouseOverCheck(VisualBasicImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(VisualBasicImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> Visual Basic</div><br /><div id="ManagedCPlusPlus" onclick="changeLanguage(data, 'ManagedCPlusPlus', 'cpp');"><img id="ManagedCPlusPlusImage" onmouseover="mouseOverCheck(ManagedCPlusPlusImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" onmouseout="mouseOutCheck(ManagedCPlusPlusImage,radioSelectImage,radioUnSelectImage,radioSelectHoverImage,radioUnSelectHoverImage)" src="../icons/r_unselect.gif" /> Visual C++</div><br /></div> | <a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a></td></tr><tr id="headerTableRow1"><td align="left"><span id="runningHeaderText">CritterAI Documentation</span></td></tr><tr id="headerTableRow2"><td align="left"><span id="nsrTitle">The Core Build Process</span></td></tr><tr><td class="nsrBottom" background="../icons/NSRbottomgrad.gif" /></tr></table></div><div id="mainSection"><div id="mainBody"><div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" /><span style="color: DarkGray"><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[This is preliminary documentation and is subject to change.]</p></span><div class="introduction"><p>
+			This topic covers the core process used by NMGen to create polygon data that will represent the navigation mesh surface.
+			There are many variations on the mesh generation process, but they all include these steps.
+			</p><p>
+			The <span sdata="cer" target="T:org.critterai.nmbuild.IncrementalBuilder"><a href="49183141.htm">IncrementalBuilder</a></span> extension implements this process.
+			</p><p>
+			The high level process is as follows:
+			</p><ol><li><a href="http://www.cs.sunysb.edu/~vislab/projects/volume/Papers/Voxel/index.html" target="_blank">Voxelization</a>: Create a solid heightfield from the source geometry representing obstructed space.
+        </li><li>Generate Regions: Detect the upper surface of the solid heightfield and divide it up 
+        into regions of contiguous spans.</li><li>
+          Generate Contours: Detect the contours of the regions and form them into 
+          <a href="http://en.wikipedia.org/wiki/Polygon#Convexity_and_types_of_non-convexity" target="_blank">simple polygons</a>.
+        </li><li>Generate Polygon Mesh: Sub-divide the contours into convex polygons.</li><li>Generate Height Detail:
+          <a href="http://mathworld.wolfram.com/Triangulation.html" target="_blank">Triangulate</a> the polygon mesh and add height detail. (Optional)
+	    </li></ol></div><a name="voxelization"> </a><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EFAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EFAAA, event)" tabindex="0"><img id="sectionToggleID0EFAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Voxelization</span></h1><div id="sectionSectionID0EFAAA" class="section" name="collapseableSection" style=""><p>
+				Core Class:  <span sdata="cer" target="T:org.critterai.nmgen.Heightfield"><a href="8A1572B7.htm">Heightfield</a></span></p><p>During voxelization the source geometry is abstracted into a heightfield which represents 
+        obstructed space. Then some initial culling of un-walkable surfaces is performed.
+				</p><p>
+				Each triangle in the source geometry is voxelized using conservative voxelization and 
+        added to the field. Conservative voxelization is an algorithm that ensures the triangle surfaces 
+        are completely encompassed by the the generated voxels.
+				</p><p>
+				After voxelization, the solid heightfield contains spans that completely encompass the 
+        surface of all polygons in the source geometry.
+				</p><div class="mediaNear"><img alt="Voxelized Triangle" src="../media/ConservativeVoxelization.jpg" /></div></div><a name="regionGeneration"> </a><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EEAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EEAAA, event)" tabindex="0"><img id="sectionToggleID0EEAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Region Generation</span></h1><div id="sectionSectionID0EEAAA" class="section" name="collapseableSection" style=""><p>
+				Core Class: <span sdata="cer" target="T:org.critterai.nmgen.CompactHeightfield"><a href="C929BBDA.htm">CompactHeightfield</a></span></p><p>
+				The goal of this stage is to further define what portion of the solid surface is 
+        traversable, and to segregate the traversable areas into contiguous regions of spans 
+        (surfaces) that can eventually be formed into simple polygons.
+				</p><p>
+				The first step is to translate the solid heightfield into an open heightfield which 
+        represents the potential traversable surfaces on top of the solid space. An open heightfield 
+        represents the potential floor area on the surface of solid space.
+				</p><p>
+				In the below example, the green area represents the floor defined by the open spans. 
+        These correspond to the top of all traversable spans in the solid heightfield. Note that walls, 
+        areas under the tables, and some thin areas such as the balcony banisters were culled during 
+        the solid heightfield generation process. Some un-walkable areas such as table tops, the stair
+        banisters, and thin wall ledges still show as traversable at this point.
+				</p><div class="mediaNear"><img alt="Stage: Open Heightfield" src="../media/Stage-OpenHeightfield.jpg" /></div><p>
+				Next, further culling of un-walkable spans occurs. At the end of the process, open spans 
+        are only considered traversable if they pass the following tests:
+				</p><ul><li>The span is not too close to an obstruction. (Such as walls, furniture, etc.) 
+					(WalkableRadius)</li><li>The span has sufficient unobstructed space above its floor. 
+					(Agents can legally walk on the span without colliding with objects above the span.) 
+					(WalkableHeight)</li></ul><p>
+				Neighbor information is generated for all surviving open spans to help group them 
+        together into true surface areas. The algorithm takes into account a maximum vertical step 
+        threshold to determine which spans can connect. (WalkableStep)
+        This permits structures such as stairs, curbs, table tops, etc. to be properly taken into 
+        account. For example, spans that make up different steps in a stairway will be connected 
+        as neighbors. But spans on a table top will not be connected to spans that make
+        up the adjacent floor.
+				</p><p>
+				Regions are generated using the neighbor information and the watershed algorithm. 
+        Region size is optimized and island regions too small to be of use (e.g. table tops) 
+        are culled. (MinRegionArea)
+				</p><p>
+				The below example shows regions. Note that regions flow up the stairs, even though 
+        the spans that make up stairways don't actually connect. Also note that the table tops, 
+        stair banisters, and all other un-walkable surfaces that made it through the
+        solid heightfield generation process have been successfully culled. (Black indicates 
+        culled spans.)
+				</p><div class="mediaNear"><img alt="Stage: Regions" src="../media/Stage-Regions.gif" /></div><p>
+				At the end of this stage, the traversable surface is represented by regions of 
+				connected spans.
+				</p></div><a name="contourGeneration"> </a><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EDAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EDAAA, event)" tabindex="0"><img id="sectionToggleID0EDAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Contour Generation</span></h1><div id="sectionSectionID0EDAAA" class="section" name="collapseableSection" style=""><p>
+				Core Class:  <span sdata="cer" target="T:org.critterai.nmgen.ContourSet"><a href="BA8E3B8E.htm">ContourSet</a></span></p><p>
+				The contours of the regions are 'walked', forming simple polygons. This is the 
+	      first step in the process of moving from voxel space back into vector space.
+				</p><p>
+				First, highly detailed polygons are generated from the regions.
+				</p><div class="mediaNear"><img alt="Stage: Raw Contour" src="../media/Stage-RawContour.jpg" /></div><p>
+				Next, various algorithms are used to accomplish the following:
+				</p><ul><li>
+					Simplify the edges between adjacent polygons. (The portals between regions.)
+					</li><li>
+					Simplify the border edges (Border edges are the contour edges that connect to 
+					empty or obstructed space.) (EdgeMaxDeviation)
+					</li><li>
+					Optimize the length of the border edges. (Borders that are too long can form 
+					non-optimal triangles later in the process.) (MaxEdgeLength)
+					</li></ul><p>
+				This next example shows the contours after these algorithms have been run.
+				</p><div class="mediaNear"><img alt="Stage: Simplified Contour" src="../media/Stage-SimplifiedContour.jpg" /></div><p>
+				At the end of this stage, the traversable surface is represented by simple polygons.
+				</p></div><a name="convexPolyGen"> </a><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0ECAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0ECAAA, event)" tabindex="0"><img id="sectionToggleID0ECAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Convex Polygon Generation</span></h1><div id="sectionSectionID0ECAAA" class="section" name="collapseableSection" style=""><p>
+				Core Class:  <span sdata="cer" target="T:org.critterai.nmgen.PolyMesh"><a href="229D6633.htm">PolyMesh</a></span></p><p>
+				Many algorithms can only be used with convex polygons. So this step subdivides 
+	      the simple polygons that make up the contours into a mesh of convex polygons.
+				</p><p /><div class="alert"><table><tr><th><img src="../icons/alert_note.gif" title="Note" /> <b>Note:</b></th></tr><tr><td><p>
+					This is the mesh used for most pathfinding purposes.
+					</p></td></tr></table></div><p>
+				Below you can see that a mixture of concave polygons have been formed from the contours.
+				</p><div class="mediaNear"><img alt="Stage: Polygon Mesh" src="../media/Stage-PolyMesh.jpg" /></div><p>
+				At the end of this stage, the traversable surface is represented by a mesh of 
+	      convex polygons.
+				</p></div><a name="detailMeshGen"> </a><h1 class="heading"><span onclick="ExpandCollapse(sectionToggleID0EBAAA)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(sectionToggleID0EBAAA, event)" tabindex="0"><img id="sectionToggleID0EBAAA" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Height Detail Generation</span></h1><div id="sectionSectionID0EBAAA" class="section" name="collapseableSection" style=""><p>
+				Core Class: <span sdata="cer" target="T:org.critterai.nmgen.PolyMeshDetail"><a href="287D3362.htm">PolyMeshDetail</a></span></p><p>
+				In the final stage, the convex polygon mesh is triangulated using
+	      <a href="http://en.wikipedia.org/wiki/Delaunay_triangulation" target="_blank">Delaunay triangulation</a> so that height detail can be added. Vertices are added internally and to the 
+	      edges of polygons to ensure the original geometry's surface is adequately followed.
+	      (DetailSampleDistance and DetailMaxDeviation)
+				</p><p /><div class="alert"><table><tr><th><img src="../icons/alert_note.gif" title="Note" /> <b>Note:</b></th></tr><tr><td><p>
+					Technically, this is an optional step.  The detail mesh is not required for 
+					pathfinding.  But certain queries will return more accurate height data if the 
+					detail mesh is available.
+	      	</p></td></tr></table></div><div class="mediaNear"><img alt="Stage: Detail Mesh" src="../media/Stage-DetailMesh.jpg" /></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><h4 class="subHeading">Concepts</h4><div class="seeAlsoStyle"><span sdata="link"><a href="0b06b934-9f2b-43a3-a96b-6fd9dc8483c7.htm">An Introduction to NMGen</a></span></div><div class="seeAlsoStyle"><span sdata="link"><a href="6fb3041b-e9be-4f03-868b-dcac944df19b.htm">Introduction to Heightfields</a></span></div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmbuild.IncrementalBuilder"><a href="49183141.htm">IncrementalBuilder</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmgen.PolyMesh"><a href="229D6633.htm">PolyMesh</a></span></div><div class="seeAlsoStyle"><span sdata="cer" target="T:org.critterai.nmgen.PolyMeshDetail"><a href="287D3362.htm">PolyMeshDetail</a></span></div></div><div id="footer"><div class="footerLine"><img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" /></div><a href="http://www.critterai.org/" target="_parent">Project Home</a> | <a href="http://code.google.com/p/critterai/" target="_parent">Source Code</a> | <a href="http://www.critterai.org/cailic" target="_parent">License</a><p />Copyright (c) 2010-2012 Stephen A. Pratt</div></div></div></body></html>
