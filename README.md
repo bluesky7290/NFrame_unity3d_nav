@@ -19,7 +19,7 @@ NavmeshBuild.asset
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/5.2.png)
 将TerrainCompiler绑定到NavmeshBuild上。
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/5.3.png)
-# 6.	开始生成导航数据(生成过程中如果unity闪退，点击NavmeshBuild的Derive按钮，在生成应该就可以生成了)
+# 6.	开始生成导航数据(生成过程中如果unity闪退，点击NavmeshBuild的Derive按钮，再生成应该就可以生成了)
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/6.1.png)
 效果预览
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/6.2.png)
