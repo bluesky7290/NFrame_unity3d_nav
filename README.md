@@ -14,3 +14,15 @@ NFrame_unity3d_nav\unity5.3是5.3的版本，如果是5.3版本直接拷贝到un
 CAIBakedNavmesh.asset  
 MeshCompiler.asset  
 NavmeshBuild.asset  
+# 5 . 添加一个能生成地形寻路网格的Compiler，（CritterAI->Create NMGen Assets->Compiler : Terrain）
+![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/5.1.png)
+我们还需要将我们之前创建的地形绑定到TerrainCompiler上。
+![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/5.2.png)
+将TerrainCompiler绑定到NavmeshBuild上。
+![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/5.3.png)
+# 6.	开始生成导航数据(生成过程中如果unity闪退，点击NavmeshBuild的Derive按钮，在生成应该就可以生成了)
+![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/6.1.png)
+效果预览
+![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/6.2.png)
+# 7.  导出为文件，此时会出现2个文件，其中“srv_”开头的文件用于服务端寻路。拷贝到服务端\NFDataCfg\Ini\Navigation目录下，并且在Scene的excel配置下即可，至于怎么使用https://github.com/ketoo/NoahGameFrame的Tutorial6有详细教程。
+# 8.  其他高级功能自己去玩吧
