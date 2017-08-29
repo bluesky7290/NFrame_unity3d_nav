@@ -10,7 +10,7 @@ NFrame_unity3d_nav\unity5.3是5.3的版本，如果是5.3版本直接拷贝到un
 # 4.	上述都准备好以后，打开unity项目，就可以生成导航数据了，使用方法参考
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/4.png)
 在游戏项目菜单中选择（CritterAI->Create NMGen Assets->Navmesh Build : Standard）初始化，初始化完毕后
-项目目录中将出现几个文件，他们如下:＜/br＞
-	CAIBakedNavmesh.asset＜/br＞
-	MeshCompiler.asset＜/br＞
-	NavmeshBuild.asset
+项目目录中将出现几个文件，他们如下:  
+	CAIBakedNavmesh.asset＜/br＞  
+	MeshCompiler.asset＜/br＞  
+	NavmeshBuild.asset  
