@@ -6,3 +6,4 @@
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/cai.png)
 # Plugins下
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/plugins.png)
+NFrame_unity3d_nav\unity5.3是5.3的版本，如果是5.3版本直接拷贝到unity项目的Assets下，其他版本需要自行编译，目录和文件结构可以参考unity5.3下的文件结构
