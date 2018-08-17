@@ -24,4 +24,3 @@ NavmeshBuild.asset
 效果预览
 ![image](https://github.com/bluesky7290/NFrame_unity3d_nav/blob/master/Images/6.2.png)
 # 7.  导出为文件，此时会出现2个文件，其中“srv_”开头的文件用于服务端寻路。拷贝到服务端\NFDataCfg\Ini\Navigation目录下，并且在Scene的excel配置下即可，至于怎么使用https://github.com/ketoo/NoahGameFrame的Tutorial6有详细教程。
-# 8.  其他高级功能自己去玩吧
